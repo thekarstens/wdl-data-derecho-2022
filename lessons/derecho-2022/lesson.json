@@ -3,6 +3,7 @@
   "titleTop": "Lesson 1: Derecho Case Study",
   "drivingQuestion": "Why can thunderstorms organize into a long-lasting windstorm (derecho)?",
   "productLabel": "RADAR",
+  "dataBase": "https://cdn.jsdelivr.net/gh/thekarstens/wdl-data-derecho-2022@main/lessons/derecho-2022/",
   "time": {
     "startZ": "2022-05-12T12:00:00Z",
     "endZ": "2022-05-13T06:00:00Z",
