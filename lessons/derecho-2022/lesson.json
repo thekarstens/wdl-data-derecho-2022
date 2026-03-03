@@ -5,10 +5,11 @@
   "productLabel": "RADAR",
   "dataBase": "https://cdn.jsdelivr.net/gh/thekarstens/wdl-data-derecho-2022@main/lessons/derecho-2022/",
   "time": {
-    "startZ": "2022-05-12T12:00:00Z",
-    "endZ": "2022-05-13T06:00:00Z",
-    "stepHours": 1,
-    "displayTimezone": "America/Chicago"
+    "startZ": "2022-05-12T21:30:00Z",
+    "endZ": "2022-05-12T22:05:00Z",
+    "displayTimezone": "America/Chicago",
+    "stepMinutes": 5,
+    "roundMinutes": 5
   },
   "map": {
     "initialView": { "lat": 43.55, "lon": -96.73, "zoom": 6 }
@@ -33,4 +34,3 @@
     "url": "storyboard/storyboard.json"
   }
 }
-
