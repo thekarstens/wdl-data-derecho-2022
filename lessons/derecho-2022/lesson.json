@@ -15,12 +15,13 @@
     "initialView": { "lat": 43.55, "lon": -96.73, "zoom": 6 }
   },
   "layers": {
-    "radar": {
-      "type": "imageSequence",
-      "boundsFile": "radar/radar_bounds.json",
-      "framePattern": "radar/radar_{YYYY}{MM}{DD}_{HH}{mm}Z.png",
-      "opacityDefault": 0.75
-    },
+  "radar": {
+    "type": "imageSequence",
+    "boundsFile": "radar/radar_bounds.json",
+    "framesFile": "radar/frames.json",
+    "framePattern": "radar/radar_{YYYY}{MM}{DD}_{HH}{mm}Z.png"
+  }
+}
     "metars": {
       "type": "snapshotGeoJSON",
       "snapshotPattern": "metars/metars_{YYYY}{MM}{DD}_{HH}00Z.geojson"
