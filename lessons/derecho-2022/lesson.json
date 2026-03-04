@@ -8,8 +8,8 @@
     "startZ": "2022-05-12T21:32:00Z",
     "endZ": "2022-05-12T22:05:00Z",
     "displayTimezone": "America/Chicago",
-    "stepMinutes": 5,
-    "roundMinutes": 5
+    "stepMinutes": 1,
+    "roundMinutes": 1
   },
   "map": {
     "initialView": { "lat": 43.55, "lon": -96.73, "zoom": 6 }
