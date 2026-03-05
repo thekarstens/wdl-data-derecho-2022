@@ -4,6 +4,7 @@
   "drivingQuestion": "Why can thunderstorms organize into a long-lasting windstorm (derecho)?",
   "productLabel": "RADAR",
   "dataBase": "https://cdn.jsdelivr.net/gh/thekarstens/wdl-data-derecho-2022@main/lessons/derecho-2022/",
+  "database": "https://thekarstens.github.io/wdl-data-derecho-2022/lessons/derecho-2022/",
   "time": {
     "startZ": "2022-05-12T21:32:00Z",
     "endZ": "2022-05-12T22:00:00Z",
@@ -20,15 +21,13 @@
   },
   "layers": {
     "radar": {
-      "type": "colabRadarManifest",
+      "type": "radarManifest",
       "manifestFile": "radar/manifest.json",
       "opacityDefault": 0.75
     },
     "metars": {
       "type": "snapshotGeoJSON",
-      "snapshotPattern": "metars/metars_{YYYY}{MM}{DD}_{HH}00Z.geojson",
-      "enabled": false,
-      "defaultVisible": false
+      "snapshotPattern": "metars/metars_{YYYY}{MM}{DD}_{HH}00Z.geojson"
     },
     "overlays": [
       {
