@@ -23,8 +23,9 @@
   },
 
   "metars": {
-    "type": "snapshotGeoJSON",
-    "snapshotPattern": "metars/metars_{YYYY}{MM}{DD}_{HH}00Z.geojson"
+    "enabled": true,
+    "mode": "static",
+    "file": "metars/metars.json"
   },
 
   "overlays": [
