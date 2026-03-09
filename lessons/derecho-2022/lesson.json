@@ -28,6 +28,12 @@
     "file": "metars/metars.json"
   },
 
+  "hrrr": {
+    "enabled": true,
+    "mode": "manifest",
+    "manifest": "hrrr/manifest.json"
+  },
+
   "overlays": [
     { "name": "Day 1 Outlook", "type": "geojson", "url": "overlays/Day1.json" }
   ],
