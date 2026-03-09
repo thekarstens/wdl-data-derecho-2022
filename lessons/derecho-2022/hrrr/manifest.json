@@ -1,0 +1,33 @@
+{
+  "product": "HRRR Temperature",
+  "type": "imageSequence",
+  "units": "F",
+  "bounds": {
+    "south": 37.74764295833552,
+    "west": -104.67286919344522,
+    "north": 49.335682433682905,
+    "east": -88.7905308065548
+  },
+  "frames": [
+    {
+      "time": "2022-05-12T19:00:00Z",
+      "file": "hrrr_temp_sioux_falls_F07.png",
+      "label": "F07"
+    },
+    {
+      "time": "2022-05-12T20:00:00Z",
+      "file": "hrrr_temp_sioux_falls_F08.png",
+      "label": "F08"
+    },
+    {
+      "time": "2022-05-12T21:00:00Z",
+      "file": "hrrr_temp_sioux_falls_F09.png",
+      "label": "F09"
+    },
+    {
+      "time": "2022-05-12T22:00:00Z",
+      "file": "hrrr_temp_sioux_falls_F10.png",
+      "label": "F10"
+    }
+  ]
+}
