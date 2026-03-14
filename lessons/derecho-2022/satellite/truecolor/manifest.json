@@ -1,0 +1,22 @@
+{
+  "product": "satellite_truecolor",
+  "label": "SATELLITE",
+  "loop": true,
+  "savedBoundsKey": "satellite_truecolor_bounds",
+
+  "frames": [
+    { "time": "2022-05-12T20:01:17Z", "file": "N_Iowa_truecolor_20220512200117.jpg" },
+    { "time": "2022-05-12T20:21:17Z", "file": "N_Iowa_truecolor_20220512202117.jpg" },
+    { "time": "2022-05-12T20:41:17Z", "file": "N_Iowa_truecolor_20220512204117.jpg" },
+    { "time": "2022-05-12T21:01:17Z", "file": "N_Iowa_truecolor_20220512210117.jpg" },
+    { "time": "2022-05-12T21:21:17Z", "file": "N_Iowa_truecolor_20220512212117.jpg" },
+    { "time": "2022-05-12T21:41:17Z", "file": "N_Iowa_truecolor_20220512214117.jpg" },
+    { "time": "2022-05-12T22:01:17Z", "file": "N_Iowa_truecolor_20220512220117.jpg" },
+    { "time": "2022-05-12T22:21:17Z", "file": "N_Iowa_truecolor_20220512222117.jpg" },
+    { "time": "2022-05-12T22:41:17Z", "file": "N_Iowa_truecolor_20220512224117.jpg" },
+    { "time": "2022-05-12T23:01:17Z", "file": "N_Iowa_truecolor_20220512230117.jpg" },
+    { "time": "2022-05-12T23:21:17Z", "file": "N_Iowa_truecolor_20220512232117.jpg" },
+    { "time": "2022-05-12T23:41:17Z", "file": "N_Iowa_truecolor_20220512234117.jpg" },
+    { "time": "2022-05-12T23:56:17Z", "file": "N_Iowa_truecolor_20220512235617.jpg" }
+  ]
+}
