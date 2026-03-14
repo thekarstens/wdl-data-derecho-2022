@@ -3,46 +3,50 @@
   "titleTop": "Lesson 1: Derecho Case Study",
   "drivingQuestion": "Why can thunderstorms organize into a long-lasting windstorm (derecho)?",
   "productLabel": "RADAR",
-
   "dataBase": "https://thekarstens.github.io/wdl-data-derecho-2022/lessons/derecho-2022/",
-
   "startZ": "2022-05-12T21:32:00Z",
   "endZ": "2022-05-12T22:10:00Z",
   "stepMinutes": 1,
   "displayTimezone": "America/Chicago",
   "roundMinutes": 1,
-
   "map": {
-    "initialView": { "lat": 43.55, "lon": -96.73, "zoom": 6 }
+    "initialView": {
+      "lat": 43.55,
+      "lon": -96.73,
+      "zoom": 6
+    }
   },
-
   "radar": {
     "mode": "manifest",
     "manifest": "radar/manifest.json",
     "opacityDefault": 0.75
   },
-
+  "satellite": {
+    "enabled": true,
+    "mode": "manifest",
+    "manifest": "satellite/truecolor/manifest.json"
+  },
   "metars": {
     "enabled": true,
     "mode": "static",
     "file": "metars/metars.json"
   },
-
   "hrrr": {
     "enabled": true,
     "mode": "manifest",
     "manifest": "hrrr/manifest.json"
   },
-
   "boundaries": {
     "states": "boundaries/states.geojson",
     "counties": "boundaries/counties.geojson"
   },
-
   "overlays": [
-    { "name": "Day 1 Outlook", "type": "geojson", "url": "overlays/Day1.json" }
+    {
+      "name": "Day 1 Outlook",
+      "type": "geojson",
+      "url": "overlays/Day1.json"
+    }
   ],
-
   "storyboard": {
     "type": "json",
     "url": "storyboard/storyboard.json"
