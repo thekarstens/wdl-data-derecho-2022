@@ -37,6 +37,33 @@
     "mode": "manifest",
     "manifest": "hrrr/manifest.json"
   },
+  "jet": {
+    "enabled": true,
+    "basePath": "jet/",
+    "files": {
+      "2022-05-12T00:00:00Z": "narr_500mb_20220512_0000.json",
+      "2022-05-12T03:00:00Z": "narr_500mb_20220512_0300.json",
+      "2022-05-12T06:00:00Z": "narr_500mb_20220512_0600.json",
+      "2022-05-12T09:00:00Z": "narr_500mb_20220512_0900.json",
+      "2022-05-12T12:00:00Z": "narr_500mb_20220512_1200.json",
+      "2022-05-12T15:00:00Z": "narr_500mb_20220512_1500.json",
+      "2022-05-12T18:00:00Z": "narr_500mb_20220512_1800.json",
+      "2022-05-12T21:00:00Z": "narr_500mb_20220512_2100.json"
+    },
+    "particleOptions": {
+      "velocityScale": 0.005,
+      "particleAge": 60,
+      "lineWidth": 1.2,
+      "particleMultiplier": 250,
+      "frameRate": 20,
+      "displayValues": true,
+      "displayOptions": {
+        "velocityType": "500mb Jet Stream",
+        "position": "bottomleft",
+        "emptyString": "No jet data"
+      }
+    }
+  },
   "boundaries": {
     "states": "boundaries/states.geojson",
     "counties": "boundaries/counties.geojson"
