@@ -51,12 +51,12 @@
       "2022-05-12T21:00:00Z": "narr_500mb_20220512_2100.json"
     },
     "particleOptions": {
-      "velocityScale": 0.005,
-      "particleAge": 60,
-      "lineWidth": 1.2,
-      "particleMultiplier": 250,
-      "frameRate": 20,
-      "displayValues": true,
+      "velocityScale": 0.0035,
+      "particleAge": 40,
+      "lineWidth": 1.0,
+      "particleMultiplier": 60,
+      "frameRate": 12,
+      "displayValues": false,
       "displayOptions": {
         "velocityType": "500mb Jet Stream",
         "position": "bottomleft",
