@@ -3,7 +3,10 @@
   "label": "SATELLITE",
   "loop": true,
   "savedBoundsKey": "satellite_truecolor_bounds",
-
+  "leaflet_bounds": [
+    [39.50404070558415, -102.8759765625],
+    [46.76996843356982, -85.05615234375]
+  ],
   "frames": [
     { "time": "2022-05-12T20:01:17Z", "file": "N_Iowa_truecolor_20220512200117.jpg" },
     { "time": "2022-05-12T20:21:17Z", "file": "N_Iowa_truecolor_20220512202117.jpg" },
