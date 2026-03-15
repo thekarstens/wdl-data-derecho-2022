@@ -8,10 +8,10 @@
     "dwpf": 55.4,
     "drct": 30.0,
     "sknt": 6.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.96,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "FSE",
@@ -22,10 +22,10 @@
     "dwpf": 48.2,
     "drct": 0.0,
     "sknt": 0.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.96,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "ADC",
@@ -36,7 +36,7 @@
     "dwpf": 55.4,
     "drct": 180.0,
     "sknt": 8.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 30.02,
     "wxcodes": "RA"
@@ -50,10 +50,10 @@
     "dwpf": 65.0,
     "drct": 0.0,
     "sknt": 0.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 7.0,
     "alti": 29.92,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "CNB",
@@ -64,7 +64,7 @@
     "dwpf": 60.0,
     "drct": 120.0,
     "sknt": 11.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.84,
     "wxcodes": "TS"

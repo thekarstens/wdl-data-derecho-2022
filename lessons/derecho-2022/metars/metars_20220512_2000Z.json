@@ -11,7 +11,7 @@
     "gust": 22.0,
     "vsby": 10.0,
     "alti": 29.73,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "XWA",
@@ -22,7 +22,7 @@
     "dwpf": 45.0,
     "drct": 30.0,
     "sknt": 16.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 7.0,
     "alti": 29.88,
     "wxcodes": "-RA"
@@ -53,7 +53,7 @@
     "gust": 26.0,
     "vsby": 10.0,
     "alti": 29.89,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "VTN",
@@ -64,10 +64,10 @@
     "dwpf": 62.0,
     "drct": 330.0,
     "sknt": 5.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.6,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "RAP",
@@ -78,10 +78,10 @@
     "dwpf": 52.0,
     "drct": 340.0,
     "sknt": 13.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.69,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "IEN",
@@ -95,7 +95,7 @@
     "gust": 22.0,
     "vsby": 10.0,
     "alti": 29.79,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "BIS",
@@ -109,7 +109,7 @@
     "gust": 33.0,
     "vsby": 10.0,
     "alti": 29.7,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "SUX",
@@ -123,7 +123,7 @@
     "gust": 35.0,
     "vsby": 10.0,
     "alti": 29.66,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "EST",
@@ -137,7 +137,7 @@
     "gust": 36.0,
     "vsby": 10.0,
     "alti": 29.73,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "OMA",
@@ -151,7 +151,7 @@
     "gust": 35.0,
     "vsby": 10.0,
     "alti": 29.72,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "IOW",
@@ -165,7 +165,7 @@
     "gust": 26.0,
     "vsby": 10.0,
     "alti": 29.91,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "N60",
@@ -177,9 +177,9 @@
     "drct": 50.0,
     "sknt": 15.0,
     "gust": 29.0,
-    "vsby": NaN,
+    "vsby": null,
     "alti": 29.79,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "DVN",
@@ -193,7 +193,7 @@
     "gust": 25.0,
     "vsby": 10.0,
     "alti": 29.96,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "SPW",
@@ -207,7 +207,7 @@
     "gust": 39.0,
     "vsby": 10.0,
     "alti": 29.71,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "DVP",
@@ -221,7 +221,7 @@
     "gust": 23.0,
     "vsby": 10.0,
     "alti": 29.71,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "ETH",
@@ -232,10 +232,10 @@
     "dwpf": 62.6,
     "drct": 90.0,
     "sknt": 14.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.73,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "ABR",
@@ -249,7 +249,7 @@
     "gust": 28.0,
     "vsby": 10.0,
     "alti": 29.64,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "MHE",
@@ -263,7 +263,7 @@
     "gust": 24.0,
     "vsby": 10.0,
     "alti": 29.56,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "PIR",
@@ -274,10 +274,10 @@
     "dwpf": 64.0,
     "drct": 160.0,
     "sknt": 4.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.54,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "ATY",
@@ -291,7 +291,7 @@
     "gust": 24.0,
     "vsby": 7.0,
     "alti": 29.68,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "ICR",
@@ -302,10 +302,10 @@
     "dwpf": 68.0,
     "drct": 260.0,
     "sknt": 5.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.56,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "BBW",
@@ -319,7 +319,7 @@
     "gust": 25.0,
     "vsby": 10.0,
     "alti": 29.63,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "MCW",
@@ -333,7 +333,7 @@
     "gust": 29.0,
     "vsby": 10.0,
     "alti": 29.83,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "LWD",
@@ -347,7 +347,7 @@
     "gust": 22.0,
     "vsby": 10.0,
     "alti": 29.87,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "FNB",
@@ -361,7 +361,7 @@
     "gust": 31.0,
     "vsby": 10.0,
     "alti": 29.79,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "GFK",
@@ -375,7 +375,7 @@
     "gust": 22.0,
     "vsby": 10.0,
     "alti": 29.82,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "CUT",
@@ -403,7 +403,7 @@
     "gust": 32.0,
     "vsby": 10.0,
     "alti": 29.64,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "HEI",
@@ -431,7 +431,7 @@
     "gust": 23.0,
     "vsby": 10.0,
     "alti": 29.93,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "ORB",
@@ -442,10 +442,10 @@
     "dwpf": 53.6,
     "drct": 0.0,
     "sknt": 0.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.92,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "OTM",
@@ -459,7 +459,7 @@
     "gust": 23.0,
     "vsby": 10.0,
     "alti": 29.89,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "AIA",
@@ -473,7 +473,7 @@
     "gust": 56.0,
     "vsby": 7.0,
     "alti": 29.82,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "SNY",
@@ -487,7 +487,7 @@
     "gust": 43.0,
     "vsby": 10.0,
     "alti": 29.83,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "HIB",
@@ -498,10 +498,10 @@
     "dwpf": 56.0,
     "drct": 0.0,
     "sknt": 0.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.82,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "GRI",
@@ -515,7 +515,7 @@
     "gust": 36.0,
     "vsby": 10.0,
     "alti": 29.74,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "AMW",
@@ -529,7 +529,7 @@
     "gust": 25.0,
     "vsby": 10.0,
     "alti": 29.83,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "MIW",
@@ -543,7 +543,7 @@
     "gust": 28.0,
     "vsby": 10.0,
     "alti": 29.85,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "CDD",
@@ -554,10 +554,10 @@
     "dwpf": 48.2,
     "drct": 360.0,
     "sknt": 5.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.98,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "DBQ",
@@ -571,7 +571,7 @@
     "gust": 28.0,
     "vsby": 10.0,
     "alti": 29.93,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "IML",
@@ -585,7 +585,7 @@
     "gust": 49.0,
     "vsby": 10.0,
     "alti": 29.65,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "CDR",
@@ -613,7 +613,7 @@
     "gust": 23.0,
     "vsby": 10.0,
     "alti": 29.79,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "BRD",
@@ -624,10 +624,10 @@
     "dwpf": 57.0,
     "drct": 340.0,
     "sknt": 8.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.86,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "MSP",
@@ -638,10 +638,10 @@
     "dwpf": 63.0,
     "drct": 90.0,
     "sknt": 15.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.83,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "RWF",
@@ -655,7 +655,7 @@
     "gust": 21.0,
     "vsby": 10.0,
     "alti": 29.72,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "STC",
@@ -669,7 +669,7 @@
     "gust": 20.0,
     "vsby": 10.0,
     "alti": 29.79,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "LBF",
@@ -683,7 +683,7 @@
     "gust": 22.0,
     "vsby": 10.0,
     "alti": 29.61,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "HSI",
@@ -697,7 +697,7 @@
     "gust": 31.0,
     "vsby": 10.0,
     "alti": 29.75,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "FCM",
@@ -711,7 +711,7 @@
     "gust": 27.0,
     "vsby": 10.0,
     "alti": 29.81,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "OWA",
@@ -725,7 +725,7 @@
     "gust": 21.0,
     "vsby": 10.0,
     "alti": 29.82,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "PKD",
@@ -736,10 +736,10 @@
     "dwpf": 57.0,
     "drct": 110.0,
     "sknt": 9.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.84,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "STP",
@@ -750,10 +750,10 @@
     "dwpf": 64.0,
     "drct": 100.0,
     "sknt": 8.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.84,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "BFF",
@@ -767,7 +767,7 @@
     "gust": 40.0,
     "vsby": 7.0,
     "alti": 29.87,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "AQP",
@@ -781,7 +781,7 @@
     "gust": 27.0,
     "vsby": 10.0,
     "alti": 29.7,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "FOZ",
@@ -792,10 +792,10 @@
     "dwpf": 55.4,
     "drct": 30.0,
     "sknt": 9.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.94,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "XVG",
@@ -806,7 +806,7 @@
     "dwpf": 55.4,
     "drct": 0.0,
     "sknt": 0.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.88,
     "wxcodes": "TS"
@@ -820,10 +820,10 @@
     "dwpf": 61.0,
     "drct": 120.0,
     "sknt": 15.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.75,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "BRL",
@@ -834,10 +834,10 @@
     "dwpf": 68.0,
     "drct": 170.0,
     "sknt": 14.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.94,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "MIC",
@@ -851,7 +851,7 @@
     "gust": 21.0,
     "vsby": 10.0,
     "alti": 29.82,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "DSM",
@@ -865,7 +865,7 @@
     "gust": 25.0,
     "vsby": 10.0,
     "alti": 29.83,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "TQE",
@@ -879,7 +879,7 @@
     "gust": 38.0,
     "vsby": 10.0,
     "alti": 29.69,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "LNK",
@@ -893,7 +893,7 @@
     "gust": 36.0,
     "vsby": 10.0,
     "alti": 29.69,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "ALO",
@@ -907,7 +907,7 @@
     "gust": 29.0,
     "vsby": 10.0,
     "alti": 29.85,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "MOT",
@@ -921,7 +921,7 @@
     "gust": 23.0,
     "vsby": 10.0,
     "alti": 29.84,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "INL",
@@ -932,10 +932,10 @@
     "dwpf": 50.0,
     "drct": 80.0,
     "sknt": 8.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.97,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "RST",
@@ -949,7 +949,7 @@
     "gust": 28.0,
     "vsby": 10.0,
     "alti": 29.86,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "DNS",
@@ -963,7 +963,7 @@
     "gust": 33.0,
     "vsby": 7.0,
     "alti": 29.74,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "FFL",
@@ -977,7 +977,7 @@
     "gust": 21.0,
     "vsby": 10.0,
     "alti": 29.91,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "TNU",
@@ -991,7 +991,7 @@
     "gust": 26.0,
     "vsby": 10.0,
     "alti": 29.85,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "9V9",
@@ -1005,7 +1005,7 @@
     "gust": 14.0,
     "vsby": 10.0,
     "alti": 29.54,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "96D",
@@ -1016,10 +1016,10 @@
     "dwpf": 53.6,
     "drct": 10.0,
     "sknt": 14.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.92,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "EVM",
@@ -1030,7 +1030,7 @@
     "dwpf": 55.4,
     "drct": 100.0,
     "sknt": 6.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.81,
     "wxcodes": "-RA"
@@ -1047,7 +1047,7 @@
     "gust": 23.0,
     "vsby": 10.0,
     "alti": 29.56,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "PMV",
@@ -1061,7 +1061,7 @@
     "gust": 27.0,
     "vsby": 10.0,
     "alti": 29.76,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "AHQ",
@@ -1075,7 +1075,7 @@
     "gust": 34.0,
     "vsby": 10.0,
     "alti": 29.72,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "FBL",
@@ -1089,7 +1089,7 @@
     "gust": 19.0,
     "vsby": 10.0,
     "alti": 29.82,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "FFM",
@@ -1100,10 +1100,10 @@
     "dwpf": 60.8,
     "drct": 90.0,
     "sknt": 9.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.73,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "JKJ",
@@ -1117,7 +1117,7 @@
     "gust": 18.0,
     "vsby": 10.0,
     "alti": 29.77,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "LXL",
@@ -1128,7 +1128,7 @@
     "dwpf": 62.6,
     "drct": 130.0,
     "sknt": 9.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.81,
     "wxcodes": "VCTS"
@@ -1145,7 +1145,7 @@
     "gust": 38.0,
     "vsby": 10.0,
     "alti": 29.73,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "CAV",
@@ -1159,7 +1159,7 @@
     "gust": 32.0,
     "vsby": 10.0,
     "alti": 29.8,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "CKN",
@@ -1167,13 +1167,13 @@
     "lat": 47.8417,
     "lon": -96.6214,
     "tmpf": 64.4,
-    "dwpf": NaN,
+    "dwpf": null,
     "drct": 100.0,
     "sknt": 13.0,
     "gust": 20.0,
     "vsby": 10.0,
     "alti": 29.82,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "BNW",
@@ -1187,7 +1187,7 @@
     "gust": 27.0,
     "vsby": 9.0,
     "alti": 29.84,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "SDA",
@@ -1201,7 +1201,7 @@
     "gust": 33.0,
     "vsby": 10.0,
     "alti": 29.75,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "PEA",
@@ -1212,10 +1212,10 @@
     "dwpf": 64.4,
     "drct": 170.0,
     "sknt": 17.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.87,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "VWU",
@@ -1229,7 +1229,7 @@
     "gust": 18.0,
     "vsby": 10.0,
     "alti": 29.91,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "IIB",
@@ -1243,7 +1243,7 @@
     "gust": 24.0,
     "vsby": 10.0,
     "alti": 29.89,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "OLZ",
@@ -1257,7 +1257,7 @@
     "gust": 29.0,
     "vsby": 10.0,
     "alti": 29.89,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "RDK",
@@ -1271,7 +1271,7 @@
     "gust": 33.0,
     "vsby": 10.0,
     "alti": 29.77,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "SLB",
@@ -1285,7 +1285,7 @@
     "gust": 33.0,
     "vsby": 10.0,
     "alti": 29.73,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "AXA",
@@ -1299,7 +1299,7 @@
     "gust": 31.0,
     "vsby": 10.0,
     "alti": 29.75,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "CIN",
@@ -1313,7 +1313,7 @@
     "gust": 29.0,
     "vsby": 9.0,
     "alti": 29.76,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "EBS",
@@ -1327,7 +1327,7 @@
     "gust": 32.0,
     "vsby": 10.0,
     "alti": 29.79,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "CKP",
@@ -1341,7 +1341,7 @@
     "gust": 35.0,
     "vsby": 10.0,
     "alti": 29.7,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "HNR",
@@ -1355,7 +1355,7 @@
     "gust": 34.0,
     "vsby": 10.0,
     "alti": 29.75,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "LRJ",
@@ -1383,7 +1383,7 @@
     "gust": 35.0,
     "vsby": 10.0,
     "alti": 29.66,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "ADU",
@@ -1397,7 +1397,7 @@
     "gust": 28.0,
     "vsby": 7.0,
     "alti": 29.79,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "MXO",
@@ -1411,7 +1411,7 @@
     "gust": 23.0,
     "vsby": 10.0,
     "alti": 29.91,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "MUT",
@@ -1425,7 +1425,7 @@
     "gust": 24.0,
     "vsby": 10.0,
     "alti": 29.92,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "GGI",
@@ -1436,10 +1436,10 @@
     "dwpf": 66.6,
     "drct": 160.0,
     "sknt": 15.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.89,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "FXY",
@@ -1453,7 +1453,7 @@
     "gust": 26.0,
     "vsby": 10.0,
     "alti": 29.8,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "3N8",
@@ -1467,7 +1467,7 @@
     "gust": 18.0,
     "vsby": 10.0,
     "alti": 29.82,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "BVN",
@@ -1481,7 +1481,7 @@
     "gust": 33.0,
     "vsby": 10.0,
     "alti": 29.66,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "GRN",
@@ -1492,10 +1492,10 @@
     "dwpf": 52.0,
     "drct": 310.0,
     "sknt": 5.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.73,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "BIE",
@@ -1509,7 +1509,7 @@
     "gust": 29.0,
     "vsby": 10.0,
     "alti": 29.74,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "BTA",
@@ -1523,7 +1523,7 @@
     "gust": 30.0,
     "vsby": 7.0,
     "alti": 29.73,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "TOB",
@@ -1537,7 +1537,7 @@
     "gust": 27.0,
     "vsby": 10.0,
     "alti": 29.85,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "OXV",
@@ -1551,7 +1551,7 @@
     "gust": 23.0,
     "vsby": 9.0,
     "alti": 29.87,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "DLH",
@@ -1565,7 +1565,7 @@
     "gust": 32.0,
     "vsby": 10.0,
     "alti": 29.84,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "OOA",
@@ -1579,7 +1579,7 @@
     "gust": 25.0,
     "vsby": 10.0,
     "alti": 29.9,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "SPF",
@@ -1590,7 +1590,7 @@
     "dwpf": 48.2,
     "drct": 300.0,
     "sknt": 12.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 0.75,
     "alti": 29.76,
     "wxcodes": "-RA"
@@ -1604,10 +1604,10 @@
     "dwpf": 54.0,
     "drct": 200.0,
     "sknt": 10.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.61,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "GYL",
@@ -1621,7 +1621,7 @@
     "gust": 24.0,
     "vsby": 10.0,
     "alti": 29.79,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "PHP",
@@ -1632,10 +1632,10 @@
     "dwpf": 58.0,
     "drct": 290.0,
     "sknt": 12.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.63,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "VTI",
@@ -1649,7 +1649,7 @@
     "gust": 20.0,
     "vsby": 10.0,
     "alti": 29.89,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "DEH",
@@ -1663,7 +1663,7 @@
     "gust": 22.0,
     "vsby": 10.0,
     "alti": 29.88,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "FET",
@@ -1677,7 +1677,7 @@
     "gust": 29.0,
     "vsby": 10.0,
     "alti": 29.71,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "I75",
@@ -1691,7 +1691,7 @@
     "gust": 20.0,
     "vsby": 7.0,
     "alti": 29.87,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "PRO",
@@ -1705,7 +1705,7 @@
     "gust": 29.0,
     "vsby": 10.0,
     "alti": 29.8,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "OGA",
@@ -1716,10 +1716,10 @@
     "dwpf": 51.0,
     "drct": 290.0,
     "sknt": 6.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.66,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "Y49",
@@ -1730,7 +1730,7 @@
     "dwpf": 56.7,
     "drct": 60.0,
     "sknt": 3.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.87,
     "wxcodes": "VCTS"
@@ -1747,7 +1747,7 @@
     "gust": 24.0,
     "vsby": 10.0,
     "alti": 29.63,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "BWP",
@@ -1758,10 +1758,10 @@
     "dwpf": 62.6,
     "drct": 90.0,
     "sknt": 10.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.72,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "HPT",
@@ -1775,7 +1775,7 @@
     "gust": 25.0,
     "vsby": 10.0,
     "alti": 29.83,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "SXK",
@@ -1789,7 +1789,7 @@
     "gust": 39.0,
     "vsby": 10.0,
     "alti": 29.64,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "LXN",
@@ -1800,10 +1800,10 @@
     "dwpf": 57.0,
     "drct": 150.0,
     "sknt": 9.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.67,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "ANE",
@@ -1817,7 +1817,7 @@
     "gust": 25.0,
     "vsby": 10.0,
     "alti": 29.82,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "TVK",
@@ -1828,10 +1828,10 @@
     "dwpf": 66.2,
     "drct": 160.0,
     "sknt": 13.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.92,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "20U",
@@ -1842,7 +1842,7 @@
     "dwpf": 51.8,
     "drct": 60.0,
     "sknt": 12.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 1.0,
     "alti": 29.79,
     "wxcodes": "TS"
@@ -1856,7 +1856,7 @@
     "dwpf": 50.0,
     "drct": 30.0,
     "sknt": 20.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 1.0,
     "alti": 29.7,
     "wxcodes": "VCTS RA"
@@ -1873,7 +1873,7 @@
     "gust": 30.0,
     "vsby": 10.0,
     "alti": 29.67,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "9D7",
@@ -1881,13 +1881,13 @@
     "lat": 48.48,
     "lon": -99.2364,
     "tmpf": 60.8,
-    "dwpf": NaN,
+    "dwpf": null,
     "drct": 40.0,
     "sknt": 19.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.88,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "2C8",
@@ -1898,10 +1898,10 @@
     "dwpf": 55.4,
     "drct": 30.0,
     "sknt": 11.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.89,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "D50",
@@ -1912,10 +1912,10 @@
     "dwpf": 41.0,
     "drct": 50.0,
     "sknt": 19.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.92,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "D57",
@@ -1926,7 +1926,7 @@
     "dwpf": 53.6,
     "drct": 50.0,
     "sknt": 18.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 4.0,
     "alti": 29.73,
     "wxcodes": "BR"
@@ -1940,10 +1940,10 @@
     "dwpf": 64.4,
     "drct": 80.0,
     "sknt": 16.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 9.0,
     "alti": 29.72,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "5H4",
@@ -1957,7 +1957,7 @@
     "gust": 21.0,
     "vsby": 10.0,
     "alti": 29.86,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "Y19",
@@ -1971,7 +1971,7 @@
     "gust": 25.0,
     "vsby": 10.0,
     "alti": 29.71,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "2D5",
@@ -1985,7 +1985,7 @@
     "gust": 29.0,
     "vsby": 9.0,
     "alti": 29.71,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "46D",
@@ -1999,7 +1999,7 @@
     "gust": 23.0,
     "vsby": 10.0,
     "alti": 29.82,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "CBF",
@@ -2013,7 +2013,7 @@
     "gust": 31.0,
     "vsby": 10.0,
     "alti": 29.74,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "PEX",
@@ -2027,7 +2027,7 @@
     "gust": 22.0,
     "vsby": 10.0,
     "alti": 29.78,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "AIO",
@@ -2041,7 +2041,7 @@
     "gust": 31.0,
     "vsby": 10.0,
     "alti": 29.76,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "GHW",
@@ -2052,10 +2052,10 @@
     "dwpf": 64.4,
     "drct": 100.0,
     "sknt": 13.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.77,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "IBM",
@@ -2080,7 +2080,7 @@
     "dwpf": 57.2,
     "drct": 50.0,
     "sknt": 9.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.86,
     "wxcodes": "TS"
@@ -2097,7 +2097,7 @@
     "gust": 29.0,
     "vsby": 10.0,
     "alti": 29.82,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "HCO",
@@ -2111,7 +2111,7 @@
     "gust": 17.0,
     "vsby": 10.0,
     "alti": 29.89,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "MJQ",
@@ -2125,7 +2125,7 @@
     "gust": 27.0,
     "vsby": 10.0,
     "alti": 29.74,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "MVE",
@@ -2136,10 +2136,10 @@
     "dwpf": 69.8,
     "drct": 140.0,
     "sknt": 23.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.71,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "D60",
@@ -2153,7 +2153,7 @@
     "gust": 31.0,
     "vsby": 10.0,
     "alti": 29.87,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "JMR",
@@ -2167,7 +2167,7 @@
     "gust": 20.0,
     "vsby": 10.0,
     "alti": 29.84,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "PQN",
@@ -2181,7 +2181,7 @@
     "gust": 20.0,
     "vsby": 10.0,
     "alti": 29.68,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "RGK",
@@ -2192,10 +2192,10 @@
     "dwpf": 57.2,
     "drct": 170.0,
     "sknt": 10.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.83,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "ROX",
@@ -2206,10 +2206,10 @@
     "dwpf": 55.4,
     "drct": 70.0,
     "sknt": 18.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.9,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "TWM",
@@ -2220,7 +2220,7 @@
     "dwpf": 55.4,
     "drct": 80.0,
     "sknt": 13.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.92,
     "wxcodes": "-VCTSRA"
@@ -2237,7 +2237,7 @@
     "gust": 16.0,
     "vsby": 10.0,
     "alti": 29.86,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "ONL",
@@ -2251,7 +2251,7 @@
     "gust": 26.0,
     "vsby": 10.0,
     "alti": 29.61,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "TIF",
@@ -2262,10 +2262,10 @@
     "dwpf": 51.8,
     "drct": 180.0,
     "sknt": 11.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.65,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "ULM",
@@ -2276,10 +2276,10 @@
     "dwpf": 69.8,
     "drct": 90.0,
     "sknt": 8.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.75,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "LCG",
@@ -2293,7 +2293,7 @@
     "gust": 31.0,
     "vsby": 10.0,
     "alti": 29.65,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "06D",
@@ -2304,10 +2304,10 @@
     "dwpf": 55.4,
     "drct": 40.0,
     "sknt": 17.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.92,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "D55",
@@ -2318,10 +2318,10 @@
     "dwpf": 59.0,
     "drct": 30.0,
     "sknt": 16.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.91,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "S32",
@@ -2332,10 +2332,10 @@
     "dwpf": 64.4,
     "drct": 70.0,
     "sknt": 21.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.79,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "GAF",
@@ -2346,10 +2346,10 @@
     "dwpf": 55.4,
     "drct": 50.0,
     "sknt": 13.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 9.0,
     "alti": 29.87,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "CCY",
@@ -2363,7 +2363,7 @@
     "gust": 26.0,
     "vsby": 10.0,
     "alti": 29.85,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "IFA",
@@ -2377,7 +2377,7 @@
     "gust": 25.0,
     "vsby": 10.0,
     "alti": 29.86,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "CNC",
@@ -2388,10 +2388,10 @@
     "dwpf": 71.6,
     "drct": 170.0,
     "sknt": 17.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.87,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "CSQ",
@@ -2405,7 +2405,7 @@
     "gust": 27.0,
     "vsby": 9.0,
     "alti": 29.84,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "FSW",
@@ -2419,7 +2419,7 @@
     "gust": 16.0,
     "vsby": 7.0,
     "alti": 29.94,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "7L2",
@@ -2433,7 +2433,7 @@
     "gust": 33.0,
     "vsby": 10.0,
     "alti": 29.7,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "AWG",
@@ -2447,7 +2447,7 @@
     "gust": 24.0,
     "vsby": 9.0,
     "alti": 29.9,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "ACQ",
@@ -2459,9 +2459,9 @@
     "drct": 150.0,
     "sknt": 14.0,
     "gust": 22.0,
-    "vsby": NaN,
+    "vsby": null,
     "alti": 29.82,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "EOK",
@@ -2475,7 +2475,7 @@
     "gust": 18.0,
     "vsby": 10.0,
     "alti": 29.94,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "MPZ",
@@ -2489,7 +2489,7 @@
     "gust": 21.0,
     "vsby": 10.0,
     "alti": 29.93,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "AEL",
@@ -2503,7 +2503,7 @@
     "gust": 26.0,
     "vsby": 10.0,
     "alti": 29.81,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "HZE",
@@ -2517,7 +2517,7 @@
     "gust": 22.0,
     "vsby": 10.0,
     "alti": 29.78,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "HJH",
@@ -2531,7 +2531,7 @@
     "gust": 25.0,
     "vsby": 10.0,
     "alti": 29.74,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "SGS",
@@ -2542,10 +2542,10 @@
     "dwpf": 63.5,
     "drct": 70.0,
     "sknt": 9.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.85,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "JYR",
@@ -2556,10 +2556,10 @@
     "dwpf": 68.0,
     "drct": 170.0,
     "sknt": 26.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.69,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "AUM",
@@ -2573,7 +2573,7 @@
     "gust": 22.0,
     "vsby": 10.0,
     "alti": 29.84,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "COQ",
@@ -2587,7 +2587,7 @@
     "gust": 18.0,
     "vsby": 10.0,
     "alti": 29.84,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "SAZ",
@@ -2598,7 +2598,7 @@
     "dwpf": 59.0,
     "drct": 90.0,
     "sknt": 4.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.82,
     "wxcodes": "TS"
@@ -2615,7 +2615,7 @@
     "gust": 18.0,
     "vsby": 10.0,
     "alti": 29.86,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "TKC",
@@ -2626,10 +2626,10 @@
     "dwpf": 72.5,
     "drct": 90.0,
     "sknt": 14.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.72,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "RRT",
@@ -2643,7 +2643,7 @@
     "gust": 14.0,
     "vsby": 10.0,
     "alti": 29.94,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "Y63",
@@ -2654,10 +2654,10 @@
     "dwpf": 64.0,
     "drct": 110.0,
     "sknt": 12.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.74,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "14Y",
@@ -2668,10 +2668,10 @@
     "dwpf": 60.8,
     "drct": 110.0,
     "sknt": 8.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.79,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "OVL",
@@ -2685,7 +2685,7 @@
     "gust": 21.0,
     "vsby": 10.0,
     "alti": 29.74,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "FKA",
@@ -2699,7 +2699,7 @@
     "gust": 27.0,
     "vsby": 7.0,
     "alti": 29.89,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "9MN",
@@ -2713,7 +2713,7 @@
     "gust": 18.0,
     "vsby": 10.0,
     "alti": 29.86,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "D39",
@@ -2727,7 +2727,7 @@
     "gust": 18.0,
     "vsby": 10.0,
     "alti": 29.77,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "RUG",
@@ -2741,7 +2741,7 @@
     "gust": 26.0,
     "vsby": 10.0,
     "alti": 29.87,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "BJI",
@@ -2752,10 +2752,10 @@
     "dwpf": 56.8,
     "drct": 90.0,
     "sknt": 10.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.87,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "BAC",
@@ -2766,10 +2766,10 @@
     "dwpf": 62.6,
     "drct": 70.0,
     "sknt": 16.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.77,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "S25",
@@ -2783,7 +2783,7 @@
     "gust": 24.0,
     "vsby": 10.0,
     "alti": 29.85,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "IKV",
@@ -2797,7 +2797,7 @@
     "gust": 22.0,
     "vsby": 9.0,
     "alti": 29.84,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "ROS",
@@ -2811,7 +2811,7 @@
     "gust": 19.0,
     "vsby": 10.0,
     "alti": 29.85,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "PWC",
@@ -2822,7 +2822,7 @@
     "dwpf": 57.2,
     "drct": 0.0,
     "sknt": 0.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.9,
     "wxcodes": "-TSRA"
@@ -2839,7 +2839,7 @@
     "gust": 25.0,
     "vsby": 10.0,
     "alti": 29.86,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "FGN",
@@ -2853,7 +2853,7 @@
     "gust": 14.0,
     "vsby": 10.0,
     "alti": 29.93,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "DTL",
@@ -2867,7 +2867,7 @@
     "gust": 21.0,
     "vsby": 10.0,
     "alti": 29.8,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "ELO",
@@ -2881,7 +2881,7 @@
     "gust": 27.0,
     "vsby": 10.0,
     "alti": 29.82,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "HCD",
@@ -2895,7 +2895,7 @@
     "gust": 25.0,
     "vsby": 10.0,
     "alti": 29.79,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "MZH",
@@ -2906,7 +2906,7 @@
     "dwpf": 55.4,
     "drct": 0.0,
     "sknt": 0.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.87,
     "wxcodes": "VCTS"
@@ -2923,7 +2923,7 @@
     "gust": 26.0,
     "vsby": 10.0,
     "alti": 29.69,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "HDE",
@@ -2934,10 +2934,10 @@
     "dwpf": 56.5,
     "drct": 150.0,
     "sknt": 10.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.67,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "MLE",
@@ -2951,7 +2951,7 @@
     "gust": 24.0,
     "vsby": 10.0,
     "alti": 29.73,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "BDH",
@@ -2965,7 +2965,7 @@
     "gust": 24.0,
     "vsby": 10.0,
     "alti": 29.77,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "CFE",
@@ -2979,7 +2979,7 @@
     "gust": 23.0,
     "vsby": 10.0,
     "alti": 29.81,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "DYT",
@@ -2993,7 +2993,7 @@
     "gust": 19.0,
     "vsby": 9.0,
     "alti": 29.88,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "GDB",
@@ -3007,7 +3007,7 @@
     "gust": 27.0,
     "vsby": 10.0,
     "alti": 29.73,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "LYV",
@@ -3021,7 +3021,7 @@
     "gust": 25.0,
     "vsby": 10.0,
     "alti": 29.68,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "DXX",
@@ -3032,10 +3032,10 @@
     "dwpf": 69.8,
     "drct": 110.0,
     "sknt": 23.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.7,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "HZX",
@@ -3046,7 +3046,7 @@
     "dwpf": 55.4,
     "drct": 110.0,
     "sknt": 8.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.88,
     "wxcodes": "TS"
@@ -3063,7 +3063,7 @@
     "gust": 18.0,
     "vsby": 10.0,
     "alti": 29.84,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "AFK",
@@ -3077,7 +3077,7 @@
     "gust": 26.0,
     "vsby": 10.0,
     "alti": 29.78,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "FSD",
@@ -3091,7 +3091,7 @@
     "gust": 33.0,
     "vsby": 10.0,
     "alti": 29.63,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "YKN",
@@ -3105,7 +3105,7 @@
     "gust": 30.0,
     "vsby": 10.0,
     "alti": 29.58,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "OFK",
@@ -3119,7 +3119,7 @@
     "gust": 36.0,
     "vsby": 10.0,
     "alti": 29.64,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "GNA",
@@ -3130,10 +3130,10 @@
     "dwpf": 42.0,
     "drct": 260.0,
     "sknt": 6.0,
-    "gust": NaN,
-    "vsby": NaN,
+    "gust": null,
+    "vsby": null,
     "alti": 30.08,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "JMS",
@@ -3147,7 +3147,7 @@
     "gust": 25.0,
     "vsby": 10.0,
     "alti": 29.75,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "RDR",
@@ -3158,10 +3158,10 @@
     "dwpf": 57.0,
     "drct": 30.0,
     "sknt": 16.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.82,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "2WX",
@@ -3172,10 +3172,10 @@
     "dwpf": 51.0,
     "drct": 30.0,
     "sknt": 16.0,
-    "gust": NaN,
-    "vsby": NaN,
+    "gust": null,
+    "vsby": null,
     "alti": 29.66,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "FRM",
@@ -3186,10 +3186,10 @@
     "dwpf": 67.0,
     "drct": 180.0,
     "sknt": 21.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.74,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "8D3",
@@ -3200,10 +3200,10 @@
     "dwpf": 62.0,
     "drct": 80.0,
     "sknt": 7.0,
-    "gust": NaN,
-    "vsby": NaN,
+    "gust": null,
+    "vsby": null,
     "alti": 29.71,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "TVF",
@@ -3217,7 +3217,7 @@
     "gust": 22.0,
     "vsby": 10.0,
     "alti": 29.85,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "D07",
@@ -3228,10 +3228,10 @@
     "dwpf": 57.0,
     "drct": 40.0,
     "sknt": 12.0,
-    "gust": NaN,
-    "vsby": NaN,
+    "gust": null,
+    "vsby": null,
     "alti": 29.63,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "FOD",
@@ -3245,7 +3245,7 @@
     "gust": 27.0,
     "vsby": 10.0,
     "alti": 29.79,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "RCA",
@@ -3256,10 +3256,10 @@
     "dwpf": 51.3,
     "drct": 360.0,
     "sknt": 14.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.66,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "MKT",
@@ -3273,7 +3273,7 @@
     "gust": 27.0,
     "vsby": 10.0,
     "alti": 29.77,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "DVL",
@@ -3287,7 +3287,7 @@
     "gust": 24.0,
     "vsby": 10.0,
     "alti": 29.83,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "CWI",
@@ -3296,12 +3296,12 @@
     "lon": -90.3328,
     "tmpf": 93.0,
     "dwpf": 70.0,
-    "drct": NaN,
-    "sknt": NaN,
-    "gust": NaN,
+    "drct": null,
+    "sknt": null,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.95,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "MIB",
@@ -3312,10 +3312,10 @@
     "dwpf": 48.2,
     "drct": 100.0,
     "sknt": 18.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.82,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "RYM",
@@ -3326,7 +3326,7 @@
     "dwpf": 61.2,
     "drct": 140.0,
     "sknt": 8.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.81,
     "wxcodes": "TS"
@@ -3343,7 +3343,7 @@
     "gust": 23.0,
     "vsby": 9.0,
     "alti": 29.7,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "EAR",
@@ -3354,7 +3354,7 @@
     "dwpf": 57.0,
     "drct": 180.0,
     "sknt": 9.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.69,
     "wxcodes": "-TSRA"
@@ -3385,7 +3385,7 @@
     "gust": 35.0,
     "vsby": 10.0,
     "alti": 29.67,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "GPZ",
@@ -3396,10 +3396,10 @@
     "dwpf": 57.0,
     "drct": 340.0,
     "sknt": 3.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.88,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "OTG",
@@ -3413,7 +3413,7 @@
     "gust": 25.0,
     "vsby": 10.0,
     "alti": 29.7,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "OFF",
@@ -3427,7 +3427,7 @@
     "gust": 26.0,
     "vsby": 7.0,
     "alti": 29.76,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "BKX",
@@ -3441,7 +3441,7 @@
     "gust": 20.0,
     "vsby": 9.0,
     "alti": 29.67,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "SYN",
@@ -3455,7 +3455,7 @@
     "gust": 17.0,
     "vsby": 10.0,
     "alti": 29.81,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "ADC",
@@ -3466,10 +3466,10 @@
     "dwpf": 57.2,
     "drct": 90.0,
     "sknt": 7.0,
-    "gust": NaN,
+    "gust": null,
     "vsby": 10.0,
     "alti": 29.8,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "PNM",
@@ -3481,9 +3481,9 @@
     "drct": 110.0,
     "sknt": 16.0,
     "gust": 22.0,
-    "vsby": NaN,
+    "vsby": null,
     "alti": 29.78,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "FSE",
@@ -3497,7 +3497,7 @@
     "gust": 15.0,
     "vsby": 10.0,
     "alti": 29.82,
-    "wxcodes": NaN
+    "wxcodes": ""
   },
   {
     "id": "CNB",
@@ -3511,6 +3511,6 @@
     "gust": 22.0,
     "vsby": 7.0,
     "alti": 29.69,
-    "wxcodes": NaN
+    "wxcodes": ""
   }
 ]
