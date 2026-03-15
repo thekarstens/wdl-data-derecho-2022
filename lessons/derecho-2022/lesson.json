@@ -28,8 +28,9 @@
   },
   "metars": {
     "enabled": true,
-    "mode": "static",
-    "file": "metars/metars.json"
+    "mode": "manifest",
+    "manifest": "metars/manifest.json",
+    "fallbackFile": "metars/metars.json"
   },
   "hrrr": {
     "enabled": true,
