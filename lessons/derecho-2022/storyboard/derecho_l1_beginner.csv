@@ -1,10 +1,7 @@
-step,title,layer,lat,lon,zoom,text,video,question,a,b,c,correct
-1,Morning Setup,metar_15z,43.5,-96.7,6,Warm moist air is moving north into the region.,,What type of air helps storms grow?,Cold air,Warm moist air,Dry air,B
-
-2,Cloud Growth,satellite_18z,43.5,-96.7,6,Clouds are beginning to grow taller.,weather101/cloud_growth.mp4,What do growing clouds suggest?,Storms forming,Clear skies,Cold air,A
-
-3,Storm Development,radar_20z,43.5,-96.7,7,Storms begin appearing on radar.,,Are storms scattered or forming a line?,Scattered storms,Line of storms,None yet,A
-
-4,Storm Organization,radar_21z,43.5,-96.7,7,Storms begin organizing.,weather101/bow_echo.mp4,What radar structure is forming?,Bow echo,Hurricane,Cold front,A
-
-5,Prediction,radar_21z,43.5,-96.7,7,Storms are strengthening.,,What might happen next?,Stronger winds,Storms weaken,Nothing changes,A
+step,title,layer,lat,lon,zoom,text,image,screenpal,learnmore,question,a,b,c,d,correct,teacher
+step,title,layer,lat,lon,zoom,text,image,screenpal,learnmore,question,a,b,c,d,correct,teacher
+1,Morning Setup,metar_15z,43.5,-96.7,6,Warm moist air is moving north into the region.,images/setup.jpg,screenpal/setup_intro.mp4,,What type of air helps storms grow?,Cold air,Warm moist air,Dry air,Mountain air,B,Students should notice moisture increasing from the south.
+2,Cloud Development,satellite_18z,43.5,-96.7,6,Clouds are beginning to grow taller.,,screenpal/cloud_growth.mp4,weather101/cloud_growth.mp4,What do growing clouds suggest?,Storms forming,Clear skies,Cold front,Jet stream,A,Students should notice vertical cloud growth.
+3,Storm Initiation,radar_20z,43.5,-96.7,7,Storms begin appearing on radar.,,,weather101/radar_reflectivity.mp4,Are storms scattered or forming a line?,Scattered storms,Line of storms,None yet,Hurricane,A,Students identify the early scattered storm pattern.
+4,Storm Organization,radar_21z,43.5,-96.7,7,Storms begin organizing.,images/bowecho.jpg,,weather101/bow_echo.mp4,What radar structure is forming?,Bow echo,Hurricane,Tornado,Cold front,A,Students should recognize the bowing segment.
+5,Prediction,radar_21z,43.5,-96.7,7,Storms are strengthening.,,, ,What do you predict will happen next?,Stronger winds,Storms weaken,Nothing changes,Rain stops,A,Students make a forecast before advancing.
