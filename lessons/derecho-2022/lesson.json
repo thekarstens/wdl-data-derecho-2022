@@ -51,5 +51,6 @@
   "storyboard": {
     "type": "json",
     "url": "storyboard/storyboard.json"
-  }
+  },
+  "storyboardCSV": "storyboard/storyboard.csv"
 }
