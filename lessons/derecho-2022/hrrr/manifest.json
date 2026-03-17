@@ -12,21 +12,25 @@
     {
       "time": "2022-05-12T19:00:00Z",
       "file": "hrrr_temp_sioux_falls_F07.png",
+      "pointsFile": "2_meter_temperature_sioux_falls_pixel_data_F07.json",
       "label": "F07"
     },
     {
       "time": "2022-05-12T20:00:00Z",
       "file": "hrrr_temp_sioux_falls_F08.png",
+      "pointsFile": "2_meter_temperature_sioux_falls_pixel_data_F08.json",
       "label": "F08"
     },
     {
       "time": "2022-05-12T21:00:00Z",
       "file": "hrrr_temp_sioux_falls_F09.png",
+      "pointsFile": "2_meter_temperature_sioux_falls_pixel_data_F09.json",
       "label": "F09"
     },
     {
       "time": "2022-05-12T22:00:00Z",
       "file": "hrrr_temp_sioux_falls_F10.png",
+      "pointsFile": "2_meter_temperature_sioux_falls_pixel_data_F10.json",
       "label": "F10"
     }
   ]
