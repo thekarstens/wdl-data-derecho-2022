@@ -4,8 +4,8 @@
   "drivingQuestion": "Why can thunderstorms organize into a long-lasting windstorm (derecho)?",
   "productLabel": "RADAR",
   "dataBase": "https://thekarstens.github.io/wdl-data-derecho-2022/lessons/derecho-2022/",
-  "startZ": "2022-05-12T21:32:00Z",
-  "endZ": "2022-05-12T22:10:00Z",
+  "startZ": "2022-05-12T18:00:00Z",
+  "endZ": "2022-05-13T03:00:00Z",
   "stepMinutes": 1,
   "displayTimezone": "America/Chicago",
   "roundMinutes": 1,
@@ -18,7 +18,7 @@
   },
   "radar": {
     "mode": "manifest",
-    "manifest": "radar/manifest.json",
+    "manifest": "radar/kfsd/manifest.json",
     "opacityDefault": 0.75
   },
   "satellite": {
