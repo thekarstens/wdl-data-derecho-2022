@@ -21,6 +21,11 @@
     "manifest": "radar/kfsd/manifest.json",
     "opacityDefault": 0.75
   },
+  "warnings": {
+  "enabled": true,
+  "geojson": "alerts/may12_2022_tornado_severe_warnings.geojson",
+  "summary": "alerts/may12_2022_tornado_severe_warnings_summary.json"
+  },
   "satellite": {
     "enabled": true,
     "mode": "manifest",
