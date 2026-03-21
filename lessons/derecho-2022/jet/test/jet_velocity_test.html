@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>500mb Jet Velocity Test</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <link rel="stylesheet" href="./leaflet-velocity.min.css" />
+  <style>
+    html, body { margin: 0; padding: 0; height: 100%; font-family: Arial, sans-serif; }
+    #map { position: absolute; inset: 0; }
+    #panel {
+      position: absolute;
+      top: 10px; left: 10px; z-index: 1000;
+      width: 420px; max-width: calc(100% - 20px);
+      background: rgba(8, 20, 36, 0.92); color: #fff;
+      border-radius: 10px; padding: 12px 14px;
+      box-shadow: 0 10px 28px rgba(0,0,0,0.35);
+      font-size: 14px; line-height: 1.35;
+    }
+    #panel h1 { margin: 0 0 8px; font-size: 18px; }
+    #panel .muted { color: #b9c7d8; }
+    #status {
+      margin-top: 8px; white-space: pre-wrap; font-family: Consolas, monospace;
+      font-size: 12px; max-height: 260px; overflow: auto;
+      background: rgba(255,255,255,0.07); padding: 10px; border-radius: 8px;
+    }
+    .ok { color: #78e08f; }
+    .warn { color: #ffd166; }
+    .bad { color: #ff7b7b; }
+    code { color: #d6e7ff; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <div id="panel">
+    <h1>500mb Jet Velocity Test</h1>
+    <div class="muted">
+      This page loads one JSON file, checks whether it is already in <code>leaflet-velocity</code> format,
+      and if not, converts your custom NARR structure on the fly.
+    </div>
+    <div id="status">Starting…</div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="./leaflet-velocity.min.js"></script>
+  <script>
+    // -----------------------------
+    // EDIT THIS PATH FIRST
+    // -----------------------------
+    const DATA_URL = './narr_500mb_20220512_0000.json';
+
+    const map = L.map('map', { preferCanvas: true }).setView([42.5, -96], 5);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    let velocityLayer = null;
+    const statusEl = document.getElementById('status');
+
+    function log(line, cls) {
+      const div = document.createElement('div');
+      if (cls) div.className = cls;
+      div.textContent = line;
+      statusEl.appendChild(div);
+    }
+
+    function setStatusHeader(text) {
+      statusEl.textContent = '';
+      log(text);
+    }
+
+    function isVelocityRecordArray(json) {
+      return Array.isArray(json) && json.length >= 2 && json.every(r =>
+        r && typeof r === 'object' && r.header && Array.isArray(r.data)
+      );
+    }
+
+    function looksLikeCustomNarr(json) {
+      return json && typeof json === 'object' &&
+        json.grid_shape && json.lat && json.lon && json.u && json.v;
+    }
+
+    function flatten2D(arr2d) {
+      const flat = [];
+      for (let y = 0; y < arr2d.length; y++) {
+        for (let x = 0; x < arr2d[y].length; x++) {
+          const value = arr2d[y][x];
+          flat.push(Number.isFinite(value) ? value : null);
+        }
+      }
+      return flat;
+    }
+
+    function toIsoRefTime(value) {
+      if (!value) return new Date().toISOString();
+      const candidate = new Date(String(value).replace(' ', 'T') + 'Z');
+      return isNaN(candidate.getTime()) ? new Date().toISOString() : candidate.toISOString();
+    }
+
+    function buildHeader(json, paramNumber) {
+      const ny = json.grid_shape.ny || json.lat.length;
+      const nx = json.grid_shape.nx || json.lat[0].length;
+
+      const lo1 = json.lon[0][0];
+      const la1 = json.lat[0][0];
+      const dx = json.lon[0][1] - json.lon[0][0];
+      const dy = json.lat[1][0] - json.lat[0][0];
+
+      return {
+        parameterCategory: 2,
+        parameterNumber: paramNumber,
+        parameterUnit: (json.units && json.units.wind) || 'm/s',
+        refTime: toIsoRefTime(json.valid_time_utc),
+        forecastTime: 0,
+        scanMode: 0,
+        nx,
+        ny,
+        lo1,
+        la1,
+        dx,
+        dy
+      };
+    }
+
+    function convertNarrToVelocity(json) {
+      return [
+        {
+          header: buildHeader(json, 2), // u wind
+          data: flatten2D(json.u)
+        },
+        {
+          header: buildHeader(json, 3), // v wind
+          data: flatten2D(json.v)
+        }
+      ];
+    }
+
+    function describeVelocity(records) {
+      const h = records[0].header;
+      log('Detected plugin-ready velocity records.', 'ok');
+      log(`nx=${h.nx}, ny=${h.ny}`);
+      log(`lo1=${h.lo1}, la1=${h.la1}`);
+      log(`dx=${h.dx}, dy=${h.dy}`);
+      log(`refTime=${h.refTime}`);
+      log(`U points=${records[0].data.length}, V points=${records[1].data.length}`);
+    }
+
+    function describeNarr(json) {
+      log('Detected custom NARR structure. Converting on the fly…', 'warn');
+      log(`dataset=${json.dataset || 'unknown'}`);
+      log(`event=${json.event || 'unknown'}`);
+      log(`level_mb=${json.level_mb || 'unknown'}`);
+      log(`valid_time_utc=${json.valid_time_utc || 'unknown'}`);
+      log(`grid nx=${json.grid_shape.nx}, ny=${json.grid_shape.ny}`);
+      log(`lat rows=${json.lat.length}, lon rows=${json.lon.length}`);
+      log(`u rows=${json.u.length}, v rows=${json.v.length}`);
+    }
+
+    function addLayer(records) {
+      if (velocityLayer) map.removeLayer(velocityLayer);
+
+      velocityLayer = L.velocityLayer({
+        displayValues: true,
+        displayOptions: {
+          velocityType: '500mb Wind',
+          position: 'bottomleft',
+          emptyString: 'No data'
+        },
+        data: records,
+        minVelocity: 0,
+        maxVelocity: 80,
+        velocityScale: 0.005,
+        particleAge: 60,
+        lineWidth: 2,
+        frameRate: 20,
+        particleMultiplier: 1/250
+      });
+
+      velocityLayer.addTo(map);
+    }
+
+    function zoomToNarr(json) {
+      let minLat = Infinity, maxLat = -Infinity, minLon = Infinity, maxLon = -Infinity;
+      for (let y = 0; y < json.lat.length; y++) {
+        for (let x = 0; x < json.lat[y].length; x++) {
+          const lat = json.lat[y][x];
+          const lon = json.lon[y][x];
+          if (lat < minLat) minLat = lat;
+          if (lat > maxLat) maxLat = lat;
+          if (lon < minLon) minLon = lon;
+          if (lon > maxLon) maxLon = lon;
+        }
+      }
+      map.fitBounds([[minLat, minLon], [maxLat, maxLon]]);
+    }
+
+    async function run() {
+      setStatusHeader(`Loading ${DATA_URL}`);
+      try {
+        const response = await fetch(DATA_URL, { cache: 'no-store' });
+        if (!response.ok) throw new Error(`HTTP ${response.status} for ${DATA_URL}`);
+        const json = await response.json();
+
+        let records;
+
+        if (isVelocityRecordArray(json)) {
+          describeVelocity(json);
+          records = json;
+        } else if (looksLikeCustomNarr(json)) {
+          describeNarr(json);
+          records = convertNarrToVelocity(json);
+          log('Converted to plugin-ready records.', 'ok');
+          describeVelocity(records);
+          zoomToNarr(json);
+        } else {
+          log('This file is not recognized as either plugin-ready velocity JSON or your custom NARR JSON.', 'bad');
+          log('Expected either:');
+          log('1) an array with two records [{header,data},{header,data}]');
+          log('2) an object with grid_shape, lat, lon, u, v');
+          return;
+        }
+
+        if (!window.L || !L.velocityLayer) {
+          log('leaflet-velocity plugin did not load. Check leaflet-velocity.min.js path.', 'bad');
+          return;
+        }
+
+        addLayer(records);
+        log('Velocity layer added. If you see moving particles, the format is good enough for the app.', 'ok');
+      } catch (err) {
+        log(`ERROR: ${err.message}`, 'bad');
+      }
+    }
+
+    run();
+  </script>
+</body>
+</html>
