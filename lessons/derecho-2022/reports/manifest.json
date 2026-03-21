@@ -1,0 +1,12 @@
+{
+  "reports": [
+    {
+      "id": "derecho_2022",
+      "name": "May 12, 2022 Derecho",
+      "file": "may12_2022_derecho_lsr.geojson",
+      "start": "2022-05-12T18:00:00Z",
+      "end": "2022-05-13T17:00:00Z",
+      "categories": ["tornado", "wind", "hail", "flood"]
+    }
+  ]
+}
