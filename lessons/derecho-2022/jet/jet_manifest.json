@@ -1,0 +1,62 @@
+{
+    "id": "derecho_2022_500mb_jet",
+    "title": "500 mb Winds",
+    "dataset": "NARR",
+    "event": "May 12 2022 derecho",
+    "level_mb": 500,
+    "product_type": "velocity",
+    "units": "m/s",
+    "grid": {
+        "nx": 141,
+        "ny": 81,
+        "lo1": -130.0,
+        "la1": 60.0,
+        "dx": 0.5,
+        "dy": 0.5,
+        "gridUnits": "degrees",
+        "bounds": [
+            [
+                20.0,
+                -130.0
+            ],
+            [
+                60.0,
+                -60.0
+            ]
+        ]
+    },
+    "frames": [
+        {
+            "filename": "velocity/narr_jet_500mb_20220512_0000z_NA_leaflet_velocity.json",
+            "refTime": "2022-05-12T00:00:00"
+        },
+        {
+            "filename": "velocity/narr_jet_500mb_20220512_0300z_NA_leaflet_velocity.json",
+            "refTime": "2022-05-12T03:00:00"
+        },
+        {
+            "filename": "velocity/narr_jet_500mb_20220512_0600z_NA_leaflet_velocity.json",
+            "refTime": "2022-05-12T06:00:00"
+        },
+        {
+            "filename": "velocity/narr_jet_500mb_20220512_0900z_NA_leaflet_velocity.json",
+            "refTime": "2022-05-12T09:00:00"
+        },
+        {
+            "filename": "velocity/narr_jet_500mb_20220512_1200z_NA_leaflet_velocity.json",
+            "refTime": "2022-05-12T12:00:00"
+        },
+        {
+            "filename": "velocity/narr_jet_500mb_20220512_1500z_NA_leaflet_velocity.json",
+            "refTime": "2022-05-12T15:00:00"
+        },
+        {
+            "filename": "velocity/narr_jet_500mb_20220512_1800z_NA_leaflet_velocity.json",
+            "refTime": "2022-05-12T18:00:00"
+        },
+        {
+            "filename": "velocity/narr_jet_500mb_20220512_2100z_NA_leaflet_velocity.json",
+            "refTime": "2022-05-12T21:00:00"
+        }
+    ]
+}
