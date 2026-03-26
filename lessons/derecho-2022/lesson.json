@@ -49,8 +49,12 @@
       },
       "radar": {
         "manifest": "hrrr/radar/manifest.json"
+      },
+      "winds": {
+        "manifest": "hrrr/winds/manifest.json"
       }
-    }
+    },
+    "windsManifest": "hrrr/winds/manifest.json"
   },
   "boundaries": {
     "states": "boundaries/states.geojson",
