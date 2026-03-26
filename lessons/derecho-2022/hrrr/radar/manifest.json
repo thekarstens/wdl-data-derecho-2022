@@ -1,0 +1,94 @@
+{
+  "product": "HRRR Composite Reflectivity",
+  "id": "hrrr-radar",
+  "type": "imageSequence",
+  "units": "dBZ",
+  "bounds": {
+    "south": 37.7476,
+    "west": -104.6729,
+    "north": 49.3357,
+    "east": -88.7905
+  },
+  "frames": [
+    {
+      "time": "2022-05-12T12:00:00Z",
+      "file": "frames/composite_reflectivity_sioux_falls_F00.png",
+      "label": "7 AM"
+    },
+    {
+      "time": "2022-05-12T13:00:00Z",
+      "file": "frames/composite_reflectivity_sioux_falls_F01.png",
+      "label": "8 AM"
+    },
+    {
+      "time": "2022-05-12T14:00:00Z",
+      "file": "frames/composite_reflectivity_sioux_falls_F02.png",
+      "label": "9 AM"
+    },
+    {
+      "time": "2022-05-12T15:00:00Z",
+      "file": "frames/composite_reflectivity_sioux_falls_F03.png",
+      "label": "10 AM"
+    },
+    {
+      "time": "2022-05-12T16:00:00Z",
+      "file": "frames/composite_reflectivity_sioux_falls_F04.png",
+      "label": "11 AM"
+    },
+    {
+      "time": "2022-05-12T17:00:00Z",
+      "file": "frames/composite_reflectivity_sioux_falls_F05.png",
+      "label": "12 PM"
+    },
+    {
+      "time": "2022-05-12T18:00:00Z",
+      "file": "frames/composite_reflectivity_sioux_falls_F06.png",
+      "label": "1 PM"
+    },
+    {
+      "time": "2022-05-12T19:00:00Z",
+      "file": "frames/composite_reflectivity_sioux_falls_F07.png",
+      "label": "2 PM"
+    },
+    {
+      "time": "2022-05-12T20:00:00Z",
+      "file": "frames/composite_reflectivity_sioux_falls_F08.png",
+      "label": "3 PM"
+    },
+    {
+      "time": "2022-05-12T21:00:00Z",
+      "file": "frames/composite_reflectivity_sioux_falls_F09.png",
+      "label": "4 PM"
+    },
+    {
+      "time": "2022-05-12T22:00:00Z",
+      "file": "frames/composite_reflectivity_sioux_falls_F10.png",
+      "label": "5 PM"
+    },
+    {
+      "time": "2022-05-12T23:00:00Z",
+      "file": "frames/composite_reflectivity_sioux_falls_F11.png",
+      "label": "6 PM"
+    },
+    {
+      "time": "2022-05-13T00:00:00Z",
+      "file": "frames/composite_reflectivity_sioux_falls_F12.png",
+      "label": "7 PM"
+    },
+    {
+      "time": "2022-05-13T01:00:00Z",
+      "file": "frames/composite_reflectivity_sioux_falls_F13.png",
+      "label": "8 PM"
+    },
+    {
+      "time": "2022-05-13T02:00:00Z",
+      "file": "frames/composite_reflectivity_sioux_falls_F14.png",
+      "label": "9 PM"
+    },
+    {
+      "time": "2022-05-13T03:00:00Z",
+      "file": "frames/composite_reflectivity_sioux_falls_F15.png",
+      "label": "10 PM"
+    }
+  ]
+}
