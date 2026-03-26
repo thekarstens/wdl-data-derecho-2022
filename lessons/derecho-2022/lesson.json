@@ -40,7 +40,7 @@
   "hrrr": {
     "enabled": true,
     "mode": "manifest",
-    "manifest": "hrrr/temp/manifest.json"
+    "manifest": "hrrr/radar/manifest.json"
   },
   "boundaries": {
     "states": "boundaries/states.geojson",
