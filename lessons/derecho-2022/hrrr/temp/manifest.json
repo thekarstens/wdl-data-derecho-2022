@@ -1,6 +1,110 @@
 {
-    "min_latitude": 37.7476,
-    "max_latitude": 49.3357,
-    "min_longitude": 255.3271,
-    "max_longitude": 271.2095
+  "product": "HRRR 2m Temperature",
+  "id": "hrrr-temp",
+  "type": "imageSequence",
+  "units": "F",
+  "bounds": {
+    "south": 37.7476,
+    "west": -104.6729,
+    "north": 49.3357,
+    "east": -88.7905
+  },
+  "frames": [
+    {
+      "time": "2022-05-12T12:00:00Z",
+      "file": "frames/2_meter_temperature_sioux_falls_F00.png",
+      "pointsFile": "points/2_meter_temperature_sioux_falls_pixel_data_F00.json",
+      "label": "7 AM"
+    },
+    {
+      "time": "2022-05-12T13:00:00Z",
+      "file": "frames/2_meter_temperature_sioux_falls_F01.png",
+      "pointsFile": "points/2_meter_temperature_sioux_falls_pixel_data_F01.json",
+      "label": "8 AM"
+    },
+    {
+      "time": "2022-05-12T14:00:00Z",
+      "file": "frames/2_meter_temperature_sioux_falls_F02.png",
+      "pointsFile": "points/2_meter_temperature_sioux_falls_pixel_data_F02.json",
+      "label": "9 AM"
+    },
+    {
+      "time": "2022-05-12T15:00:00Z",
+      "file": "frames/2_meter_temperature_sioux_falls_F03.png",
+      "pointsFile": "points/2_meter_temperature_sioux_falls_pixel_data_F03.json",
+      "label": "10 AM"
+    },
+    {
+      "time": "2022-05-12T16:00:00Z",
+      "file": "frames/2_meter_temperature_sioux_falls_F04.png",
+      "pointsFile": "points/2_meter_temperature_sioux_falls_pixel_data_F04.json",
+      "label": "11 AM"
+    },
+    {
+      "time": "2022-05-12T17:00:00Z",
+      "file": "frames/2_meter_temperature_sioux_falls_F05.png",
+      "pointsFile": "points/2_meter_temperature_sioux_falls_pixel_data_F05.json",
+      "label": "12 PM"
+    },
+    {
+      "time": "2022-05-12T18:00:00Z",
+      "file": "frames/2_meter_temperature_sioux_falls_F06.png",
+      "pointsFile": "points/2_meter_temperature_sioux_falls_pixel_data_F06.json",
+      "label": "1 PM"
+    },
+    {
+      "time": "2022-05-12T19:00:00Z",
+      "file": "frames/2_meter_temperature_sioux_falls_F07.png",
+      "pointsFile": "points/2_meter_temperature_sioux_falls_pixel_data_F07.json",
+      "label": "2 PM"
+    },
+    {
+      "time": "2022-05-12T20:00:00Z",
+      "file": "frames/2_meter_temperature_sioux_falls_F08.png",
+      "pointsFile": "points/2_meter_temperature_sioux_falls_pixel_data_F08.json",
+      "label": "3 PM"
+    },
+    {
+      "time": "2022-05-12T21:00:00Z",
+      "file": "frames/2_meter_temperature_sioux_falls_F09.png",
+      "pointsFile": "points/2_meter_temperature_sioux_falls_pixel_data_F09.json",
+      "label": "4 PM"
+    },
+    {
+      "time": "2022-05-12T22:00:00Z",
+      "file": "frames/2_meter_temperature_sioux_falls_F10.png",
+      "pointsFile": "points/2_meter_temperature_sioux_falls_pixel_data_F10.json",
+      "label": "5 PM"
+    },
+    {
+      "time": "2022-05-12T23:00:00Z",
+      "file": "frames/2_meter_temperature_sioux_falls_F11.png",
+      "pointsFile": "points/2_meter_temperature_sioux_falls_pixel_data_F11.json",
+      "label": "6 PM"
+    },
+    {
+      "time": "2022-05-13T00:00:00Z",
+      "file": "frames/2_meter_temperature_sioux_falls_F12.png",
+      "pointsFile": "points/2_meter_temperature_sioux_falls_pixel_data_F12.json",
+      "label": "7 PM"
+    },
+    {
+      "time": "2022-05-13T01:00:00Z",
+      "file": "frames/2_meter_temperature_sioux_falls_F13.png",
+      "pointsFile": "points/2_meter_temperature_sioux_falls_pixel_data_F13.json",
+      "label": "8 PM"
+    },
+    {
+      "time": "2022-05-13T02:00:00Z",
+      "file": "frames/2_meter_temperature_sioux_falls_F14.png",
+      "pointsFile": "points/2_meter_temperature_sioux_falls_pixel_data_F14.json",
+      "label": "9 PM"
+    },
+    {
+      "time": "2022-05-13T03:00:00Z",
+      "file": "frames/2_meter_temperature_sioux_falls_F15.png",
+      "pointsFile": "points/2_meter_temperature_sioux_falls_pixel_data_F15.json",
+      "label": "10 PM"
+    }
+  ]
 }
