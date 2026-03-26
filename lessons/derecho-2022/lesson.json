@@ -40,7 +40,17 @@
   "hrrr": {
     "enabled": true,
     "mode": "manifest",
-    "manifest": "hrrr/radar/manifest.json"
+    "manifest": "hrrr/temp/manifest.json",
+    "tempManifest": "hrrr/temp/manifest.json",
+    "radarManifest": "hrrr/radar/manifest.json",
+    "products": {
+      "temp": {
+        "manifest": "hrrr/temp/manifest.json"
+      },
+      "radar": {
+        "manifest": "hrrr/radar/manifest.json"
+      }
+    }
   },
   "boundaries": {
     "states": "boundaries/states.geojson",
