@@ -1,13 +1,24 @@
 {
-    "image": "KFSD20220512_004944_V06.ar2v_velocity_sweep1_leaflet.png",
-    "bounds": [
+  "product": "KFSD Velocity Test",
+  "id": "kfsd-velocity-test",
+  "type": "imageSequence",
+  "units": "mph",
+  "frames": [
+    {
+      "time": "2022-05-12T00:50:02.049000Z",
+      "file": "frames/KFSD20220512_004944_V06.ar2v_velocity_sweep1_leaflet.png",
+      "pointsFile": "points/KFSD20220512_004944_V06.ar2v_velocity_sweep1.json",
+      "bounds": [
         [
-            42.23884319008029,
-            -98.59179303655424
+          42.23884319008029,
+          -98.59179303655424
         ],
         [
-            44.936709178083774,
-            -94.86709978571139
+          44.936709178083774,
+          -94.86709978571139
         ]
-    ]
+      ],
+      "label": "Velocity Test"
+    }
+  ]
 }
