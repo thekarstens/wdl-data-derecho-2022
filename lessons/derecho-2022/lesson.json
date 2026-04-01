@@ -64,12 +64,11 @@
     {
       "name": "Day 1 Outlook",
       "type": "geojson",
-      "url": "overlays/Day1.json"
+      "url": "spc/Day1.json"
     }
   ],
   "storyboard": {
     "type": "json",
     "url": "storyboard/storyboard.json"
-  },
-  "storyboardCSV": "storyboard/storyboard.csv"
+  }
 }
