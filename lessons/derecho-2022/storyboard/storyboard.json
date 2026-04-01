@@ -1,4 +1,55 @@
-step,title,layer,lat,lon,zoom,image,video,text
-1,Morning Setup,metar_15z,43.5,-96.7,6,,,Warm moist air is moving north into the region.
-2,Storm Growth,radar_21z,43.5,-96.7,7,,,Storms begin organizing during the afternoon.
-3,Warnings Begin,warnings,43.5,-96.7,7,,,Warnings are issued as the line becomes more dangerous.
+{
+  "id": "step-01",
+  "utc": "2022-05-12T19:30:00Z",
+  "label": "2:30 PM — SPC Outlook",
+  "title": "A Rare Setup Is Already in Place",
+  
+  "narrative": [
+    "It is now 2:30 PM on May 12, 2022.",
+    "The Storm Prediction Center has already highlighted this region for a significant severe weather threat.",
+    "In fact, this is the first Moderate Risk issued for this area in many years.",
+    "Forecasters are concerned that storms could organize into a widespread damaging wind event later today."
+  ],
+
+  "question": [
+    "Where is the highest risk area located?",
+    "How close is Sioux Falls to that risk?",
+    "Based on this outlook alone, what type of severe weather would you expect later today?"
+  ],
+
+  "scene": {
+    "product": "spc_day1_12z",
+    "layers": [
+      "spc_outlook"
+    ],
+    "lat": 43.55,
+    "lon": -96.73,
+    "zoom": 6,
+    "transition": "fade"
+  },
+
+  "ui": {
+    "showLegend": true,
+    "highlightProduct": "SPC Day 1 Outlook"
+  },
+
+  "interaction": {
+    "pause": true,
+    "allowExplore": true,
+    "allowZoom": true,
+    "allowProbe": true
+  },
+
+  "callouts": [
+    {
+      "type": "info",
+      "text": "Click anywhere inside the outlook to identify the risk category.",
+      "position": "bottom"
+    }
+  ],
+
+  "media": {
+    "image": null,
+    "video": null
+  }
+}
