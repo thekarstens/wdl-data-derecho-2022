@@ -1,0 +1,4 @@
+step,title,layer,lat,lon,zoom,image,video,text
+1,Morning Setup,metar_15z,43.5,-96.7,6,,,Warm moist air is moving north into the region.
+2,Storm Growth,radar_21z,43.5,-96.7,7,,,Storms begin organizing during the afternoon.
+3,Warnings Begin,warnings,43.5,-96.7,7,,,Warnings are issued as the line becomes more dangerous.
