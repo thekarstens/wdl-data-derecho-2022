@@ -97,6 +97,57 @@
         "image": null,
         "video": null
       }
+    },
+    {
+      "id": "step-03",
+      "utc": "2022-05-12T20:00:00Z",
+      "label": "3:00 PM \u2014 Live Doppler",
+      "title": "Live Doppler: Storms Begin To Show Up",
+      "narrative": [
+        "It is now about 3:00 PM, and radar is becoming the main tool to watch storms develop.",
+        "This is where students can shift from forecast thinking to real-time tracking.",
+        "Use the Live Doppler button to turn on the pulsing sweep, or loop the radar to watch early storm organization."
+      ],
+      "question": [
+        "Where are the first stronger storms beginning to appear?",
+        "Do you notice individual cells, or signs that storms may start organizing?",
+        "What would make you watch this radar picture more carefully over the next hour?"
+      ],
+      "scene": {
+        "product": "live_doppler",
+        "layers": [
+          "radar"
+        ],
+        "lat": 43.55,
+        "lon": -96.73,
+        "zoom": 7,
+        "transition": "fade"
+      },
+      "ui": {
+        "showLegend": true,
+        "highlightProduct": "Live Doppler"
+      },
+      "interaction": {
+        "pause": true,
+        "allowPlay": true,
+        "allowExplore": true,
+        "allowZoom": true,
+        "allowProbe": true,
+        "showClock": true,
+        "showScrubber": true,
+        "showDoppler": true
+      },
+      "callouts": [
+        {
+          "type": "info",
+          "text": "Turn on Live Doppler, then use the scrubber or loop controls to move back and forth through the radar.",
+          "position": "bottom"
+        }
+      ],
+      "media": {
+        "image": null,
+        "video": null
+      }
     }
   ]
 }
