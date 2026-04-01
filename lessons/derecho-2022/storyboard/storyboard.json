@@ -25,7 +25,8 @@
         "lat": 43.55,
         "lon": -96.73,
         "zoom": 6,
-        "transition": "fade"
+        "transition": "fade",
+        "detailsFile": "spc/day1_12z_text.json"
       },
       "ui": {
         "showLegend": true,
@@ -40,13 +41,14 @@
       "callouts": [
         {
           "type": "info",
-          "text": "Click anywhere inside the outlook to identify the risk category.",
+          "text": "Click inside the outlook area, then press Details to read the SPC outlook text.",
           "position": "bottom"
         }
       ],
       "media": {
-        "image": null,
-        "video": null
+        "image": "media/1S_Astoria_530pm_KyleConers_AstoriaFireDept_PTU.jpg",
+        "video": null,
+        "credit": "Kyle Coners / Astoria Fire Department"
       }
     },
     {
@@ -56,7 +58,8 @@
       "title": "Forecast Concern Continues To Increase",
       "narrative": [
         "By late afternoon, the severe weather forecast remains focused on our region.",
-        "Forecasters are now watching storms to the south and southwest while confidence remains high that severe weather will affect parts of eastern South Dakota and nearby areas."
+        "Forecasters are now watching storms to the south and southwest while confidence remains high that severe weather will affect parts of eastern South Dakota and nearby areas.",
+        "The official outlook emphasizes a threat of damaging wind gusts near 75 mph, large hail, and a few tornadoes across parts of the eastern Dakotas and nearby states."
       ],
       "question": [
         "What part of the forecast area is most important to watch now?",
@@ -70,7 +73,8 @@
         "lat": 43.2,
         "lon": -96.4,
         "zoom": 6,
-        "transition": "fade"
+        "transition": "fade",
+        "detailsFile": "spc/day1_12z_text.json"
       },
       "ui": {
         "showLegend": true,
