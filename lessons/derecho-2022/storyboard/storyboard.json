@@ -49,54 +49,8 @@
         "image": "media/1S_Astoria_530pm_KyleConers_AstoriaFireDept_PTU.jpg",
         "video": null,
         "credit": "Kyle Coners / Astoria Fire Department"
-      }
-    },
-    {
-      "id": "step-02",
-      "utc": "2022-05-12T21:30:00Z",
-      "label": "4:30 PM \u2014 Updated SPC Forecast",
-      "title": "Forecast Concern Continues To Increase",
-      "narrative": [
-        "By late afternoon, the severe weather forecast remains focused on our region.",
-        "Forecasters are now watching storms to the south and southwest while confidence remains high that severe weather will affect parts of eastern South Dakota and nearby areas.",
-        "The official outlook emphasizes a threat of damaging wind gusts near 75 mph, large hail, and a few tornadoes across parts of the eastern Dakotas and nearby states."
-      ],
-      "question": [
-        "What part of the forecast area is most important to watch now?",
-        "How does this updated forecast connect to the storms developing to our south?"
-      ],
-      "scene": {
-        "product": "spc_day1_1630",
-        "layers": [
-          "spc_outlook"
-        ],
-        "lat": 43.2,
-        "lon": -96.4,
-        "zoom": 6,
-        "transition": "fade",
-        "detailsFile": "spc/day1_12z_text.json"
       },
-      "ui": {
-        "showLegend": true,
-        "highlightProduct": "SPC Forecast Update"
-      },
-      "interaction": {
-        "pause": true,
-        "allowExplore": true,
-        "allowZoom": true,
-        "allowProbe": true
-      },
-      "callouts": [
-        {
-          "type": "info",
-          "text": "Use this step to compare the forecast concern with the developing storms nearby.",
-          "position": "bottom"
-        }
-      ],
-      "media": {
-        "image": null,
-        "video": null
-      }
+      "order": 1
     },
     {
       "id": "step-03",
@@ -147,7 +101,60 @@
       "media": {
         "image": null,
         "video": null
-      }
+      },
+      "radarWindow": {
+        "start": "2022-05-12T19:45:00Z",
+        "end": "2022-05-12T20:35:00Z"
+      },
+      "order": 2
+    },
+    {
+      "id": "step-02",
+      "utc": "2022-05-12T21:30:00Z",
+      "label": "4:30 PM \u2014 Updated SPC Forecast",
+      "title": "Forecast Concern Continues To Increase",
+      "narrative": [
+        "By late afternoon, the severe weather forecast remains focused on our region.",
+        "Forecasters are now watching storms to the south and southwest while confidence remains high that severe weather will affect parts of eastern South Dakota and nearby areas.",
+        "The official outlook emphasizes a threat of damaging wind gusts near 75 mph, large hail, and a few tornadoes across parts of the eastern Dakotas and nearby states."
+      ],
+      "question": [
+        "What part of the forecast area is most important to watch now?",
+        "How does this updated forecast connect to the storms developing to our south?"
+      ],
+      "scene": {
+        "product": "spc_day1_1630",
+        "layers": [
+          "spc_outlook"
+        ],
+        "lat": 43.2,
+        "lon": -96.4,
+        "zoom": 6,
+        "transition": "fade",
+        "detailsFile": "spc/day1_12z_text.json"
+      },
+      "ui": {
+        "showLegend": true,
+        "highlightProduct": "SPC Forecast Update"
+      },
+      "interaction": {
+        "pause": true,
+        "allowExplore": true,
+        "allowZoom": true,
+        "allowProbe": true
+      },
+      "callouts": [
+        {
+          "type": "info",
+          "text": "Use this step to compare the forecast concern with the developing storms nearby.",
+          "position": "bottom"
+        }
+      ],
+      "media": {
+        "image": null,
+        "video": null
+      },
+      "order": 3
     }
   ]
 }
