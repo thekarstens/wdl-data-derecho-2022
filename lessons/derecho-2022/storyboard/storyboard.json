@@ -33,7 +33,7 @@
         "highlightProduct": "SPC Day 1 Outlook",
         "stepTheme": "blue",
         "stepKicker": "Forecast Setup",
-        "stepLabel": "Station 1"
+        "stepLabel": "1"
       },
       "interaction": {
         "pause": true,
@@ -85,7 +85,7 @@
         "highlightProduct": "Live Doppler",
         "stepTheme": "cyan",
         "stepKicker": "Radar Tracking",
-        "stepLabel": "Station 2"
+        "stepLabel": "2"
       },
       "interaction": {
         "pause": true,
@@ -108,7 +108,11 @@
         "image": null,
         "video": null
       },
-      "order": 2
+      "order": 2,
+      "radarWindow": {
+        "start": "2022-05-12T19:45:00Z",
+        "end": "2022-05-12T20:30:00Z"
+      }
     },
     {
       "id": "step-02",
@@ -140,7 +144,7 @@
         "highlightProduct": "SPC Forecast Update",
         "stepTheme": "orange",
         "stepKicker": "Forecast Update",
-        "stepLabel": "Station 3"
+        "stepLabel": "3"
       },
       "interaction": {
         "pause": true,
