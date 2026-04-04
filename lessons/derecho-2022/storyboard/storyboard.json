@@ -1,177 +1,175 @@
 {
-  "storyboardTitle": "Derecho Case Study",
+  "storyboardTitle": "May 12, 2022 Derecho — Guided Simulation",
+
   "steps": [
+
     {
-      "id": "step-01",
-      "utc": "2022-05-12T19:30:00Z",
-      "label": "2:30 PM \u2014 SPC Outlook",
-      "title": "A Rare Setup Is Already in Place",
+      "id": 1,
+      "utc": "2022-05-12T18:00:00Z",
+      "title": "Atmosphere Primed",
       "narrative": [
-        "It is now 2:30 PM on May 12, 2022.",
-        "The Storm Prediction Center has already highlighted this region for a significant severe weather threat.",
-        "In fact, this is the first Moderate Risk issued for this area in many years.",
-        "Forecasters are concerned that storms could organize into a widespread damaging wind event later today."
-      ],
-      "question": [
-        "Where is the highest risk area located?",
-        "How close is Sioux Falls to that risk?",
-        "Based on this outlook alone, what type of severe weather would you expect later today?"
+        "Warm, moist air is surging northward across the Plains.",
+        "Dew points in the 60s and 70s are creating an unstable environment.",
+        "Strong winds are already present just above the surface."
       ],
       "scene": {
-        "product": "spc_day1_12z",
-        "layers": [
-          "spc_outlook"
-        ],
-        "lat": 43.55,
-        "lon": -96.73,
-        "zoom": 6,
-        "transition": "fade",
-        "detailsFile": "spc/day1_12z_text.json"
-      },
-      "ui": {
-        "showLegend": true,
-        "highlightProduct": "SPC Day 1 Outlook",
-        "stepTheme": "blue",
-        "stepKicker": "Forecast Setup",
-        "stepLabel": "1"
+        "product": "surface",
+        "layers": ["metar_dewpoint", "metar_wind"]
       },
       "interaction": {
-        "pause": true,
-        "allowExplore": true,
-        "allowZoom": true,
-        "allowProbe": true,
         "showClock": false,
         "showScrubber": false,
         "showDoppler": false,
         "allowPlay": false
-      },
-      "callouts": [
-        {
-          "type": "info",
-          "text": "Click inside the outlook area, then press Details to read the SPC outlook text.",
-          "position": "bottom"
-        }
-      ],
-      "media": {
-        "image": "media/1S_Astoria_530pm_KyleConers_AstoriaFireDept_PTU.jpg",
-        "video": null,
-        "credit": "Kyle Coners / Astoria Fire Department"
-      },
-      "order": 1
-    },
-    {
-      "id": "step-03",
-      "utc": "2022-05-12T20:00:00Z",
-      "label": "3:00 PM \u2014 Live Doppler",
-      "title": "Live Doppler: Storms Begin To Show Up",
-      "narrative": [
-        "It is now about 3:00 PM, and radar is becoming the main tool to watch storms develop.",
-        "This is where students can shift from forecast thinking to real-time tracking.",
-        "Use the Live Doppler button to turn on the pulsing sweep, or loop the radar to watch early storm organization."
-      ],
-      "question": [
-        "Where are the first stronger storms beginning to appear?",
-        "Do you notice individual cells, or signs that storms may start organizing?",
-        "What would make you watch this radar picture more carefully over the next hour?"
-      ],
-      "scene": {
-        "product": "live_doppler",
-        "layers": [
-          "radar"
-        ],
-        "lat": 43.55,
-        "lon": -96.73,
-        "zoom": 7,
-        "transition": "fade"
-      },
-      "ui": {
-        "showLegend": true,
-        "highlightProduct": "Live Doppler",
-        "stepTheme": "cyan",
-        "stepKicker": "Radar Tracking",
-        "stepLabel": "2"
-      },
-      "interaction": {
-        "pause": true,
-        "allowPlay": true,
-        "allowExplore": true,
-        "allowZoom": true,
-        "allowProbe": true,
-        "showClock": true,
-        "showScrubber": true,
-        "showDoppler": true
-      },
-      "callouts": [
-        {
-          "type": "info",
-          "text": "Turn on Live Doppler, then use the scrubber or loop controls to move back and forth through the radar.",
-          "position": "bottom"
-        }
-      ],
-      "media": {
-        "image": null,
-        "video": null
-      },
-      "order": 2,
-      "radarWindow": {
-        "start": "2022-05-12T19:45:00Z",
-        "end": "2022-05-12T20:30:00Z"
       }
     },
+
     {
-      "id": "step-02",
-      "utc": "2022-05-12T21:30:00Z",
-      "label": "4:30 PM \u2014 Updated SPC Forecast",
-      "title": "Forecast Concern Continues To Increase",
+      "id": 2,
+      "utc": "2022-05-12T19:00:00Z",
+      "title": "SPC Upgrade",
       "narrative": [
-        "By late afternoon, the severe weather forecast remains focused on our region.",
-        "Forecasters are now watching storms to the south and southwest while confidence remains high that severe weather will affect parts of eastern South Dakota and nearby areas.",
-        "The official outlook emphasizes a threat of damaging wind gusts near 75 mph, large hail, and a few tornadoes across parts of the eastern Dakotas and nearby states."
-      ],
-      "question": [
-        "What part of the forecast area is most important to watch now?",
-        "How does this updated forecast connect to the storms developing to our south?"
+        "The Storm Prediction Center has issued a Moderate Risk for severe weather.",
+        "Conditions are favorable for widespread damaging winds.",
+        "A long-lived, organized storm system is becoming more likely."
       ],
       "scene": {
-        "product": "spc_day1_1630",
-        "layers": [
-          "spc_outlook"
-        ],
-        "lat": 43.2,
-        "lon": -96.4,
-        "zoom": 6,
-        "transition": "fade",
-        "detailsFile": "spc/day1_12z_text.json"
-      },
-      "ui": {
-        "showLegend": true,
-        "highlightProduct": "SPC Forecast Update",
-        "stepTheme": "orange",
-        "stepKicker": "Forecast Update",
-        "stepLabel": "3"
+        "product": "spc",
+        "layers": ["spc_day1"]
       },
       "interaction": {
-        "pause": true,
-        "allowExplore": true,
-        "allowZoom": true,
-        "allowProbe": true,
         "showClock": false,
         "showScrubber": false,
         "showDoppler": false,
         "allowPlay": false
-      },
-      "callouts": [
-        {
-          "type": "info",
-          "text": "Use this step to compare the forecast concern with the developing storms nearby.",
-          "position": "bottom"
-        }
+      }
+    },
+
+    {
+      "id": 3,
+      "utc": "2022-05-12T20:00:00Z",
+      "title": "Storms Begin to Develop",
+      "narrative": [
+        "Early storms are beginning to form along a boundary to the west.",
+        "Initial development is scattered, but the environment supports rapid growth.",
+        "Watch closely as storms begin organizing."
       ],
-      "media": {
-        "image": null,
-        "video": null
+      "scene": {
+        "product": "radar",
+        "layers": ["radar_reflectivity"]
       },
-      "order": 3
+      "interaction": {
+        "showClock": true,
+        "showScrubber": false,
+        "showDoppler": false,
+        "allowPlay": false
+      }
+    },
+
+    {
+      "id": 4,
+      "utc": "2022-05-12T21:00:00Z",
+      "title": "Rapid Intensification",
+      "narrative": [
+        "Storms are quickly intensifying and beginning to merge.",
+        "A line is forming, which is a key signal for damaging wind potential.",
+        "You can now control time to explore storm evolution."
+      ],
+      "scene": {
+        "product": "radar",
+        "layers": ["radar_reflectivity"]
+      },
+      "interaction": {
+        "showClock": true,
+        "showScrubber": true,
+        "showDoppler": false,
+        "allowPlay": true
+      }
+    },
+
+    {
+      "id": 5,
+      "utc": "2022-05-12T21:30:00Z",
+      "title": "Warnings Issued",
+      "narrative": [
+        "Severe thunderstorm warnings are being issued as storms strengthen.",
+        "Damaging winds in excess of 70 mph are possible.",
+        "Warnings help alert communities to take action."
+      ],
+      "scene": {
+        "product": "radar",
+        "layers": ["radar_reflectivity", "warnings"]
+      },
+      "interaction": {
+        "showClock": true,
+        "showScrubber": true,
+        "showDoppler": false,
+        "allowPlay": true
+      }
+    },
+
+    {
+      "id": 6,
+      "utc": "2022-05-12T22:00:00Z",
+      "title": "Live Doppler View",
+      "narrative": [
+        "This is a simulated live Doppler radar sweep.",
+        "Notice how the radar scans the storm structure in real time.",
+        "This helps meteorologists identify areas of strongest winds."
+      ],
+      "scene": {
+        "product": "radar",
+        "layers": ["radar_reflectivity"]
+      },
+      "interaction": {
+        "showClock": true,
+        "showScrubber": true,
+        "showDoppler": true,
+        "allowPlay": true
+      }
+    },
+
+    {
+      "id": 7,
+      "utc": "2022-05-12T22:30:00Z",
+      "title": "Damage Reports Increase",
+      "narrative": [
+        "Storm reports are now coming in from across the region.",
+        "Widespread wind damage is being observed.",
+        "These reports confirm the strength of the system."
+      ],
+      "scene": {
+        "product": "radar",
+        "layers": ["radar_reflectivity", "reports"]
+      },
+      "interaction": {
+        "showClock": true,
+        "showScrubber": true,
+        "showDoppler": true,
+        "allowPlay": true
+      }
+    },
+
+    {
+      "id": 8,
+      "utc": "2022-05-12T23:00:00Z",
+      "title": "Aftermath",
+      "narrative": [
+        "The storm system continues east, leaving damage behind.",
+        "This type of event is known as a derecho.",
+        "Understanding these systems helps improve future warnings."
+      ],
+      "scene": {
+        "product": "reports",
+        "layers": ["reports"]
+      },
+      "interaction": {
+        "showClock": false,
+        "showScrubber": false,
+        "showDoppler": false,
+        "allowPlay": false
+      }
     }
+
   ]
 }
