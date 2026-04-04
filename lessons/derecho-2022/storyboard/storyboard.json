@@ -39,7 +39,11 @@
         "pause": true,
         "allowExplore": true,
         "allowZoom": true,
-        "allowProbe": true
+        "allowProbe": true,
+        "showClock": false,
+        "showScrubber": false,
+        "showDoppler": false,
+        "allowPlay": false
       },
       "callouts": [
         {
@@ -150,7 +154,11 @@
         "pause": true,
         "allowExplore": true,
         "allowZoom": true,
-        "allowProbe": true
+        "allowProbe": true,
+        "showClock": false,
+        "showScrubber": false,
+        "showDoppler": false,
+        "allowPlay": false
       },
       "callouts": [
         {
