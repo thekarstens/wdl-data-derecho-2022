@@ -1,20 +1,20 @@
 {
-  "storyboardTitle": "May 12, 2022 Derecho — Guided Simulation",
-
+  "storyboardTitle": "May 12, 2022 Derecho \u2014 Guided Simulation",
   "steps": [
-
     {
       "id": 1,
       "utc": "2022-05-12T18:00:00Z",
       "title": "Atmosphere Primed",
       "narrative": [
         "Warm, moist air is surging northward across the Plains.",
-        "Dew points in the 60s and 70s are creating an unstable environment.",
-        "Strong winds are already present just above the surface."
+        "Surface observations show increasing humidity and strengthening winds.",
+        "This unstable environment is setting the stage for severe storms."
       ],
       "scene": {
-        "product": "surface",
-        "layers": ["metar_dewpoint", "metar_wind"]
+        "product": "metars",
+        "layers": [
+          "metars"
+        ]
       },
       "interaction": {
         "showClock": false,
@@ -23,19 +23,19 @@
         "allowPlay": false
       }
     },
-
     {
       "id": 2,
       "utc": "2022-05-12T19:00:00Z",
       "title": "SPC Upgrade",
       "narrative": [
-        "The Storm Prediction Center has issued a Moderate Risk for severe weather.",
-        "Conditions are favorable for widespread damaging winds.",
-        "A long-lived, organized storm system is becoming more likely."
+        "The Storm Prediction Center highlights the region for organized severe weather.",
+        "Forecasters are increasingly concerned about widespread damaging winds."
       ],
       "scene": {
         "product": "spc",
-        "layers": ["spc_day1"]
+        "layers": [
+          "spc_outlook"
+        ]
       },
       "interaction": {
         "showClock": false,
@@ -44,19 +44,19 @@
         "allowPlay": false
       }
     },
-
     {
       "id": 3,
       "utc": "2022-05-12T20:00:00Z",
-      "title": "Storms Begin to Develop",
+      "title": "Forecast Temperatures",
       "narrative": [
-        "Early storms are beginning to form along a boundary to the west.",
-        "Initial development is scattered, but the environment supports rapid growth.",
-        "Watch closely as storms begin organizing."
+        "Model data helps show where the warm sector is strongest.",
+        "Compare forecast temperatures to the surface environment."
       ],
       "scene": {
-        "product": "radar",
-        "layers": ["radar_reflectivity"]
+        "product": "hrrr_temp",
+        "layers": [
+          "hrrr_temp"
+        ]
       },
       "interaction": {
         "showClock": true,
@@ -65,19 +65,40 @@
         "allowPlay": false
       }
     },
-
     {
       "id": 4,
-      "utc": "2022-05-12T21:00:00Z",
-      "title": "Rapid Intensification",
+      "utc": "2022-05-12T20:30:00Z",
+      "title": "Wind Energy Builds",
       "narrative": [
-        "Storms are quickly intensifying and beginning to merge.",
-        "A line is forming, which is a key signal for damaging wind potential.",
-        "You can now control time to explore storm evolution."
+        "Forecast wind fields show strong flow feeding the developing system.",
+        "These winds help storms organize into a longer-lived structure."
+      ],
+      "scene": {
+        "product": "hrrr_winds",
+        "layers": [
+          "hrrr_winds"
+        ]
+      },
+      "interaction": {
+        "showClock": true,
+        "showScrubber": false,
+        "showDoppler": false,
+        "allowPlay": false
+      }
+    },
+    {
+      "id": 5,
+      "utc": "2022-05-12T21:00:00Z",
+      "title": "Storms Begin to Develop",
+      "narrative": [
+        "Initial storms begin to organize into a more connected line.",
+        "Radar is now the best tool for tracking rapid evolution."
       ],
       "scene": {
         "product": "radar",
-        "layers": ["radar_reflectivity"]
+        "layers": [
+          "radar"
+        ]
       },
       "interaction": {
         "showClock": true,
@@ -86,19 +107,20 @@
         "allowPlay": true
       }
     },
-
     {
-      "id": 5,
+      "id": 6,
       "utc": "2022-05-12T21:30:00Z",
       "title": "Warnings Issued",
       "narrative": [
-        "Severe thunderstorm warnings are being issued as storms strengthen.",
-        "Damaging winds in excess of 70 mph are possible.",
-        "Warnings help alert communities to take action."
+        "Severe thunderstorm warnings are issued as storms intensify.",
+        "This is when a simulated real-time warning display becomes especially important."
       ],
       "scene": {
         "product": "radar",
-        "layers": ["radar_reflectivity", "warnings"]
+        "layers": [
+          "radar",
+          "warnings"
+        ]
       },
       "interaction": {
         "showClock": true,
@@ -107,19 +129,20 @@
         "allowPlay": true
       }
     },
-
     {
-      "id": 6,
+      "id": 7,
       "utc": "2022-05-12T22:00:00Z",
       "title": "Live Doppler View",
       "narrative": [
-        "This is a simulated live Doppler radar sweep.",
-        "Notice how the radar scans the storm structure in real time.",
-        "This helps meteorologists identify areas of strongest winds."
+        "A live Doppler-style sweep helps students see how the radar scans the storm.",
+        "This is a signature teaching moment in the simulation."
       ],
       "scene": {
         "product": "radar",
-        "layers": ["radar_reflectivity"]
+        "layers": [
+          "radar",
+          "live_doppler"
+        ]
       },
       "interaction": {
         "showClock": true,
@@ -128,40 +151,61 @@
         "allowPlay": true
       }
     },
-
     {
-      "id": 7,
+      "id": 8,
       "utc": "2022-05-12T22:30:00Z",
       "title": "Damage Reports Increase",
       "narrative": [
-        "Storm reports are now coming in from across the region.",
-        "Widespread wind damage is being observed.",
-        "These reports confirm the strength of the system."
+        "Storm reports begin to confirm the extent of damaging winds.",
+        "These reports help verify what radar and warnings suggest."
       ],
       "scene": {
-        "product": "radar",
-        "layers": ["radar_reflectivity", "reports"]
+        "product": "reports",
+        "layers": [
+          "reports"
+        ]
       },
       "interaction": {
         "showClock": true,
         "showScrubber": true,
-        "showDoppler": true,
+        "showDoppler": false,
         "allowPlay": true
       }
     },
-
     {
-      "id": 8,
+      "id": 9,
+      "utc": "2022-05-12T22:45:00Z",
+      "title": "Lightning Peaks",
+      "narrative": [
+        "If lightning data is present in the lesson folder, this step will display it.",
+        "This is optional but adds a strong real-time feel to the simulation."
+      ],
+      "scene": {
+        "product": "lightning",
+        "layers": [
+          "lightning"
+        ]
+      },
+      "interaction": {
+        "showClock": true,
+        "showScrubber": true,
+        "showDoppler": false,
+        "allowPlay": true
+      }
+    },
+    {
+      "id": 10,
       "utc": "2022-05-12T23:00:00Z",
       "title": "Aftermath",
       "narrative": [
-        "The storm system continues east, leaving damage behind.",
-        "This type of event is known as a derecho.",
-        "Understanding these systems helps improve future warnings."
+        "The storm system continues eastward, leaving damage behind.",
+        "This sequence sets up the recap section and future damage-photo steps."
       ],
       "scene": {
         "product": "reports",
-        "layers": ["reports"]
+        "layers": [
+          "reports"
+        ]
       },
       "interaction": {
         "showClock": false,
@@ -170,6 +214,5 @@
         "allowPlay": false
       }
     }
-
   ]
 }
