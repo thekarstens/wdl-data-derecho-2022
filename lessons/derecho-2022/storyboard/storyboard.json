@@ -7,8 +7,8 @@
       "title": "Atmosphere Primed",
       "narrative": [
         "Warm, moist air is surging northward across the Plains.",
-        "This opening step uses the METAR temperature bubbles and keeps the bottom scrubber synced to the METAR timeline.",
-        "You can switch to dew point, wind, or pressure using the METAR controls."
+        "This step uses TV-style temperature markers and keeps the bottom scrubber synced to the METAR timeline.",
+        "Use the METAR controls to switch between temperature, dew point, wind, and pressure."
       ],
       "scene": {
         "product": "metars",
@@ -18,7 +18,7 @@
         ]
       },
       "interaction": {
-        "showClock": false,
+        "showClock": true,
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": false
@@ -29,8 +29,8 @@
       "utc": "2022-05-12T18:30:00Z",
       "title": "Moisture Returns",
       "narrative": [
-        "Switching to dew point helps show the deeper moisture pooling into the region.",
-        "This is useful for explaining why storms later become so intense."
+        "This view switches the METAR markers to dew point so moisture return is easier to explain.",
+        "The clock and scrubber stay visible here too."
       ],
       "scene": {
         "product": "metars",
@@ -40,7 +40,7 @@
         ]
       },
       "interaction": {
-        "showClock": false,
+        "showClock": true,
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": false
@@ -72,8 +72,8 @@
       "utc": "2022-05-12T20:00:00Z",
       "title": "Forecast Temperatures",
       "narrative": [
-        "Model temperatures help define the warm sector.",
-        "This step now uses the HRRR frame list for scrubbing instead of the lesson minute-by-minute timeline."
+        "Future temperatures should scrub by HRRR frames, matching the way future winds behaves.",
+        "State boundaries and county lines remain on for context."
       ],
       "scene": {
         "product": "hrrr_temp",
@@ -94,7 +94,7 @@
       "title": "Instability Builds",
       "narrative": [
         "If a CAPE manifest is present, this step will show it.",
-        "If no CAPE data has been added yet, this step can be skipped without breaking the demo."
+        "If not, this step can be skipped without breaking the demo."
       ],
       "scene": {
         "product": "cape",
@@ -115,7 +115,7 @@
       "title": "Wind Energy Builds",
       "narrative": [
         "Forecast wind fields show strong flow feeding the developing system.",
-        "These winds help storms organize into a longer-lived structure."
+        "This step remains on the HRRR frame scrubber path."
       ],
       "scene": {
         "product": "hrrr_winds",
@@ -156,8 +156,7 @@
       "utc": "2022-05-12T21:30:00Z",
       "title": "Warnings Issued",
       "narrative": [
-        "Severe thunderstorm warnings are issued as storms intensify.",
-        "This is when a simulated real-time warning display becomes especially important."
+        "Severe thunderstorm warnings are issued as storms intensify."
       ],
       "scene": {
         "product": "radar",
@@ -178,8 +177,7 @@
       "utc": "2022-05-12T22:00:00Z",
       "title": "Live Doppler View",
       "narrative": [
-        "A live Doppler-style sweep helps students see how the radar scans the storm.",
-        "This is a signature teaching moment in the simulation."
+        "A live Doppler-style sweep helps students see how the radar scans the storm."
       ],
       "scene": {
         "product": "radar",
@@ -200,8 +198,7 @@
       "utc": "2022-05-12T22:30:00Z",
       "title": "Damage Reports Increase",
       "narrative": [
-        "Storm reports begin to confirm the extent of damaging winds.",
-        "These reports are already color-coded by type in the engine."
+        "Storm reports begin to confirm the extent of damaging winds."
       ],
       "scene": {
         "product": "reports",
@@ -221,8 +218,7 @@
       "utc": "2022-05-12T22:45:00Z",
       "title": "Lightning Peaks",
       "narrative": [
-        "If lightning data is present in the lesson folder, this step will display it.",
-        "This is optional but adds a strong real-time feel to the simulation."
+        "If lightning data is present in the lesson folder, this step will display it."
       ],
       "scene": {
         "product": "lightning",
@@ -242,8 +238,7 @@
       "utc": "2022-05-12T23:00:00Z",
       "title": "Aftermath",
       "narrative": [
-        "The storm system continues eastward, leaving damage behind.",
-        "This sequence sets up the recap section and future damage-photo steps."
+        "The storm system continues eastward, leaving damage behind."
       ],
       "scene": {
         "product": "reports",
