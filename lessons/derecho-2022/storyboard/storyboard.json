@@ -8,17 +8,18 @@
       "narrative": [
         "Warm, moist air is surging northward across the Plains.",
         "Surface observations show increasing humidity and strengthening winds.",
-        "This unstable environment is setting the stage for severe storms."
+        "Use the scrubber to compare how the environment changes over time."
       ],
       "scene": {
         "product": "metars",
         "layers": [
-          "metars"
+          "metars",
+          "metar_temp"
         ]
       },
       "interaction": {
         "showClock": false,
-        "showScrubber": false,
+        "showScrubber": true,
         "showDoppler": false,
         "allowPlay": false
       }
@@ -50,7 +51,7 @@
       "title": "Forecast Temperatures",
       "narrative": [
         "Model data helps show where the warm sector is strongest.",
-        "Compare forecast temperatures to the surface environment."
+        "State boundaries and county lines stay on here for geographic context."
       ],
       "scene": {
         "product": "hrrr_temp",
@@ -60,7 +61,7 @@
       },
       "interaction": {
         "showClock": true,
-        "showScrubber": false,
+        "showScrubber": true,
         "showDoppler": false,
         "allowPlay": false
       }
@@ -81,7 +82,7 @@
       },
       "interaction": {
         "showClock": true,
-        "showScrubber": false,
+        "showScrubber": true,
         "showDoppler": false,
         "allowPlay": false
       }
