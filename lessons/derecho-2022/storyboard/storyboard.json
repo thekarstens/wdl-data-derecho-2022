@@ -7,8 +7,8 @@
       "title": "Atmosphere Primed",
       "narrative": [
         "Warm, moist air is surging northward across the Plains.",
-        "Surface observations show increasing humidity and strengthening winds.",
-        "Use the scrubber to compare how the environment changes over time."
+        "This opening step uses the METAR temperature bubbles and keeps the bottom scrubber synced to the METAR timeline.",
+        "You can switch to dew point, wind, or pressure using the METAR controls."
       ],
       "scene": {
         "product": "metars",
@@ -26,6 +26,28 @@
     },
     {
       "id": 2,
+      "utc": "2022-05-12T18:30:00Z",
+      "title": "Moisture Returns",
+      "narrative": [
+        "Switching to dew point helps show the deeper moisture pooling into the region.",
+        "This is useful for explaining why storms later become so intense."
+      ],
+      "scene": {
+        "product": "metars",
+        "layers": [
+          "metars",
+          "metar_dewpoint"
+        ]
+      },
+      "interaction": {
+        "showClock": false,
+        "showScrubber": true,
+        "showDoppler": false,
+        "allowPlay": false
+      }
+    },
+    {
+      "id": 3,
       "utc": "2022-05-12T19:00:00Z",
       "title": "SPC Upgrade",
       "narrative": [
@@ -46,12 +68,12 @@
       }
     },
     {
-      "id": 3,
+      "id": 4,
       "utc": "2022-05-12T20:00:00Z",
       "title": "Forecast Temperatures",
       "narrative": [
-        "Model data helps show where the warm sector is strongest.",
-        "State boundaries and county lines stay on here for geographic context."
+        "Model temperatures help define the warm sector.",
+        "This step now uses the HRRR frame list for scrubbing instead of the lesson minute-by-minute timeline."
       ],
       "scene": {
         "product": "hrrr_temp",
@@ -67,7 +89,28 @@
       }
     },
     {
-      "id": 4,
+      "id": 5,
+      "utc": "2022-05-12T20:15:00Z",
+      "title": "Instability Builds",
+      "narrative": [
+        "If a CAPE manifest is present, this step will show it.",
+        "If no CAPE data has been added yet, this step can be skipped without breaking the demo."
+      ],
+      "scene": {
+        "product": "cape",
+        "layers": [
+          "hrrr_cape"
+        ]
+      },
+      "interaction": {
+        "showClock": true,
+        "showScrubber": true,
+        "showDoppler": false,
+        "allowPlay": false
+      }
+    },
+    {
+      "id": 6,
       "utc": "2022-05-12T20:30:00Z",
       "title": "Wind Energy Builds",
       "narrative": [
@@ -88,7 +131,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 7,
       "utc": "2022-05-12T21:00:00Z",
       "title": "Storms Begin to Develop",
       "narrative": [
@@ -109,7 +152,7 @@
       }
     },
     {
-      "id": 6,
+      "id": 8,
       "utc": "2022-05-12T21:30:00Z",
       "title": "Warnings Issued",
       "narrative": [
@@ -131,7 +174,7 @@
       }
     },
     {
-      "id": 7,
+      "id": 9,
       "utc": "2022-05-12T22:00:00Z",
       "title": "Live Doppler View",
       "narrative": [
@@ -153,12 +196,12 @@
       }
     },
     {
-      "id": 8,
+      "id": 10,
       "utc": "2022-05-12T22:30:00Z",
       "title": "Damage Reports Increase",
       "narrative": [
         "Storm reports begin to confirm the extent of damaging winds.",
-        "These reports help verify what radar and warnings suggest."
+        "These reports are already color-coded by type in the engine."
       ],
       "scene": {
         "product": "reports",
@@ -174,7 +217,7 @@
       }
     },
     {
-      "id": 9,
+      "id": 11,
       "utc": "2022-05-12T22:45:00Z",
       "title": "Lightning Peaks",
       "narrative": [
@@ -195,7 +238,7 @@
       }
     },
     {
-      "id": 10,
+      "id": 12,
       "utc": "2022-05-12T23:00:00Z",
       "title": "Aftermath",
       "narrative": [
