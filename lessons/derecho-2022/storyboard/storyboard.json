@@ -215,8 +215,7 @@
         "B": {
           "title": "Forecast Temperatures",
           "narrative": [
-            "Model temperatures help define the warm sector.",
-            "Warmer air near the surface can support stronger instability when moisture is also present."
+            "Explain what is happening."
           ],
           "videoTitle": "Weather 101 \u2014 Explain",
           "videoNote": "Use this level to connect the image to a science concept."
@@ -224,8 +223,7 @@
         "C": {
           "title": "Forecast Temperatures",
           "narrative": [
-            "Temperature gradients can also hint at boundaries and where storms may evolve differently.",
-            "This is useful when comparing forecast fields to radar later."
+            "Analyze the science."
           ],
           "videoTitle": "Weather 101 \u2014 Analyze",
           "videoNote": "Best for older students or groups ready for more meteorology."
@@ -233,8 +231,7 @@
         "D": {
           "title": "Forecast Temperatures",
           "narrative": [
-            "Where is the warm sector strongest?",
-            "How would you pair this panel with dew point or CAPE for teaching?"
+            "Apply and forecast."
           ],
           "videoTitle": "Forecast / Apply",
           "videoNote": "Use this level for forecasting questions, decision-making, or recap."
@@ -274,8 +271,7 @@
         "B": {
           "title": "Instability Builds",
           "narrative": [
-            "CAPE is one way to estimate the energy available for rising air.",
-            "Higher CAPE can support taller, stronger storms."
+            "Explain what is happening."
           ],
           "videoTitle": "Weather 101 \u2014 Explain",
           "videoNote": "Use this level to connect the image to a science concept."
@@ -283,8 +279,7 @@
         "C": {
           "title": "Instability Builds",
           "narrative": [
-            "CAPE works best when interpreted with wind shear, moisture, and lift.",
-            "Large CAPE alone does not guarantee a derecho, but it can support explosive storm growth."
+            "Analyze the science."
           ],
           "videoTitle": "Weather 101 \u2014 Analyze",
           "videoNote": "Best for older students or groups ready for more meteorology."
@@ -292,8 +287,7 @@
         "D": {
           "title": "Instability Builds",
           "narrative": [
-            "Would CAPE alone make you sound the alarm?",
-            "What other ingredients would you want to compare before making a forecast call?"
+            "Apply and forecast."
           ],
           "videoTitle": "Forecast / Apply",
           "videoNote": "Use this level for forecasting questions, decision-making, or recap."
@@ -333,8 +327,7 @@
         "B": {
           "title": "Wind Energy Builds",
           "narrative": [
-            "Forecast wind fields show stronger flow helping storms organize.",
-            "That stronger flow can increase the damaging wind threat."
+            "Explain what is happening."
           ],
           "videoTitle": "Weather 101 \u2014 Explain",
           "videoNote": "Use this level to connect the image to a science concept."
@@ -342,8 +335,7 @@
         "C": {
           "title": "Wind Energy Builds",
           "narrative": [
-            "This step links environmental wind structure to storm-scale organization.",
-            "Forecasters compare this with instability and radar to judge whether storms may grow upscale."
+            "Analyze the science."
           ],
           "videoTitle": "Weather 101 \u2014 Analyze",
           "videoNote": "Best for older students or groups ready for more meteorology."
@@ -351,8 +343,7 @@
         "D": {
           "title": "Wind Energy Builds",
           "narrative": [
-            "How would stronger winds aloft change your confidence in a wind event?",
-            "Which towns should be watching this trend closely?"
+            "Apply and forecast."
           ],
           "videoTitle": "Forecast / Apply",
           "videoNote": "Use this level for forecasting questions, decision-making, or recap."
@@ -392,8 +383,7 @@
         "B": {
           "title": "Storms Begin to Develop",
           "narrative": [
-            "Individual storms are beginning to connect into a line.",
-            "That often increases the overall damaging wind threat."
+            "Explain what is happening."
           ],
           "videoTitle": "Weather 101 \u2014 Explain",
           "videoNote": "Use this level to connect the image to a science concept."
@@ -401,8 +391,7 @@
         "C": {
           "title": "Storms Begin to Develop",
           "narrative": [
-            "This is where the storm evolution begins to match the larger environmental setup.",
-            "A more continuous line can be an early clue toward derecho development."
+            "Analyze the science."
           ],
           "videoTitle": "Weather 101 \u2014 Analyze",
           "videoNote": "Best for older students or groups ready for more meteorology."
@@ -410,8 +399,7 @@
         "D": {
           "title": "Storms Begin to Develop",
           "narrative": [
-            "What do you notice first on radar?",
-            "If you were briefing this step, what change would you emphasize?"
+            "Apply and forecast."
           ],
           "videoTitle": "Forecast / Apply",
           "videoNote": "Use this level for forecasting questions, decision-making, or recap."
@@ -450,8 +438,7 @@
         "B": {
           "title": "Warnings Issued",
           "narrative": [
-            "Warnings are issued when storms are becoming dangerous or already severe.",
-            "This links radar interpretation to public safety decisions."
+            "Explain what is happening."
           ],
           "videoTitle": "Weather 101 \u2014 Explain",
           "videoNote": "Use this level to connect the image to a science concept."
@@ -459,8 +446,7 @@
         "C": {
           "title": "Warnings Issued",
           "narrative": [
-            "Students can compare warning placement with the strongest parts of the storm line.",
-            "This is a good moment to discuss lead time and communication."
+            "Analyze the science."
           ],
           "videoTitle": "Weather 101 \u2014 Analyze",
           "videoNote": "Best for older students or groups ready for more meteorology."
@@ -468,8 +454,7 @@
         "D": {
           "title": "Warnings Issued",
           "narrative": [
-            "Why do you think forecasters warned these areas first?",
-            "What message would you send to people in the warning path?"
+            "Apply and forecast."
           ],
           "videoTitle": "Forecast / Apply",
           "videoNote": "Use this level for forecasting questions, decision-making, or recap."
@@ -508,8 +493,7 @@
         "B": {
           "title": "Live Doppler View",
           "narrative": [
-            "The spinning sweep helps show how radar samples storms over time.",
-            "It makes the radar feel more real-time and easier to teach."
+            "Explain what is happening."
           ],
           "videoTitle": "Weather 101 \u2014 Explain",
           "videoNote": "Use this level to connect the image to a science concept."
@@ -517,8 +501,7 @@
         "C": {
           "title": "Live Doppler View",
           "narrative": [
-            "Radar does not see the whole storm at once. It updates as the sweep completes a scan.",
-            "That matters when storms are changing quickly."
+            "Analyze the science."
           ],
           "videoTitle": "Weather 101 \u2014 Analyze",
           "videoNote": "Best for older students or groups ready for more meteorology."
@@ -526,8 +509,7 @@
         "D": {
           "title": "Live Doppler View",
           "narrative": [
-            "What is one advantage of seeing radar this way?",
-            "How could this help students understand radar better than a static image?"
+            "Apply and forecast."
           ],
           "videoTitle": "Forecast / Apply",
           "videoNote": "Use this level for forecasting questions, decision-making, or recap."
@@ -565,8 +547,7 @@
         "B": {
           "title": "Damage Reports Increase",
           "narrative": [
-            "Reports confirm what happened on the ground.",
-            "They help compare radar and warnings with real impacts."
+            "Explain what is happening."
           ],
           "videoTitle": "Weather 101 \u2014 Explain",
           "videoNote": "Use this level to connect the image to a science concept."
@@ -574,8 +555,7 @@
         "C": {
           "title": "Damage Reports Increase",
           "narrative": [
-            "This is where verification becomes important.",
-            "Forecasters compare report type, time, and location with earlier warning decisions."
+            "Analyze the science."
           ],
           "videoTitle": "Weather 101 \u2014 Analyze",
           "videoNote": "Best for older students or groups ready for more meteorology."
@@ -583,8 +563,7 @@
         "D": {
           "title": "Damage Reports Increase",
           "narrative": [
-            "Which report type is showing up most often?",
-            "How well do the reports match the radar story?"
+            "Apply and forecast."
           ],
           "videoTitle": "Forecast / Apply",
           "videoNote": "Use this level for forecasting questions, decision-making, or recap."
@@ -622,8 +601,7 @@
         "B": {
           "title": "Lightning Peaks",
           "narrative": [
-            "Lightning can highlight the most electrically active parts of the storm system.",
-            "It adds another clue about storm intensity."
+            "Explain what is happening."
           ],
           "videoTitle": "Weather 101 \u2014 Explain",
           "videoNote": "Use this level to connect the image to a science concept."
@@ -631,8 +609,7 @@
         "C": {
           "title": "Lightning Peaks",
           "narrative": [
-            "Lightning trends can change as storm mode evolves.",
-            "This gives another layer of evidence beyond radar alone."
+            "Analyze the science."
           ],
           "videoTitle": "Weather 101 \u2014 Analyze",
           "videoNote": "Best for older students or groups ready for more meteorology."
@@ -640,8 +617,7 @@
         "D": {
           "title": "Lightning Peaks",
           "narrative": [
-            "Would a lightning increase change your concern level?",
-            "How could this support classroom discussion?"
+            "Apply and forecast."
           ],
           "videoTitle": "Forecast / Apply",
           "videoNote": "Use this level for forecasting questions, decision-making, or recap."
