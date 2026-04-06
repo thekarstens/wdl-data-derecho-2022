@@ -30,25 +30,36 @@
             "Warm, moist air is surging northward across the Plains.",
             "This step uses TV-style temperature markers and keeps the bottom scrubber synced to the METAR timeline.",
             "Use the METAR controls to switch between temperature, dew point, wind, and pressure."
-          ]
+          ],
+          "videoTitle": "Start Here",
+          "videoNote": "Everyone begins with Observe before going deeper."
         },
         "B": {
           "title": "Atmosphere Primed",
           "narrative": [
-            "Explain what is happening."
-          ]
+            "Warm and humid air is moving northward into the region.",
+            "That moisture helps prepare the atmosphere for stronger storms later in the day."
+          ],
+          "videoTitle": "Weather 101 \u2014 Explain",
+          "videoNote": "Use this level to connect the image to a science concept."
         },
         "C": {
           "title": "Atmosphere Primed",
           "narrative": [
-            "Analyze the science."
-          ]
+            "Meteorologists compare temperature, dew point, and wind together to judge how supportive the atmosphere is.",
+            "This is one of the first clues that the severe threat could increase later in the day."
+          ],
+          "videoTitle": "Weather 101 \u2014 Analyze",
+          "videoNote": "Best for older students or groups ready for more meteorology."
         },
         "D": {
           "title": "Atmosphere Primed",
           "narrative": [
-            "Apply and forecast."
-          ]
+            "Where do you see the best overlap of warmth and moisture?",
+            "Which map product would you compare next to build confidence in the forecast?"
+          ],
+          "videoTitle": "Forecast / Apply",
+          "videoNote": "Use this level for forecasting questions, decision-making, or recap."
         }
       }
     },
@@ -79,25 +90,36 @@
           "narrative": [
             "This view switches the METAR markers to dew point so moisture return is easier to explain.",
             "The clock and scrubber stay visible here too."
-          ]
+          ],
+          "videoTitle": "Start Here",
+          "videoNote": "Everyone begins with Observe before going deeper."
         },
         "B": {
           "title": "Moisture Returns",
           "narrative": [
-            "Explain what is happening."
-          ]
+            "Dew point helps show where richer low-level moisture is pooling.",
+            "Higher dew points often mark air that can help fuel stronger storms."
+          ],
+          "videoTitle": "Weather 101 \u2014 Explain",
+          "videoNote": "Use this level to connect the image to a science concept."
         },
         "C": {
           "title": "Moisture Returns",
           "narrative": [
-            "Analyze the science."
-          ]
+            "A broader area of higher dew points usually means the atmosphere is becoming more supportive of instability.",
+            "This step helps students connect moisture to later storm intensity."
+          ],
+          "videoTitle": "Weather 101 \u2014 Analyze",
+          "videoNote": "Best for older students or groups ready for more meteorology."
         },
         "D": {
           "title": "Moisture Returns",
           "narrative": [
-            "Apply and forecast."
-          ]
+            "Where would you expect the storm threat to increase first based on moisture?",
+            "How would you explain dew point to a younger class?"
+          ],
+          "videoTitle": "Forecast / Apply",
+          "videoNote": "Use this level for forecasting questions, decision-making, or recap."
         }
       }
     },
@@ -127,25 +149,36 @@
           "narrative": [
             "The Storm Prediction Center highlights the region for organized severe weather.",
             "Forecasters are increasingly concerned about widespread damaging winds."
-          ]
+          ],
+          "videoTitle": "Start Here",
+          "videoNote": "Everyone begins with Observe before going deeper."
         },
         "B": {
           "title": "SPC Upgrade",
           "narrative": [
-            "Explain what is happening."
-          ]
+            "The SPC outlook highlights where forecasters think severe storms are most likely.",
+            "A stronger category means confidence is increasing."
+          ],
+          "videoTitle": "Weather 101 \u2014 Explain",
+          "videoNote": "Use this level to connect the image to a science concept."
         },
         "C": {
           "title": "SPC Upgrade",
           "narrative": [
-            "Analyze the science."
-          ]
+            "This outlook combines many ingredients: moisture, instability, wind shear, and forcing.",
+            "It is a forecast summary of how the atmosphere is expected to behave."
+          ],
+          "videoTitle": "Weather 101 \u2014 Analyze",
+          "videoNote": "Best for older students or groups ready for more meteorology."
         },
         "D": {
           "title": "SPC Upgrade",
           "narrative": [
-            "Apply and forecast."
-          ]
+            "What would make you more concerned after seeing this outlook?",
+            "What would you compare next on the map to test the forecast idea?"
+          ],
+          "videoTitle": "Forecast / Apply",
+          "videoNote": "Use this level for forecasting questions, decision-making, or recap."
         }
       }
     },
@@ -175,25 +208,36 @@
           "narrative": [
             "Future temperatures should scrub by HRRR frames, matching the way future winds behaves.",
             "State boundaries and county lines remain on for context."
-          ]
+          ],
+          "videoTitle": "Start Here",
+          "videoNote": "Everyone begins with Observe before going deeper."
         },
         "B": {
           "title": "Forecast Temperatures",
           "narrative": [
-            "Explain what is happening."
-          ]
+            "Model temperatures help define the warm sector.",
+            "Warmer air near the surface can support stronger instability when moisture is also present."
+          ],
+          "videoTitle": "Weather 101 \u2014 Explain",
+          "videoNote": "Use this level to connect the image to a science concept."
         },
         "C": {
           "title": "Forecast Temperatures",
           "narrative": [
-            "Analyze the science."
-          ]
+            "Temperature gradients can also hint at boundaries and where storms may evolve differently.",
+            "This is useful when comparing forecast fields to radar later."
+          ],
+          "videoTitle": "Weather 101 \u2014 Analyze",
+          "videoNote": "Best for older students or groups ready for more meteorology."
         },
         "D": {
           "title": "Forecast Temperatures",
           "narrative": [
-            "Apply and forecast."
-          ]
+            "Where is the warm sector strongest?",
+            "How would you pair this panel with dew point or CAPE for teaching?"
+          ],
+          "videoTitle": "Forecast / Apply",
+          "videoNote": "Use this level for forecasting questions, decision-making, or recap."
         }
       }
     },
@@ -223,25 +267,36 @@
           "narrative": [
             "If a CAPE manifest is present, this step will show it.",
             "If not, this step can be skipped without breaking the demo."
-          ]
+          ],
+          "videoTitle": "Start Here",
+          "videoNote": "Everyone begins with Observe before going deeper."
         },
         "B": {
           "title": "Instability Builds",
           "narrative": [
-            "Explain what is happening."
-          ]
+            "CAPE is one way to estimate the energy available for rising air.",
+            "Higher CAPE can support taller, stronger storms."
+          ],
+          "videoTitle": "Weather 101 \u2014 Explain",
+          "videoNote": "Use this level to connect the image to a science concept."
         },
         "C": {
           "title": "Instability Builds",
           "narrative": [
-            "Analyze the science."
-          ]
+            "CAPE works best when interpreted with wind shear, moisture, and lift.",
+            "Large CAPE alone does not guarantee a derecho, but it can support explosive storm growth."
+          ],
+          "videoTitle": "Weather 101 \u2014 Analyze",
+          "videoNote": "Best for older students or groups ready for more meteorology."
         },
         "D": {
           "title": "Instability Builds",
           "narrative": [
-            "Apply and forecast."
-          ]
+            "Would CAPE alone make you sound the alarm?",
+            "What other ingredients would you want to compare before making a forecast call?"
+          ],
+          "videoTitle": "Forecast / Apply",
+          "videoNote": "Use this level for forecasting questions, decision-making, or recap."
         }
       }
     },
@@ -271,25 +326,36 @@
           "narrative": [
             "Forecast wind fields show strong flow feeding the developing system.",
             "This step remains on the HRRR frame scrubber path."
-          ]
+          ],
+          "videoTitle": "Start Here",
+          "videoNote": "Everyone begins with Observe before going deeper."
         },
         "B": {
           "title": "Wind Energy Builds",
           "narrative": [
-            "Explain what is happening."
-          ]
+            "Forecast wind fields show stronger flow helping storms organize.",
+            "That stronger flow can increase the damaging wind threat."
+          ],
+          "videoTitle": "Weather 101 \u2014 Explain",
+          "videoNote": "Use this level to connect the image to a science concept."
         },
         "C": {
           "title": "Wind Energy Builds",
           "narrative": [
-            "Analyze the science."
-          ]
+            "This step links environmental wind structure to storm-scale organization.",
+            "Forecasters compare this with instability and radar to judge whether storms may grow upscale."
+          ],
+          "videoTitle": "Weather 101 \u2014 Analyze",
+          "videoNote": "Best for older students or groups ready for more meteorology."
         },
         "D": {
           "title": "Wind Energy Builds",
           "narrative": [
-            "Apply and forecast."
-          ]
+            "How would stronger winds aloft change your confidence in a wind event?",
+            "Which towns should be watching this trend closely?"
+          ],
+          "videoTitle": "Forecast / Apply",
+          "videoNote": "Use this level for forecasting questions, decision-making, or recap."
         }
       }
     },
@@ -319,25 +385,36 @@
           "narrative": [
             "Initial storms begin to organize into a more connected line.",
             "Radar is now the best tool for tracking rapid evolution."
-          ]
+          ],
+          "videoTitle": "Start Here",
+          "videoNote": "Everyone begins with Observe before going deeper."
         },
         "B": {
           "title": "Storms Begin to Develop",
           "narrative": [
-            "Explain what is happening."
-          ]
+            "Individual storms are beginning to connect into a line.",
+            "That often increases the overall damaging wind threat."
+          ],
+          "videoTitle": "Weather 101 \u2014 Explain",
+          "videoNote": "Use this level to connect the image to a science concept."
         },
         "C": {
           "title": "Storms Begin to Develop",
           "narrative": [
-            "Analyze the science."
-          ]
+            "This is where the storm evolution begins to match the larger environmental setup.",
+            "A more continuous line can be an early clue toward derecho development."
+          ],
+          "videoTitle": "Weather 101 \u2014 Analyze",
+          "videoNote": "Best for older students or groups ready for more meteorology."
         },
         "D": {
           "title": "Storms Begin to Develop",
           "narrative": [
-            "Apply and forecast."
-          ]
+            "What do you notice first on radar?",
+            "If you were briefing this step, what change would you emphasize?"
+          ],
+          "videoTitle": "Forecast / Apply",
+          "videoNote": "Use this level for forecasting questions, decision-making, or recap."
         }
       }
     },
@@ -366,25 +443,36 @@
           "title": "Warnings Issued",
           "narrative": [
             "Severe thunderstorm warnings are issued as storms intensify."
-          ]
+          ],
+          "videoTitle": "Start Here",
+          "videoNote": "Everyone begins with Observe before going deeper."
         },
         "B": {
           "title": "Warnings Issued",
           "narrative": [
-            "Explain what is happening."
-          ]
+            "Warnings are issued when storms are becoming dangerous or already severe.",
+            "This links radar interpretation to public safety decisions."
+          ],
+          "videoTitle": "Weather 101 \u2014 Explain",
+          "videoNote": "Use this level to connect the image to a science concept."
         },
         "C": {
           "title": "Warnings Issued",
           "narrative": [
-            "Analyze the science."
-          ]
+            "Students can compare warning placement with the strongest parts of the storm line.",
+            "This is a good moment to discuss lead time and communication."
+          ],
+          "videoTitle": "Weather 101 \u2014 Analyze",
+          "videoNote": "Best for older students or groups ready for more meteorology."
         },
         "D": {
           "title": "Warnings Issued",
           "narrative": [
-            "Apply and forecast."
-          ]
+            "Why do you think forecasters warned these areas first?",
+            "What message would you send to people in the warning path?"
+          ],
+          "videoTitle": "Forecast / Apply",
+          "videoNote": "Use this level for forecasting questions, decision-making, or recap."
         }
       }
     },
@@ -413,25 +501,36 @@
           "title": "Live Doppler View",
           "narrative": [
             "A live Doppler-style sweep helps students see how the radar scans the storm."
-          ]
+          ],
+          "videoTitle": "Start Here",
+          "videoNote": "Everyone begins with Observe before going deeper."
         },
         "B": {
           "title": "Live Doppler View",
           "narrative": [
-            "Explain what is happening."
-          ]
+            "The spinning sweep helps show how radar samples storms over time.",
+            "It makes the radar feel more real-time and easier to teach."
+          ],
+          "videoTitle": "Weather 101 \u2014 Explain",
+          "videoNote": "Use this level to connect the image to a science concept."
         },
         "C": {
           "title": "Live Doppler View",
           "narrative": [
-            "Analyze the science."
-          ]
+            "Radar does not see the whole storm at once. It updates as the sweep completes a scan.",
+            "That matters when storms are changing quickly."
+          ],
+          "videoTitle": "Weather 101 \u2014 Analyze",
+          "videoNote": "Best for older students or groups ready for more meteorology."
         },
         "D": {
           "title": "Live Doppler View",
           "narrative": [
-            "Apply and forecast."
-          ]
+            "What is one advantage of seeing radar this way?",
+            "How could this help students understand radar better than a static image?"
+          ],
+          "videoTitle": "Forecast / Apply",
+          "videoNote": "Use this level for forecasting questions, decision-making, or recap."
         }
       }
     },
@@ -459,25 +558,36 @@
           "title": "Damage Reports Increase",
           "narrative": [
             "Storm reports begin to confirm the extent of damaging winds."
-          ]
+          ],
+          "videoTitle": "Start Here",
+          "videoNote": "Everyone begins with Observe before going deeper."
         },
         "B": {
           "title": "Damage Reports Increase",
           "narrative": [
-            "Explain what is happening."
-          ]
+            "Reports confirm what happened on the ground.",
+            "They help compare radar and warnings with real impacts."
+          ],
+          "videoTitle": "Weather 101 \u2014 Explain",
+          "videoNote": "Use this level to connect the image to a science concept."
         },
         "C": {
           "title": "Damage Reports Increase",
           "narrative": [
-            "Analyze the science."
-          ]
+            "This is where verification becomes important.",
+            "Forecasters compare report type, time, and location with earlier warning decisions."
+          ],
+          "videoTitle": "Weather 101 \u2014 Analyze",
+          "videoNote": "Best for older students or groups ready for more meteorology."
         },
         "D": {
           "title": "Damage Reports Increase",
           "narrative": [
-            "Apply and forecast."
-          ]
+            "Which report type is showing up most often?",
+            "How well do the reports match the radar story?"
+          ],
+          "videoTitle": "Forecast / Apply",
+          "videoNote": "Use this level for forecasting questions, decision-making, or recap."
         }
       }
     },
@@ -505,25 +615,36 @@
           "title": "Lightning Peaks",
           "narrative": [
             "If lightning data is present in the lesson folder, this step will display it."
-          ]
+          ],
+          "videoTitle": "Start Here",
+          "videoNote": "Everyone begins with Observe before going deeper."
         },
         "B": {
           "title": "Lightning Peaks",
           "narrative": [
-            "Explain what is happening."
-          ]
+            "Lightning can highlight the most electrically active parts of the storm system.",
+            "It adds another clue about storm intensity."
+          ],
+          "videoTitle": "Weather 101 \u2014 Explain",
+          "videoNote": "Use this level to connect the image to a science concept."
         },
         "C": {
           "title": "Lightning Peaks",
           "narrative": [
-            "Analyze the science."
-          ]
+            "Lightning trends can change as storm mode evolves.",
+            "This gives another layer of evidence beyond radar alone."
+          ],
+          "videoTitle": "Weather 101 \u2014 Analyze",
+          "videoNote": "Best for older students or groups ready for more meteorology."
         },
         "D": {
           "title": "Lightning Peaks",
           "narrative": [
-            "Apply and forecast."
-          ]
+            "Would a lightning increase change your concern level?",
+            "How could this support classroom discussion?"
+          ],
+          "videoTitle": "Forecast / Apply",
+          "videoNote": "Use this level for forecasting questions, decision-making, or recap."
         }
       }
     },
@@ -551,25 +672,33 @@
           "title": "Aftermath",
           "narrative": [
             "The storm system continues eastward, leaving damage behind."
-          ]
+          ],
+          "videoTitle": "Start Here",
+          "videoNote": "Everyone begins with Observe before going deeper."
         },
         "B": {
           "title": "Aftermath",
           "narrative": [
             "Explain what is happening."
-          ]
+          ],
+          "videoTitle": "Weather 101 \u2014 Explain",
+          "videoNote": "Use this level to connect the image to a science concept."
         },
         "C": {
           "title": "Aftermath",
           "narrative": [
             "Analyze the science."
-          ]
+          ],
+          "videoTitle": "Weather 101 \u2014 Analyze",
+          "videoNote": "Best for older students or groups ready for more meteorology."
         },
         "D": {
           "title": "Aftermath",
           "narrative": [
             "Apply and forecast."
-          ]
+          ],
+          "videoTitle": "Forecast / Apply",
+          "videoNote": "Use this level for forecasting questions, decision-making, or recap."
         }
       }
     }
