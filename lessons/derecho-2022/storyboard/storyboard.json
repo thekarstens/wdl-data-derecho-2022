@@ -22,6 +22,156 @@
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": false
+      },
+      "levels": {
+        "A": {
+          "1": {
+            "title": "Atmosphere Primed",
+            "narrative": [
+              "Warm, moist air is surging northward across the Plains.",
+              "This step uses TV-style temperature markers and keeps the bottom scrubber synced to the METAR timeline.",
+              "Use the METAR controls to switch between temperature, dew point, wind, and pressure."
+            ]
+          },
+          "2": {
+            "title": "Atmosphere Primed",
+            "narrative": [
+              "What do you notice first on this map?",
+              "Name the main area that stands out the most."
+            ]
+          },
+          "3": {
+            "title": "Atmosphere Primed",
+            "narrative": [
+              "Look for patterns, not just one value.",
+              "How is the weather field organized across the region?"
+            ]
+          },
+          "4": {
+            "title": "Atmosphere Primed",
+            "narrative": [
+              "Compare what is strongest versus what is expanding.",
+              "What trend would you point out to a class?"
+            ]
+          },
+          "5": {
+            "title": "Atmosphere Primed",
+            "narrative": [
+              "What subtle clue might a beginner miss here?",
+              "What makes this step especially important in the bigger storm story?"
+            ]
+          }
+        },
+        "B": {
+          "1": {
+            "title": "Atmosphere Primed",
+            "narrative": [
+              "Explain what is happening in simple terms."
+            ]
+          },
+          "2": {
+            "title": "Atmosphere Primed",
+            "narrative": [
+              "What weather ingredient is most responsible for what you see?",
+              "Why does it matter?"
+            ]
+          },
+          "3": {
+            "title": "Atmosphere Primed",
+            "narrative": [
+              "How do two ingredients work together in this step?",
+              "Explain the process, not just the picture."
+            ]
+          },
+          "4": {
+            "title": "Atmosphere Primed",
+            "narrative": [
+              "What atmospheric change is driving the trend?",
+              "Why is this happening now instead of earlier?"
+            ]
+          },
+          "5": {
+            "title": "Atmosphere Primed",
+            "narrative": [
+              "Give the strongest science-based explanation for this step.",
+              "What would you teach as the main takeaway?"
+            ]
+          }
+        },
+        "C": {
+          "1": {
+            "title": "Atmosphere Primed",
+            "narrative": [
+              "Analyze the science at a basic level.",
+              "What does this product suggest about the atmosphere?"
+            ]
+          },
+          "2": {
+            "title": "Atmosphere Primed",
+            "narrative": [
+              "How does this compare with the previous step?",
+              "What trend is increasing or weakening?"
+            ]
+          },
+          "3": {
+            "title": "Atmosphere Primed",
+            "narrative": [
+              "What supporting evidence would you want from another product?",
+              "How confident are you in the signal here?"
+            ]
+          },
+          "4": {
+            "title": "Atmosphere Primed",
+            "narrative": [
+              "What is the deeper meteorological meaning of this step?",
+              "How does it fit into derecho development?"
+            ]
+          },
+          "5": {
+            "title": "Atmosphere Primed",
+            "narrative": [
+              "What would an advanced student or forecaster notice here?",
+              "What are the limits or caveats in this analysis?"
+            ]
+          }
+        },
+        "D": {
+          "1": {
+            "title": "Atmosphere Primed",
+            "narrative": [
+              "Apply this information to a simple forecast idea.",
+              "What would you tell students or viewers?"
+            ]
+          },
+          "2": {
+            "title": "Atmosphere Primed",
+            "narrative": [
+              "What action would you take next?",
+              "What product would you show after this?"
+            ]
+          },
+          "3": {
+            "title": "Atmosphere Primed",
+            "narrative": [
+              "What area deserves the most attention right now?",
+              "Why?"
+            ]
+          },
+          "4": {
+            "title": "Atmosphere Primed",
+            "narrative": [
+              "How would this affect warning or briefing decisions?",
+              "What message matters most?"
+            ]
+          },
+          "5": {
+            "title": "Atmosphere Primed",
+            "narrative": [
+              "If you were the forecaster, what is your best decision here?",
+              "How would you justify that decision scientifically?"
+            ]
+          }
+        }
       }
     },
     {
@@ -44,6 +194,155 @@
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": false
+      },
+      "levels": {
+        "A": {
+          "1": {
+            "title": "Moisture Returns",
+            "narrative": [
+              "This view switches the METAR markers to dew point so moisture return is easier to explain.",
+              "The clock and scrubber stay visible here too."
+            ]
+          },
+          "2": {
+            "title": "Moisture Returns",
+            "narrative": [
+              "What do you notice first on this map?",
+              "Name the main area that stands out the most."
+            ]
+          },
+          "3": {
+            "title": "Moisture Returns",
+            "narrative": [
+              "Look for patterns, not just one value.",
+              "How is the weather field organized across the region?"
+            ]
+          },
+          "4": {
+            "title": "Moisture Returns",
+            "narrative": [
+              "Compare what is strongest versus what is expanding.",
+              "What trend would you point out to a class?"
+            ]
+          },
+          "5": {
+            "title": "Moisture Returns",
+            "narrative": [
+              "What subtle clue might a beginner miss here?",
+              "What makes this step especially important in the bigger storm story?"
+            ]
+          }
+        },
+        "B": {
+          "1": {
+            "title": "Moisture Returns",
+            "narrative": [
+              "Explain what is happening in simple terms."
+            ]
+          },
+          "2": {
+            "title": "Moisture Returns",
+            "narrative": [
+              "What weather ingredient is most responsible for what you see?",
+              "Why does it matter?"
+            ]
+          },
+          "3": {
+            "title": "Moisture Returns",
+            "narrative": [
+              "How do two ingredients work together in this step?",
+              "Explain the process, not just the picture."
+            ]
+          },
+          "4": {
+            "title": "Moisture Returns",
+            "narrative": [
+              "What atmospheric change is driving the trend?",
+              "Why is this happening now instead of earlier?"
+            ]
+          },
+          "5": {
+            "title": "Moisture Returns",
+            "narrative": [
+              "Give the strongest science-based explanation for this step.",
+              "What would you teach as the main takeaway?"
+            ]
+          }
+        },
+        "C": {
+          "1": {
+            "title": "Moisture Returns",
+            "narrative": [
+              "Analyze the science at a basic level.",
+              "What does this product suggest about the atmosphere?"
+            ]
+          },
+          "2": {
+            "title": "Moisture Returns",
+            "narrative": [
+              "How does this compare with the previous step?",
+              "What trend is increasing or weakening?"
+            ]
+          },
+          "3": {
+            "title": "Moisture Returns",
+            "narrative": [
+              "What supporting evidence would you want from another product?",
+              "How confident are you in the signal here?"
+            ]
+          },
+          "4": {
+            "title": "Moisture Returns",
+            "narrative": [
+              "What is the deeper meteorological meaning of this step?",
+              "How does it fit into derecho development?"
+            ]
+          },
+          "5": {
+            "title": "Moisture Returns",
+            "narrative": [
+              "What would an advanced student or forecaster notice here?",
+              "What are the limits or caveats in this analysis?"
+            ]
+          }
+        },
+        "D": {
+          "1": {
+            "title": "Moisture Returns",
+            "narrative": [
+              "Apply this information to a simple forecast idea.",
+              "What would you tell students or viewers?"
+            ]
+          },
+          "2": {
+            "title": "Moisture Returns",
+            "narrative": [
+              "What action would you take next?",
+              "What product would you show after this?"
+            ]
+          },
+          "3": {
+            "title": "Moisture Returns",
+            "narrative": [
+              "What area deserves the most attention right now?",
+              "Why?"
+            ]
+          },
+          "4": {
+            "title": "Moisture Returns",
+            "narrative": [
+              "How would this affect warning or briefing decisions?",
+              "What message matters most?"
+            ]
+          },
+          "5": {
+            "title": "Moisture Returns",
+            "narrative": [
+              "If you were the forecaster, what is your best decision here?",
+              "How would you justify that decision scientifically?"
+            ]
+          }
+        }
       }
     },
     {
@@ -65,6 +364,155 @@
         "showScrubber": false,
         "showDoppler": false,
         "allowPlay": false
+      },
+      "levels": {
+        "A": {
+          "1": {
+            "title": "SPC Upgrade",
+            "narrative": [
+              "The Storm Prediction Center highlights the region for organized severe weather.",
+              "Forecasters are increasingly concerned about widespread damaging winds."
+            ]
+          },
+          "2": {
+            "title": "SPC Upgrade",
+            "narrative": [
+              "What do you notice first on this map?",
+              "Name the main area that stands out the most."
+            ]
+          },
+          "3": {
+            "title": "SPC Upgrade",
+            "narrative": [
+              "Look for patterns, not just one value.",
+              "How is the weather field organized across the region?"
+            ]
+          },
+          "4": {
+            "title": "SPC Upgrade",
+            "narrative": [
+              "Compare what is strongest versus what is expanding.",
+              "What trend would you point out to a class?"
+            ]
+          },
+          "5": {
+            "title": "SPC Upgrade",
+            "narrative": [
+              "What subtle clue might a beginner miss here?",
+              "What makes this step especially important in the bigger storm story?"
+            ]
+          }
+        },
+        "B": {
+          "1": {
+            "title": "SPC Upgrade",
+            "narrative": [
+              "Explain what is happening in simple terms."
+            ]
+          },
+          "2": {
+            "title": "SPC Upgrade",
+            "narrative": [
+              "What weather ingredient is most responsible for what you see?",
+              "Why does it matter?"
+            ]
+          },
+          "3": {
+            "title": "SPC Upgrade",
+            "narrative": [
+              "How do two ingredients work together in this step?",
+              "Explain the process, not just the picture."
+            ]
+          },
+          "4": {
+            "title": "SPC Upgrade",
+            "narrative": [
+              "What atmospheric change is driving the trend?",
+              "Why is this happening now instead of earlier?"
+            ]
+          },
+          "5": {
+            "title": "SPC Upgrade",
+            "narrative": [
+              "Give the strongest science-based explanation for this step.",
+              "What would you teach as the main takeaway?"
+            ]
+          }
+        },
+        "C": {
+          "1": {
+            "title": "SPC Upgrade",
+            "narrative": [
+              "Analyze the science at a basic level.",
+              "What does this product suggest about the atmosphere?"
+            ]
+          },
+          "2": {
+            "title": "SPC Upgrade",
+            "narrative": [
+              "How does this compare with the previous step?",
+              "What trend is increasing or weakening?"
+            ]
+          },
+          "3": {
+            "title": "SPC Upgrade",
+            "narrative": [
+              "What supporting evidence would you want from another product?",
+              "How confident are you in the signal here?"
+            ]
+          },
+          "4": {
+            "title": "SPC Upgrade",
+            "narrative": [
+              "What is the deeper meteorological meaning of this step?",
+              "How does it fit into derecho development?"
+            ]
+          },
+          "5": {
+            "title": "SPC Upgrade",
+            "narrative": [
+              "What would an advanced student or forecaster notice here?",
+              "What are the limits or caveats in this analysis?"
+            ]
+          }
+        },
+        "D": {
+          "1": {
+            "title": "SPC Upgrade",
+            "narrative": [
+              "Apply this information to a simple forecast idea.",
+              "What would you tell students or viewers?"
+            ]
+          },
+          "2": {
+            "title": "SPC Upgrade",
+            "narrative": [
+              "What action would you take next?",
+              "What product would you show after this?"
+            ]
+          },
+          "3": {
+            "title": "SPC Upgrade",
+            "narrative": [
+              "What area deserves the most attention right now?",
+              "Why?"
+            ]
+          },
+          "4": {
+            "title": "SPC Upgrade",
+            "narrative": [
+              "How would this affect warning or briefing decisions?",
+              "What message matters most?"
+            ]
+          },
+          "5": {
+            "title": "SPC Upgrade",
+            "narrative": [
+              "If you were the forecaster, what is your best decision here?",
+              "How would you justify that decision scientifically?"
+            ]
+          }
+        }
       }
     },
     {
@@ -86,6 +534,155 @@
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": false
+      },
+      "levels": {
+        "A": {
+          "1": {
+            "title": "Forecast Temperatures",
+            "narrative": [
+              "Future temperatures should scrub by HRRR frames, matching the way future winds behaves.",
+              "State boundaries and county lines remain on for context."
+            ]
+          },
+          "2": {
+            "title": "Forecast Temperatures",
+            "narrative": [
+              "What do you notice first on this map?",
+              "Name the main area that stands out the most."
+            ]
+          },
+          "3": {
+            "title": "Forecast Temperatures",
+            "narrative": [
+              "Look for patterns, not just one value.",
+              "How is the weather field organized across the region?"
+            ]
+          },
+          "4": {
+            "title": "Forecast Temperatures",
+            "narrative": [
+              "Compare what is strongest versus what is expanding.",
+              "What trend would you point out to a class?"
+            ]
+          },
+          "5": {
+            "title": "Forecast Temperatures",
+            "narrative": [
+              "What subtle clue might a beginner miss here?",
+              "What makes this step especially important in the bigger storm story?"
+            ]
+          }
+        },
+        "B": {
+          "1": {
+            "title": "Forecast Temperatures",
+            "narrative": [
+              "Explain what is happening in simple terms."
+            ]
+          },
+          "2": {
+            "title": "Forecast Temperatures",
+            "narrative": [
+              "What weather ingredient is most responsible for what you see?",
+              "Why does it matter?"
+            ]
+          },
+          "3": {
+            "title": "Forecast Temperatures",
+            "narrative": [
+              "How do two ingredients work together in this step?",
+              "Explain the process, not just the picture."
+            ]
+          },
+          "4": {
+            "title": "Forecast Temperatures",
+            "narrative": [
+              "What atmospheric change is driving the trend?",
+              "Why is this happening now instead of earlier?"
+            ]
+          },
+          "5": {
+            "title": "Forecast Temperatures",
+            "narrative": [
+              "Give the strongest science-based explanation for this step.",
+              "What would you teach as the main takeaway?"
+            ]
+          }
+        },
+        "C": {
+          "1": {
+            "title": "Forecast Temperatures",
+            "narrative": [
+              "Analyze the science at a basic level.",
+              "What does this product suggest about the atmosphere?"
+            ]
+          },
+          "2": {
+            "title": "Forecast Temperatures",
+            "narrative": [
+              "How does this compare with the previous step?",
+              "What trend is increasing or weakening?"
+            ]
+          },
+          "3": {
+            "title": "Forecast Temperatures",
+            "narrative": [
+              "What supporting evidence would you want from another product?",
+              "How confident are you in the signal here?"
+            ]
+          },
+          "4": {
+            "title": "Forecast Temperatures",
+            "narrative": [
+              "What is the deeper meteorological meaning of this step?",
+              "How does it fit into derecho development?"
+            ]
+          },
+          "5": {
+            "title": "Forecast Temperatures",
+            "narrative": [
+              "What would an advanced student or forecaster notice here?",
+              "What are the limits or caveats in this analysis?"
+            ]
+          }
+        },
+        "D": {
+          "1": {
+            "title": "Forecast Temperatures",
+            "narrative": [
+              "Apply this information to a simple forecast idea.",
+              "What would you tell students or viewers?"
+            ]
+          },
+          "2": {
+            "title": "Forecast Temperatures",
+            "narrative": [
+              "What action would you take next?",
+              "What product would you show after this?"
+            ]
+          },
+          "3": {
+            "title": "Forecast Temperatures",
+            "narrative": [
+              "What area deserves the most attention right now?",
+              "Why?"
+            ]
+          },
+          "4": {
+            "title": "Forecast Temperatures",
+            "narrative": [
+              "How would this affect warning or briefing decisions?",
+              "What message matters most?"
+            ]
+          },
+          "5": {
+            "title": "Forecast Temperatures",
+            "narrative": [
+              "If you were the forecaster, what is your best decision here?",
+              "How would you justify that decision scientifically?"
+            ]
+          }
+        }
       }
     },
     {
@@ -107,6 +704,155 @@
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": false
+      },
+      "levels": {
+        "A": {
+          "1": {
+            "title": "Instability Builds",
+            "narrative": [
+              "If a CAPE manifest is present, this step will show it.",
+              "If not, this step can be skipped without breaking the demo."
+            ]
+          },
+          "2": {
+            "title": "Instability Builds",
+            "narrative": [
+              "What do you notice first on this map?",
+              "Name the main area that stands out the most."
+            ]
+          },
+          "3": {
+            "title": "Instability Builds",
+            "narrative": [
+              "Look for patterns, not just one value.",
+              "How is the weather field organized across the region?"
+            ]
+          },
+          "4": {
+            "title": "Instability Builds",
+            "narrative": [
+              "Compare what is strongest versus what is expanding.",
+              "What trend would you point out to a class?"
+            ]
+          },
+          "5": {
+            "title": "Instability Builds",
+            "narrative": [
+              "What subtle clue might a beginner miss here?",
+              "What makes this step especially important in the bigger storm story?"
+            ]
+          }
+        },
+        "B": {
+          "1": {
+            "title": "Instability Builds",
+            "narrative": [
+              "Explain what is happening in simple terms."
+            ]
+          },
+          "2": {
+            "title": "Instability Builds",
+            "narrative": [
+              "What weather ingredient is most responsible for what you see?",
+              "Why does it matter?"
+            ]
+          },
+          "3": {
+            "title": "Instability Builds",
+            "narrative": [
+              "How do two ingredients work together in this step?",
+              "Explain the process, not just the picture."
+            ]
+          },
+          "4": {
+            "title": "Instability Builds",
+            "narrative": [
+              "What atmospheric change is driving the trend?",
+              "Why is this happening now instead of earlier?"
+            ]
+          },
+          "5": {
+            "title": "Instability Builds",
+            "narrative": [
+              "Give the strongest science-based explanation for this step.",
+              "What would you teach as the main takeaway?"
+            ]
+          }
+        },
+        "C": {
+          "1": {
+            "title": "Instability Builds",
+            "narrative": [
+              "Analyze the science at a basic level.",
+              "What does this product suggest about the atmosphere?"
+            ]
+          },
+          "2": {
+            "title": "Instability Builds",
+            "narrative": [
+              "How does this compare with the previous step?",
+              "What trend is increasing or weakening?"
+            ]
+          },
+          "3": {
+            "title": "Instability Builds",
+            "narrative": [
+              "What supporting evidence would you want from another product?",
+              "How confident are you in the signal here?"
+            ]
+          },
+          "4": {
+            "title": "Instability Builds",
+            "narrative": [
+              "What is the deeper meteorological meaning of this step?",
+              "How does it fit into derecho development?"
+            ]
+          },
+          "5": {
+            "title": "Instability Builds",
+            "narrative": [
+              "What would an advanced student or forecaster notice here?",
+              "What are the limits or caveats in this analysis?"
+            ]
+          }
+        },
+        "D": {
+          "1": {
+            "title": "Instability Builds",
+            "narrative": [
+              "Apply this information to a simple forecast idea.",
+              "What would you tell students or viewers?"
+            ]
+          },
+          "2": {
+            "title": "Instability Builds",
+            "narrative": [
+              "What action would you take next?",
+              "What product would you show after this?"
+            ]
+          },
+          "3": {
+            "title": "Instability Builds",
+            "narrative": [
+              "What area deserves the most attention right now?",
+              "Why?"
+            ]
+          },
+          "4": {
+            "title": "Instability Builds",
+            "narrative": [
+              "How would this affect warning or briefing decisions?",
+              "What message matters most?"
+            ]
+          },
+          "5": {
+            "title": "Instability Builds",
+            "narrative": [
+              "If you were the forecaster, what is your best decision here?",
+              "How would you justify that decision scientifically?"
+            ]
+          }
+        }
       }
     },
     {
@@ -128,6 +874,155 @@
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": false
+      },
+      "levels": {
+        "A": {
+          "1": {
+            "title": "Wind Energy Builds",
+            "narrative": [
+              "Forecast wind fields show strong flow feeding the developing system.",
+              "This step remains on the HRRR frame scrubber path."
+            ]
+          },
+          "2": {
+            "title": "Wind Energy Builds",
+            "narrative": [
+              "What do you notice first on this map?",
+              "Name the main area that stands out the most."
+            ]
+          },
+          "3": {
+            "title": "Wind Energy Builds",
+            "narrative": [
+              "Look for patterns, not just one value.",
+              "How is the weather field organized across the region?"
+            ]
+          },
+          "4": {
+            "title": "Wind Energy Builds",
+            "narrative": [
+              "Compare what is strongest versus what is expanding.",
+              "What trend would you point out to a class?"
+            ]
+          },
+          "5": {
+            "title": "Wind Energy Builds",
+            "narrative": [
+              "What subtle clue might a beginner miss here?",
+              "What makes this step especially important in the bigger storm story?"
+            ]
+          }
+        },
+        "B": {
+          "1": {
+            "title": "Wind Energy Builds",
+            "narrative": [
+              "Explain what is happening in simple terms."
+            ]
+          },
+          "2": {
+            "title": "Wind Energy Builds",
+            "narrative": [
+              "What weather ingredient is most responsible for what you see?",
+              "Why does it matter?"
+            ]
+          },
+          "3": {
+            "title": "Wind Energy Builds",
+            "narrative": [
+              "How do two ingredients work together in this step?",
+              "Explain the process, not just the picture."
+            ]
+          },
+          "4": {
+            "title": "Wind Energy Builds",
+            "narrative": [
+              "What atmospheric change is driving the trend?",
+              "Why is this happening now instead of earlier?"
+            ]
+          },
+          "5": {
+            "title": "Wind Energy Builds",
+            "narrative": [
+              "Give the strongest science-based explanation for this step.",
+              "What would you teach as the main takeaway?"
+            ]
+          }
+        },
+        "C": {
+          "1": {
+            "title": "Wind Energy Builds",
+            "narrative": [
+              "Analyze the science at a basic level.",
+              "What does this product suggest about the atmosphere?"
+            ]
+          },
+          "2": {
+            "title": "Wind Energy Builds",
+            "narrative": [
+              "How does this compare with the previous step?",
+              "What trend is increasing or weakening?"
+            ]
+          },
+          "3": {
+            "title": "Wind Energy Builds",
+            "narrative": [
+              "What supporting evidence would you want from another product?",
+              "How confident are you in the signal here?"
+            ]
+          },
+          "4": {
+            "title": "Wind Energy Builds",
+            "narrative": [
+              "What is the deeper meteorological meaning of this step?",
+              "How does it fit into derecho development?"
+            ]
+          },
+          "5": {
+            "title": "Wind Energy Builds",
+            "narrative": [
+              "What would an advanced student or forecaster notice here?",
+              "What are the limits or caveats in this analysis?"
+            ]
+          }
+        },
+        "D": {
+          "1": {
+            "title": "Wind Energy Builds",
+            "narrative": [
+              "Apply this information to a simple forecast idea.",
+              "What would you tell students or viewers?"
+            ]
+          },
+          "2": {
+            "title": "Wind Energy Builds",
+            "narrative": [
+              "What action would you take next?",
+              "What product would you show after this?"
+            ]
+          },
+          "3": {
+            "title": "Wind Energy Builds",
+            "narrative": [
+              "What area deserves the most attention right now?",
+              "Why?"
+            ]
+          },
+          "4": {
+            "title": "Wind Energy Builds",
+            "narrative": [
+              "How would this affect warning or briefing decisions?",
+              "What message matters most?"
+            ]
+          },
+          "5": {
+            "title": "Wind Energy Builds",
+            "narrative": [
+              "If you were the forecaster, what is your best decision here?",
+              "How would you justify that decision scientifically?"
+            ]
+          }
+        }
       }
     },
     {
@@ -149,6 +1044,155 @@
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": true
+      },
+      "levels": {
+        "A": {
+          "1": {
+            "title": "Storms Begin to Develop",
+            "narrative": [
+              "Initial storms begin to organize into a more connected line.",
+              "Radar is now the best tool for tracking rapid evolution."
+            ]
+          },
+          "2": {
+            "title": "Storms Begin to Develop",
+            "narrative": [
+              "What do you notice first on this map?",
+              "Name the main area that stands out the most."
+            ]
+          },
+          "3": {
+            "title": "Storms Begin to Develop",
+            "narrative": [
+              "Look for patterns, not just one value.",
+              "How is the weather field organized across the region?"
+            ]
+          },
+          "4": {
+            "title": "Storms Begin to Develop",
+            "narrative": [
+              "Compare what is strongest versus what is expanding.",
+              "What trend would you point out to a class?"
+            ]
+          },
+          "5": {
+            "title": "Storms Begin to Develop",
+            "narrative": [
+              "What subtle clue might a beginner miss here?",
+              "What makes this step especially important in the bigger storm story?"
+            ]
+          }
+        },
+        "B": {
+          "1": {
+            "title": "Storms Begin to Develop",
+            "narrative": [
+              "Explain what is happening in simple terms."
+            ]
+          },
+          "2": {
+            "title": "Storms Begin to Develop",
+            "narrative": [
+              "What weather ingredient is most responsible for what you see?",
+              "Why does it matter?"
+            ]
+          },
+          "3": {
+            "title": "Storms Begin to Develop",
+            "narrative": [
+              "How do two ingredients work together in this step?",
+              "Explain the process, not just the picture."
+            ]
+          },
+          "4": {
+            "title": "Storms Begin to Develop",
+            "narrative": [
+              "What atmospheric change is driving the trend?",
+              "Why is this happening now instead of earlier?"
+            ]
+          },
+          "5": {
+            "title": "Storms Begin to Develop",
+            "narrative": [
+              "Give the strongest science-based explanation for this step.",
+              "What would you teach as the main takeaway?"
+            ]
+          }
+        },
+        "C": {
+          "1": {
+            "title": "Storms Begin to Develop",
+            "narrative": [
+              "Analyze the science at a basic level.",
+              "What does this product suggest about the atmosphere?"
+            ]
+          },
+          "2": {
+            "title": "Storms Begin to Develop",
+            "narrative": [
+              "How does this compare with the previous step?",
+              "What trend is increasing or weakening?"
+            ]
+          },
+          "3": {
+            "title": "Storms Begin to Develop",
+            "narrative": [
+              "What supporting evidence would you want from another product?",
+              "How confident are you in the signal here?"
+            ]
+          },
+          "4": {
+            "title": "Storms Begin to Develop",
+            "narrative": [
+              "What is the deeper meteorological meaning of this step?",
+              "How does it fit into derecho development?"
+            ]
+          },
+          "5": {
+            "title": "Storms Begin to Develop",
+            "narrative": [
+              "What would an advanced student or forecaster notice here?",
+              "What are the limits or caveats in this analysis?"
+            ]
+          }
+        },
+        "D": {
+          "1": {
+            "title": "Storms Begin to Develop",
+            "narrative": [
+              "Apply this information to a simple forecast idea.",
+              "What would you tell students or viewers?"
+            ]
+          },
+          "2": {
+            "title": "Storms Begin to Develop",
+            "narrative": [
+              "What action would you take next?",
+              "What product would you show after this?"
+            ]
+          },
+          "3": {
+            "title": "Storms Begin to Develop",
+            "narrative": [
+              "What area deserves the most attention right now?",
+              "Why?"
+            ]
+          },
+          "4": {
+            "title": "Storms Begin to Develop",
+            "narrative": [
+              "How would this affect warning or briefing decisions?",
+              "What message matters most?"
+            ]
+          },
+          "5": {
+            "title": "Storms Begin to Develop",
+            "narrative": [
+              "If you were the forecaster, what is your best decision here?",
+              "How would you justify that decision scientifically?"
+            ]
+          }
+        }
       }
     },
     {
@@ -170,6 +1214,154 @@
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": true
+      },
+      "levels": {
+        "A": {
+          "1": {
+            "title": "Warnings Issued",
+            "narrative": [
+              "Severe thunderstorm warnings are issued as storms intensify."
+            ]
+          },
+          "2": {
+            "title": "Warnings Issued",
+            "narrative": [
+              "What do you notice first on this map?",
+              "Name the main area that stands out the most."
+            ]
+          },
+          "3": {
+            "title": "Warnings Issued",
+            "narrative": [
+              "Look for patterns, not just one value.",
+              "How is the weather field organized across the region?"
+            ]
+          },
+          "4": {
+            "title": "Warnings Issued",
+            "narrative": [
+              "Compare what is strongest versus what is expanding.",
+              "What trend would you point out to a class?"
+            ]
+          },
+          "5": {
+            "title": "Warnings Issued",
+            "narrative": [
+              "What subtle clue might a beginner miss here?",
+              "What makes this step especially important in the bigger storm story?"
+            ]
+          }
+        },
+        "B": {
+          "1": {
+            "title": "Warnings Issued",
+            "narrative": [
+              "Explain what is happening in simple terms."
+            ]
+          },
+          "2": {
+            "title": "Warnings Issued",
+            "narrative": [
+              "What weather ingredient is most responsible for what you see?",
+              "Why does it matter?"
+            ]
+          },
+          "3": {
+            "title": "Warnings Issued",
+            "narrative": [
+              "How do two ingredients work together in this step?",
+              "Explain the process, not just the picture."
+            ]
+          },
+          "4": {
+            "title": "Warnings Issued",
+            "narrative": [
+              "What atmospheric change is driving the trend?",
+              "Why is this happening now instead of earlier?"
+            ]
+          },
+          "5": {
+            "title": "Warnings Issued",
+            "narrative": [
+              "Give the strongest science-based explanation for this step.",
+              "What would you teach as the main takeaway?"
+            ]
+          }
+        },
+        "C": {
+          "1": {
+            "title": "Warnings Issued",
+            "narrative": [
+              "Analyze the science at a basic level.",
+              "What does this product suggest about the atmosphere?"
+            ]
+          },
+          "2": {
+            "title": "Warnings Issued",
+            "narrative": [
+              "How does this compare with the previous step?",
+              "What trend is increasing or weakening?"
+            ]
+          },
+          "3": {
+            "title": "Warnings Issued",
+            "narrative": [
+              "What supporting evidence would you want from another product?",
+              "How confident are you in the signal here?"
+            ]
+          },
+          "4": {
+            "title": "Warnings Issued",
+            "narrative": [
+              "What is the deeper meteorological meaning of this step?",
+              "How does it fit into derecho development?"
+            ]
+          },
+          "5": {
+            "title": "Warnings Issued",
+            "narrative": [
+              "What would an advanced student or forecaster notice here?",
+              "What are the limits or caveats in this analysis?"
+            ]
+          }
+        },
+        "D": {
+          "1": {
+            "title": "Warnings Issued",
+            "narrative": [
+              "Apply this information to a simple forecast idea.",
+              "What would you tell students or viewers?"
+            ]
+          },
+          "2": {
+            "title": "Warnings Issued",
+            "narrative": [
+              "What action would you take next?",
+              "What product would you show after this?"
+            ]
+          },
+          "3": {
+            "title": "Warnings Issued",
+            "narrative": [
+              "What area deserves the most attention right now?",
+              "Why?"
+            ]
+          },
+          "4": {
+            "title": "Warnings Issued",
+            "narrative": [
+              "How would this affect warning or briefing decisions?",
+              "What message matters most?"
+            ]
+          },
+          "5": {
+            "title": "Warnings Issued",
+            "narrative": [
+              "If you were the forecaster, what is your best decision here?",
+              "How would you justify that decision scientifically?"
+            ]
+          }
+        }
       }
     },
     {
@@ -191,6 +1383,154 @@
         "showScrubber": true,
         "showDoppler": true,
         "allowPlay": true
+      },
+      "levels": {
+        "A": {
+          "1": {
+            "title": "Live Doppler View",
+            "narrative": [
+              "A live Doppler-style sweep helps students see how the radar scans the storm."
+            ]
+          },
+          "2": {
+            "title": "Live Doppler View",
+            "narrative": [
+              "What do you notice first on this map?",
+              "Name the main area that stands out the most."
+            ]
+          },
+          "3": {
+            "title": "Live Doppler View",
+            "narrative": [
+              "Look for patterns, not just one value.",
+              "How is the weather field organized across the region?"
+            ]
+          },
+          "4": {
+            "title": "Live Doppler View",
+            "narrative": [
+              "Compare what is strongest versus what is expanding.",
+              "What trend would you point out to a class?"
+            ]
+          },
+          "5": {
+            "title": "Live Doppler View",
+            "narrative": [
+              "What subtle clue might a beginner miss here?",
+              "What makes this step especially important in the bigger storm story?"
+            ]
+          }
+        },
+        "B": {
+          "1": {
+            "title": "Live Doppler View",
+            "narrative": [
+              "Explain what is happening in simple terms."
+            ]
+          },
+          "2": {
+            "title": "Live Doppler View",
+            "narrative": [
+              "What weather ingredient is most responsible for what you see?",
+              "Why does it matter?"
+            ]
+          },
+          "3": {
+            "title": "Live Doppler View",
+            "narrative": [
+              "How do two ingredients work together in this step?",
+              "Explain the process, not just the picture."
+            ]
+          },
+          "4": {
+            "title": "Live Doppler View",
+            "narrative": [
+              "What atmospheric change is driving the trend?",
+              "Why is this happening now instead of earlier?"
+            ]
+          },
+          "5": {
+            "title": "Live Doppler View",
+            "narrative": [
+              "Give the strongest science-based explanation for this step.",
+              "What would you teach as the main takeaway?"
+            ]
+          }
+        },
+        "C": {
+          "1": {
+            "title": "Live Doppler View",
+            "narrative": [
+              "Analyze the science at a basic level.",
+              "What does this product suggest about the atmosphere?"
+            ]
+          },
+          "2": {
+            "title": "Live Doppler View",
+            "narrative": [
+              "How does this compare with the previous step?",
+              "What trend is increasing or weakening?"
+            ]
+          },
+          "3": {
+            "title": "Live Doppler View",
+            "narrative": [
+              "What supporting evidence would you want from another product?",
+              "How confident are you in the signal here?"
+            ]
+          },
+          "4": {
+            "title": "Live Doppler View",
+            "narrative": [
+              "What is the deeper meteorological meaning of this step?",
+              "How does it fit into derecho development?"
+            ]
+          },
+          "5": {
+            "title": "Live Doppler View",
+            "narrative": [
+              "What would an advanced student or forecaster notice here?",
+              "What are the limits or caveats in this analysis?"
+            ]
+          }
+        },
+        "D": {
+          "1": {
+            "title": "Live Doppler View",
+            "narrative": [
+              "Apply this information to a simple forecast idea.",
+              "What would you tell students or viewers?"
+            ]
+          },
+          "2": {
+            "title": "Live Doppler View",
+            "narrative": [
+              "What action would you take next?",
+              "What product would you show after this?"
+            ]
+          },
+          "3": {
+            "title": "Live Doppler View",
+            "narrative": [
+              "What area deserves the most attention right now?",
+              "Why?"
+            ]
+          },
+          "4": {
+            "title": "Live Doppler View",
+            "narrative": [
+              "How would this affect warning or briefing decisions?",
+              "What message matters most?"
+            ]
+          },
+          "5": {
+            "title": "Live Doppler View",
+            "narrative": [
+              "If you were the forecaster, what is your best decision here?",
+              "How would you justify that decision scientifically?"
+            ]
+          }
+        }
       }
     },
     {
@@ -211,6 +1551,154 @@
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": true
+      },
+      "levels": {
+        "A": {
+          "1": {
+            "title": "Damage Reports Increase",
+            "narrative": [
+              "Storm reports begin to confirm the extent of damaging winds."
+            ]
+          },
+          "2": {
+            "title": "Damage Reports Increase",
+            "narrative": [
+              "What do you notice first on this map?",
+              "Name the main area that stands out the most."
+            ]
+          },
+          "3": {
+            "title": "Damage Reports Increase",
+            "narrative": [
+              "Look for patterns, not just one value.",
+              "How is the weather field organized across the region?"
+            ]
+          },
+          "4": {
+            "title": "Damage Reports Increase",
+            "narrative": [
+              "Compare what is strongest versus what is expanding.",
+              "What trend would you point out to a class?"
+            ]
+          },
+          "5": {
+            "title": "Damage Reports Increase",
+            "narrative": [
+              "What subtle clue might a beginner miss here?",
+              "What makes this step especially important in the bigger storm story?"
+            ]
+          }
+        },
+        "B": {
+          "1": {
+            "title": "Damage Reports Increase",
+            "narrative": [
+              "Explain what is happening in simple terms."
+            ]
+          },
+          "2": {
+            "title": "Damage Reports Increase",
+            "narrative": [
+              "What weather ingredient is most responsible for what you see?",
+              "Why does it matter?"
+            ]
+          },
+          "3": {
+            "title": "Damage Reports Increase",
+            "narrative": [
+              "How do two ingredients work together in this step?",
+              "Explain the process, not just the picture."
+            ]
+          },
+          "4": {
+            "title": "Damage Reports Increase",
+            "narrative": [
+              "What atmospheric change is driving the trend?",
+              "Why is this happening now instead of earlier?"
+            ]
+          },
+          "5": {
+            "title": "Damage Reports Increase",
+            "narrative": [
+              "Give the strongest science-based explanation for this step.",
+              "What would you teach as the main takeaway?"
+            ]
+          }
+        },
+        "C": {
+          "1": {
+            "title": "Damage Reports Increase",
+            "narrative": [
+              "Analyze the science at a basic level.",
+              "What does this product suggest about the atmosphere?"
+            ]
+          },
+          "2": {
+            "title": "Damage Reports Increase",
+            "narrative": [
+              "How does this compare with the previous step?",
+              "What trend is increasing or weakening?"
+            ]
+          },
+          "3": {
+            "title": "Damage Reports Increase",
+            "narrative": [
+              "What supporting evidence would you want from another product?",
+              "How confident are you in the signal here?"
+            ]
+          },
+          "4": {
+            "title": "Damage Reports Increase",
+            "narrative": [
+              "What is the deeper meteorological meaning of this step?",
+              "How does it fit into derecho development?"
+            ]
+          },
+          "5": {
+            "title": "Damage Reports Increase",
+            "narrative": [
+              "What would an advanced student or forecaster notice here?",
+              "What are the limits or caveats in this analysis?"
+            ]
+          }
+        },
+        "D": {
+          "1": {
+            "title": "Damage Reports Increase",
+            "narrative": [
+              "Apply this information to a simple forecast idea.",
+              "What would you tell students or viewers?"
+            ]
+          },
+          "2": {
+            "title": "Damage Reports Increase",
+            "narrative": [
+              "What action would you take next?",
+              "What product would you show after this?"
+            ]
+          },
+          "3": {
+            "title": "Damage Reports Increase",
+            "narrative": [
+              "What area deserves the most attention right now?",
+              "Why?"
+            ]
+          },
+          "4": {
+            "title": "Damage Reports Increase",
+            "narrative": [
+              "How would this affect warning or briefing decisions?",
+              "What message matters most?"
+            ]
+          },
+          "5": {
+            "title": "Damage Reports Increase",
+            "narrative": [
+              "If you were the forecaster, what is your best decision here?",
+              "How would you justify that decision scientifically?"
+            ]
+          }
+        }
       }
     },
     {
@@ -231,6 +1719,154 @@
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": true
+      },
+      "levels": {
+        "A": {
+          "1": {
+            "title": "Lightning Peaks",
+            "narrative": [
+              "If lightning data is present in the lesson folder, this step will display it."
+            ]
+          },
+          "2": {
+            "title": "Lightning Peaks",
+            "narrative": [
+              "What do you notice first on this map?",
+              "Name the main area that stands out the most."
+            ]
+          },
+          "3": {
+            "title": "Lightning Peaks",
+            "narrative": [
+              "Look for patterns, not just one value.",
+              "How is the weather field organized across the region?"
+            ]
+          },
+          "4": {
+            "title": "Lightning Peaks",
+            "narrative": [
+              "Compare what is strongest versus what is expanding.",
+              "What trend would you point out to a class?"
+            ]
+          },
+          "5": {
+            "title": "Lightning Peaks",
+            "narrative": [
+              "What subtle clue might a beginner miss here?",
+              "What makes this step especially important in the bigger storm story?"
+            ]
+          }
+        },
+        "B": {
+          "1": {
+            "title": "Lightning Peaks",
+            "narrative": [
+              "Explain what is happening in simple terms."
+            ]
+          },
+          "2": {
+            "title": "Lightning Peaks",
+            "narrative": [
+              "What weather ingredient is most responsible for what you see?",
+              "Why does it matter?"
+            ]
+          },
+          "3": {
+            "title": "Lightning Peaks",
+            "narrative": [
+              "How do two ingredients work together in this step?",
+              "Explain the process, not just the picture."
+            ]
+          },
+          "4": {
+            "title": "Lightning Peaks",
+            "narrative": [
+              "What atmospheric change is driving the trend?",
+              "Why is this happening now instead of earlier?"
+            ]
+          },
+          "5": {
+            "title": "Lightning Peaks",
+            "narrative": [
+              "Give the strongest science-based explanation for this step.",
+              "What would you teach as the main takeaway?"
+            ]
+          }
+        },
+        "C": {
+          "1": {
+            "title": "Lightning Peaks",
+            "narrative": [
+              "Analyze the science at a basic level.",
+              "What does this product suggest about the atmosphere?"
+            ]
+          },
+          "2": {
+            "title": "Lightning Peaks",
+            "narrative": [
+              "How does this compare with the previous step?",
+              "What trend is increasing or weakening?"
+            ]
+          },
+          "3": {
+            "title": "Lightning Peaks",
+            "narrative": [
+              "What supporting evidence would you want from another product?",
+              "How confident are you in the signal here?"
+            ]
+          },
+          "4": {
+            "title": "Lightning Peaks",
+            "narrative": [
+              "What is the deeper meteorological meaning of this step?",
+              "How does it fit into derecho development?"
+            ]
+          },
+          "5": {
+            "title": "Lightning Peaks",
+            "narrative": [
+              "What would an advanced student or forecaster notice here?",
+              "What are the limits or caveats in this analysis?"
+            ]
+          }
+        },
+        "D": {
+          "1": {
+            "title": "Lightning Peaks",
+            "narrative": [
+              "Apply this information to a simple forecast idea.",
+              "What would you tell students or viewers?"
+            ]
+          },
+          "2": {
+            "title": "Lightning Peaks",
+            "narrative": [
+              "What action would you take next?",
+              "What product would you show after this?"
+            ]
+          },
+          "3": {
+            "title": "Lightning Peaks",
+            "narrative": [
+              "What area deserves the most attention right now?",
+              "Why?"
+            ]
+          },
+          "4": {
+            "title": "Lightning Peaks",
+            "narrative": [
+              "How would this affect warning or briefing decisions?",
+              "What message matters most?"
+            ]
+          },
+          "5": {
+            "title": "Lightning Peaks",
+            "narrative": [
+              "If you were the forecaster, what is your best decision here?",
+              "How would you justify that decision scientifically?"
+            ]
+          }
+        }
       }
     },
     {
@@ -251,6 +1887,154 @@
         "showScrubber": false,
         "showDoppler": false,
         "allowPlay": false
+      },
+      "levels": {
+        "A": {
+          "1": {
+            "title": "Aftermath",
+            "narrative": [
+              "The storm system continues eastward, leaving damage behind."
+            ]
+          },
+          "2": {
+            "title": "Aftermath",
+            "narrative": [
+              "What do you notice first on this map?",
+              "Name the main area that stands out the most."
+            ]
+          },
+          "3": {
+            "title": "Aftermath",
+            "narrative": [
+              "Look for patterns, not just one value.",
+              "How is the weather field organized across the region?"
+            ]
+          },
+          "4": {
+            "title": "Aftermath",
+            "narrative": [
+              "Compare what is strongest versus what is expanding.",
+              "What trend would you point out to a class?"
+            ]
+          },
+          "5": {
+            "title": "Aftermath",
+            "narrative": [
+              "What subtle clue might a beginner miss here?",
+              "What makes this step especially important in the bigger storm story?"
+            ]
+          }
+        },
+        "B": {
+          "1": {
+            "title": "Aftermath",
+            "narrative": [
+              "Explain what is happening in simple terms."
+            ]
+          },
+          "2": {
+            "title": "Aftermath",
+            "narrative": [
+              "What weather ingredient is most responsible for what you see?",
+              "Why does it matter?"
+            ]
+          },
+          "3": {
+            "title": "Aftermath",
+            "narrative": [
+              "How do two ingredients work together in this step?",
+              "Explain the process, not just the picture."
+            ]
+          },
+          "4": {
+            "title": "Aftermath",
+            "narrative": [
+              "What atmospheric change is driving the trend?",
+              "Why is this happening now instead of earlier?"
+            ]
+          },
+          "5": {
+            "title": "Aftermath",
+            "narrative": [
+              "Give the strongest science-based explanation for this step.",
+              "What would you teach as the main takeaway?"
+            ]
+          }
+        },
+        "C": {
+          "1": {
+            "title": "Aftermath",
+            "narrative": [
+              "Analyze the science at a basic level.",
+              "What does this product suggest about the atmosphere?"
+            ]
+          },
+          "2": {
+            "title": "Aftermath",
+            "narrative": [
+              "How does this compare with the previous step?",
+              "What trend is increasing or weakening?"
+            ]
+          },
+          "3": {
+            "title": "Aftermath",
+            "narrative": [
+              "What supporting evidence would you want from another product?",
+              "How confident are you in the signal here?"
+            ]
+          },
+          "4": {
+            "title": "Aftermath",
+            "narrative": [
+              "What is the deeper meteorological meaning of this step?",
+              "How does it fit into derecho development?"
+            ]
+          },
+          "5": {
+            "title": "Aftermath",
+            "narrative": [
+              "What would an advanced student or forecaster notice here?",
+              "What are the limits or caveats in this analysis?"
+            ]
+          }
+        },
+        "D": {
+          "1": {
+            "title": "Aftermath",
+            "narrative": [
+              "Apply this information to a simple forecast idea.",
+              "What would you tell students or viewers?"
+            ]
+          },
+          "2": {
+            "title": "Aftermath",
+            "narrative": [
+              "What action would you take next?",
+              "What product would you show after this?"
+            ]
+          },
+          "3": {
+            "title": "Aftermath",
+            "narrative": [
+              "What area deserves the most attention right now?",
+              "Why?"
+            ]
+          },
+          "4": {
+            "title": "Aftermath",
+            "narrative": [
+              "How would this affect warning or briefing decisions?",
+              "What message matters most?"
+            ]
+          },
+          "5": {
+            "title": "Aftermath",
+            "narrative": [
+              "If you were the forecaster, what is your best decision here?",
+              "How would you justify that decision scientifically?"
+            ]
+          }
+        }
       }
     }
   ]
