@@ -22,6 +22,34 @@
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": false
+      },
+      "levels": {
+        "A": {
+          "title": "Atmosphere Primed",
+          "narrative": [
+            "Warm, moist air is surging northward across the Plains.",
+            "This step uses TV-style temperature markers and keeps the bottom scrubber synced to the METAR timeline.",
+            "Use the METAR controls to switch between temperature, dew point, wind, and pressure."
+          ]
+        },
+        "B": {
+          "title": "Atmosphere Primed",
+          "narrative": [
+            "Explain what is happening."
+          ]
+        },
+        "C": {
+          "title": "Atmosphere Primed",
+          "narrative": [
+            "Analyze the science."
+          ]
+        },
+        "D": {
+          "title": "Atmosphere Primed",
+          "narrative": [
+            "Apply and forecast."
+          ]
+        }
       }
     },
     {
@@ -44,6 +72,33 @@
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": false
+      },
+      "levels": {
+        "A": {
+          "title": "Moisture Returns",
+          "narrative": [
+            "This view switches the METAR markers to dew point so moisture return is easier to explain.",
+            "The clock and scrubber stay visible here too."
+          ]
+        },
+        "B": {
+          "title": "Moisture Returns",
+          "narrative": [
+            "Explain what is happening."
+          ]
+        },
+        "C": {
+          "title": "Moisture Returns",
+          "narrative": [
+            "Analyze the science."
+          ]
+        },
+        "D": {
+          "title": "Moisture Returns",
+          "narrative": [
+            "Apply and forecast."
+          ]
+        }
       }
     },
     {
@@ -65,6 +120,33 @@
         "showScrubber": false,
         "showDoppler": false,
         "allowPlay": false
+      },
+      "levels": {
+        "A": {
+          "title": "SPC Upgrade",
+          "narrative": [
+            "The Storm Prediction Center highlights the region for organized severe weather.",
+            "Forecasters are increasingly concerned about widespread damaging winds."
+          ]
+        },
+        "B": {
+          "title": "SPC Upgrade",
+          "narrative": [
+            "Explain what is happening."
+          ]
+        },
+        "C": {
+          "title": "SPC Upgrade",
+          "narrative": [
+            "Analyze the science."
+          ]
+        },
+        "D": {
+          "title": "SPC Upgrade",
+          "narrative": [
+            "Apply and forecast."
+          ]
+        }
       }
     },
     {
@@ -86,6 +168,33 @@
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": false
+      },
+      "levels": {
+        "A": {
+          "title": "Forecast Temperatures",
+          "narrative": [
+            "Future temperatures should scrub by HRRR frames, matching the way future winds behaves.",
+            "State boundaries and county lines remain on for context."
+          ]
+        },
+        "B": {
+          "title": "Forecast Temperatures",
+          "narrative": [
+            "Explain what is happening."
+          ]
+        },
+        "C": {
+          "title": "Forecast Temperatures",
+          "narrative": [
+            "Analyze the science."
+          ]
+        },
+        "D": {
+          "title": "Forecast Temperatures",
+          "narrative": [
+            "Apply and forecast."
+          ]
+        }
       }
     },
     {
@@ -107,6 +216,33 @@
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": false
+      },
+      "levels": {
+        "A": {
+          "title": "Instability Builds",
+          "narrative": [
+            "If a CAPE manifest is present, this step will show it.",
+            "If not, this step can be skipped without breaking the demo."
+          ]
+        },
+        "B": {
+          "title": "Instability Builds",
+          "narrative": [
+            "Explain what is happening."
+          ]
+        },
+        "C": {
+          "title": "Instability Builds",
+          "narrative": [
+            "Analyze the science."
+          ]
+        },
+        "D": {
+          "title": "Instability Builds",
+          "narrative": [
+            "Apply and forecast."
+          ]
+        }
       }
     },
     {
@@ -128,6 +264,33 @@
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": false
+      },
+      "levels": {
+        "A": {
+          "title": "Wind Energy Builds",
+          "narrative": [
+            "Forecast wind fields show strong flow feeding the developing system.",
+            "This step remains on the HRRR frame scrubber path."
+          ]
+        },
+        "B": {
+          "title": "Wind Energy Builds",
+          "narrative": [
+            "Explain what is happening."
+          ]
+        },
+        "C": {
+          "title": "Wind Energy Builds",
+          "narrative": [
+            "Analyze the science."
+          ]
+        },
+        "D": {
+          "title": "Wind Energy Builds",
+          "narrative": [
+            "Apply and forecast."
+          ]
+        }
       }
     },
     {
@@ -149,6 +312,33 @@
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": true
+      },
+      "levels": {
+        "A": {
+          "title": "Storms Begin to Develop",
+          "narrative": [
+            "Initial storms begin to organize into a more connected line.",
+            "Radar is now the best tool for tracking rapid evolution."
+          ]
+        },
+        "B": {
+          "title": "Storms Begin to Develop",
+          "narrative": [
+            "Explain what is happening."
+          ]
+        },
+        "C": {
+          "title": "Storms Begin to Develop",
+          "narrative": [
+            "Analyze the science."
+          ]
+        },
+        "D": {
+          "title": "Storms Begin to Develop",
+          "narrative": [
+            "Apply and forecast."
+          ]
+        }
       }
     },
     {
@@ -170,6 +360,32 @@
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": true
+      },
+      "levels": {
+        "A": {
+          "title": "Warnings Issued",
+          "narrative": [
+            "Severe thunderstorm warnings are issued as storms intensify."
+          ]
+        },
+        "B": {
+          "title": "Warnings Issued",
+          "narrative": [
+            "Explain what is happening."
+          ]
+        },
+        "C": {
+          "title": "Warnings Issued",
+          "narrative": [
+            "Analyze the science."
+          ]
+        },
+        "D": {
+          "title": "Warnings Issued",
+          "narrative": [
+            "Apply and forecast."
+          ]
+        }
       }
     },
     {
@@ -191,6 +407,32 @@
         "showScrubber": true,
         "showDoppler": true,
         "allowPlay": true
+      },
+      "levels": {
+        "A": {
+          "title": "Live Doppler View",
+          "narrative": [
+            "A live Doppler-style sweep helps students see how the radar scans the storm."
+          ]
+        },
+        "B": {
+          "title": "Live Doppler View",
+          "narrative": [
+            "Explain what is happening."
+          ]
+        },
+        "C": {
+          "title": "Live Doppler View",
+          "narrative": [
+            "Analyze the science."
+          ]
+        },
+        "D": {
+          "title": "Live Doppler View",
+          "narrative": [
+            "Apply and forecast."
+          ]
+        }
       }
     },
     {
@@ -211,6 +453,32 @@
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": true
+      },
+      "levels": {
+        "A": {
+          "title": "Damage Reports Increase",
+          "narrative": [
+            "Storm reports begin to confirm the extent of damaging winds."
+          ]
+        },
+        "B": {
+          "title": "Damage Reports Increase",
+          "narrative": [
+            "Explain what is happening."
+          ]
+        },
+        "C": {
+          "title": "Damage Reports Increase",
+          "narrative": [
+            "Analyze the science."
+          ]
+        },
+        "D": {
+          "title": "Damage Reports Increase",
+          "narrative": [
+            "Apply and forecast."
+          ]
+        }
       }
     },
     {
@@ -231,6 +499,32 @@
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": true
+      },
+      "levels": {
+        "A": {
+          "title": "Lightning Peaks",
+          "narrative": [
+            "If lightning data is present in the lesson folder, this step will display it."
+          ]
+        },
+        "B": {
+          "title": "Lightning Peaks",
+          "narrative": [
+            "Explain what is happening."
+          ]
+        },
+        "C": {
+          "title": "Lightning Peaks",
+          "narrative": [
+            "Analyze the science."
+          ]
+        },
+        "D": {
+          "title": "Lightning Peaks",
+          "narrative": [
+            "Apply and forecast."
+          ]
+        }
       }
     },
     {
@@ -251,6 +545,32 @@
         "showScrubber": false,
         "showDoppler": false,
         "allowPlay": false
+      },
+      "levels": {
+        "A": {
+          "title": "Aftermath",
+          "narrative": [
+            "The storm system continues eastward, leaving damage behind."
+          ]
+        },
+        "B": {
+          "title": "Aftermath",
+          "narrative": [
+            "Explain what is happening."
+          ]
+        },
+        "C": {
+          "title": "Aftermath",
+          "narrative": [
+            "Analyze the science."
+          ]
+        },
+        "D": {
+          "title": "Aftermath",
+          "narrative": [
+            "Apply and forecast."
+          ]
+        }
       }
     }
   ]
