@@ -350,8 +350,8 @@
       "utc": "2022-05-12T19:00:00Z",
       "title": "SPC Upgrade",
       "narrative": [
-        "The Storm Prediction Center highlights the region for organized severe weather.",
-        "Forecasters are increasingly concerned about widespread damaging winds."
+        "The Storm Prediction Center upgraded parts of the region to a Moderate Risk at 13Z.",
+        "The main concern is that storms later today may organize into a damaging wind event, with large hail and a few tornadoes also possible."
       ],
       "scene": {
         "product": "spc",
@@ -370,146 +370,167 @@
           "1": {
             "title": "SPC Upgrade",
             "narrative": [
-              "The Storm Prediction Center highlights the region for organized severe weather.",
-              "Forecasters are increasingly concerned about widespread damaging winds."
+              "This is the SPC Day 1 Outlook.",
+              "It shows where severe thunderstorms are most likely later today.",
+              "Find the area with the highest risk shading on the map."
             ]
           },
           "2": {
             "title": "SPC Upgrade",
             "narrative": [
-              "What do you notice first on this map?",
-              "Name the main area that stands out the most."
+              "The most important change in the 13Z update is the new Moderate Risk area.",
+              "This area covers parts of eastern South Dakota, western Minnesota, and southeastern North Dakota.",
+              "Point to the Moderate Risk and describe where it is located."
             ]
           },
           "3": {
             "title": "SPC Upgrade",
             "narrative": [
-              "Look for patterns, not just one value.",
-              "How is the weather field organized across the region?"
+              "Notice that the highest risk is not tiny or isolated.",
+              "It covers a fairly broad area, which suggests forecasters are worried about an organized severe weather event rather than just one storm.",
+              "What does the size and shape of this outlook suggest to you?"
             ]
           },
           "4": {
             "title": "SPC Upgrade",
             "narrative": [
-              "Compare what is strongest versus what is expanding.",
-              "What trend would you point out to a class?"
+              "Compare this outlook to the earlier signs of warming and moisture return.",
+              "The SPC is highlighting the same general corridor where the atmosphere is becoming more favorable for severe storms.",
+              "How does this map fit with the earlier setup you saw?"
             ]
           },
           "5": {
             "title": "SPC Upgrade",
             "narrative": [
-              "What subtle clue might a beginner miss here?",
-              "What makes this step especially important in the bigger storm story?"
+              "A beginner may only notice the colors, but a forecaster also notices placement.",
+              "The Moderate Risk is near the corridor where storm organization and damaging winds may become more likely later in the day.",
+              "Why is the location of the highest risk just as important as the category?"
             ]
           }
         },
         "B": {
           "1": {
-            "title": "SPC Upgrade",
+            "title": "What Is a Moderate Risk?",
             "narrative": [
-              "Explain what is happening in simple terms."
+              "SPC outlooks are forecast maps, not radar maps.",
+              "A Moderate Risk means forecasters have increased confidence that a more significant severe weather event could develop in this area.",
+              "In simple words: this is a serious signal that people should pay attention today."
             ]
           },
           "2": {
-            "title": "SPC Upgrade",
+            "title": "Main Hazards",
             "narrative": [
-              "What weather ingredient is most responsible for what you see?",
-              "Why does it matter?"
+              "The 13Z outlook highlights three main hazards: damaging wind, large hail, and a few tornadoes.",
+              "The biggest overall concern is widespread damaging wind, with some gusts that could become very strong.",
+              "Which hazard would likely affect the largest area?"
             ]
           },
           "3": {
-            "title": "SPC Upgrade",
+            "title": "Why Wind Matters Most",
             "narrative": [
-              "How do two ingredients work together in this step?",
-              "Explain the process, not just the picture."
+              "Storms may begin as more separate cells, but later they are expected to merge into a line.",
+              "When storms form a line, straight-line winds often become the biggest threat.",
+              "That is one reason this outlook was upgraded."
             ]
           },
           "4": {
-            "title": "SPC Upgrade",
+            "title": "Why Tornadoes Are Still Mentioned",
             "narrative": [
-              "What atmospheric change is driving the trend?",
-              "Why is this happening now instead of earlier?"
+              "Even though wind is the main concern, a few tornadoes are still possible.",
+              "The best tornado chance is near the warm front, where low-level winds and storm rotation can work together more effectively.",
+              "This means one outlook can include more than one kind of severe weather threat."
             ]
           },
           "5": {
-            "title": "SPC Upgrade",
+            "title": "Big-Picture Science",
             "narrative": [
-              "Give the strongest science-based explanation for this step.",
-              "What would you teach as the main takeaway?"
+              "Forecasters are combining several ingredients here: moisture, instability, lift, and wind shear.",
+              "Those ingredients support strong storms, and they also favor storms organizing into a larger wind-producing system later in the day.",
+              "This is a good example of how forecasters think beyond just one map."
             ]
           }
         },
         "C": {
           "1": {
-            "title": "SPC Upgrade",
+            "title": "Analyze the Signal",
             "narrative": [
-              "Analyze the science at a basic level.",
-              "What does this product suggest about the atmosphere?"
+              "This outlook suggests that forecasters expect severe storms to develop later today, not necessarily right away.",
+              "The atmosphere is being judged as increasingly favorable for organized severe weather.",
+              "What does this map tell you about the rest of the afternoon?"
             ]
           },
           "2": {
-            "title": "SPC Upgrade",
+            "title": "Where Is the Greatest Tornado Chance?",
             "narrative": [
-              "How does this compare with the previous step?",
-              "What trend is increasing or weakening?"
+              "The tornado threat is not spread evenly across the whole area.",
+              "The best chance is closer to the warm front, where low-level winds are more favorable for rotation.",
+              "Why might one part of the outlook have a different severe threat than another?"
             ]
           },
           "3": {
-            "title": "SPC Upgrade",
+            "title": "What Would You Check Next?",
             "narrative": [
-              "What supporting evidence would you want from another product?",
-              "How confident are you in the signal here?"
+              "This SPC map is a forecast starting point, not the full story.",
+              "A forecaster would now want supporting evidence from another product, such as CAPE, dew point, surface winds, or future radar.",
+              "Which product would you look at next to test this forecast?"
             ]
           },
           "4": {
-            "title": "SPC Upgrade",
+            "title": "From Forecast to Storm Mode",
             "narrative": [
-              "What is the deeper meteorological meaning of this step?",
-              "How does it fit into derecho development?"
+              "The outlook hints that storm mode may change through the day.",
+              "Storms could begin more isolated, then merge into a line, which raises the damaging wind threat.",
+              "Why does storm mode matter when forecasting hazards?"
             ]
           },
           "5": {
-            "title": "SPC Upgrade",
+            "title": "Uncertainty Still Matters",
             "narrative": [
-              "What would an advanced student or forecaster notice here?",
-              "What are the limits or caveats in this analysis?"
+              "A Moderate Risk does not mean every location will see the same storm or same hazard.",
+              "Forecasters still have uncertainty about exactly where storms form, how quickly they merge, and where the worst wind or tornado threat sets up.",
+              "What is one important uncertainty still left in this forecast?"
             ]
           }
         },
         "D": {
           "1": {
-            "title": "SPC Upgrade",
+            "title": "Message to the Public",
             "narrative": [
-              "Apply this information to a simple forecast idea.",
-              "What would you tell students or viewers?"
+              "If you were explaining this map to a class, your main message would be simple: severe storms are expected later today, and some could be dangerous.",
+              "This is the kind of day to stay weather aware and check updates often.",
+              "How would you say that in one sentence?"
             ]
           },
           "2": {
-            "title": "SPC Upgrade",
+            "title": "What Area Would You Watch Closest?",
             "narrative": [
-              "What action would you take next?",
-              "What product would you show after this?"
+              "A meteorologist would pay special attention to the Moderate Risk area first.",
+              "That does not mean surrounding areas are safe, but it does help focus attention where the greatest confidence exists.",
+              "Which area would you monitor most closely this afternoon?"
             ]
           },
           "3": {
-            "title": "SPC Upgrade",
+            "title": "What Product Comes Next?",
             "narrative": [
-              "What area deserves the most attention right now?",
-              "Why?"
+              "After showing the SPC outlook, a good next step in the lesson is to support it with another product.",
+              "CAPE, dew point, or future radar would all help explain why SPC upgraded the risk.",
+              "Which one would you show next, and what would you hope students notice?"
             ]
           },
           "4": {
-            "title": "SPC Upgrade",
+            "title": "Briefing Decision",
             "narrative": [
-              "How would this affect warning or briefing decisions?",
-              "What message matters most?"
+              "If you were briefing a school or emergency manager, you would emphasize the potential for damaging winds later today.",
+              "You would also mention that hail and a few tornadoes remain possible, especially in favored areas.",
+              "What preparedness message matters most at this stage?"
             ]
           },
           "5": {
-            "title": "SPC Upgrade",
+            "title": "Forecaster Decision",
             "narrative": [
-              "If you were the forecaster, what is your best decision here?",
-              "How would you justify that decision scientifically?"
+              "Your best forecast decision here is to take the SPC upgrade seriously and start planning for a higher-end severe weather day.",
+              "The evidence points toward an organized damaging wind event, even though some storm details are still uncertain.",
+              "How confident would you be, and what evidence would you cite?"
             ]
           }
         }
