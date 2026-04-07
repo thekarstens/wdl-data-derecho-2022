@@ -1,0 +1,288 @@
+{
+  "storyboardTitle": "May 12, 2022 Derecho \u2014 Live Severe Weather Simulator",
+  "steps": [
+    {
+      "id": 1,
+      "utc": "2022-05-12T20:00:00Z",
+      "title": "Simulation Begins",
+      "narrative": [
+        "It is 3:00 PM CDT. The atmosphere is primed, and attention is turning to storm development west of Sioux Falls.",
+        "Use this opening step to orient the class before the severe weather phase begins."
+      ],
+      "scene": {
+        "product": "radar",
+        "layers": [
+          "radar"
+        ]
+      },
+      "interaction": {
+        "showClock": true,
+        "showScrubber": true,
+        "showDoppler": false,
+        "allowPlay": true
+      },
+      "ui": {
+        "stepTheme": "blue",
+        "stepKicker": "SETUP",
+        "stepLabel": "1"
+      }
+    },
+    {
+      "id": 2,
+      "utc": "2022-05-12T20:35:00Z",
+      "title": "Storms Begin to Organize",
+      "narrative": [
+        "Radar echoes are becoming more coherent west of the James Valley.",
+        "This is the transition from background setup to storm mode."
+      ],
+      "scene": {
+        "product": "radar",
+        "layers": [
+          "radar"
+        ]
+      },
+      "interaction": {
+        "showClock": true,
+        "showScrubber": true,
+        "showDoppler": true,
+        "allowPlay": true
+      },
+      "ui": {
+        "stepTheme": "cyan",
+        "stepKicker": "RADAR FOCUS",
+        "stepLabel": "2"
+      },
+      "event": {
+        "type": "radarFocus",
+        "headline": "Storms Intensifying",
+        "message": "Radar returns are beginning to consolidate west of Sioux Falls.",
+        "theme": "info"
+      }
+    },
+    {
+      "id": 3,
+      "utc": "2022-05-12T21:05:00Z",
+      "title": "Warnings Enter the Story",
+      "narrative": [
+        "Severe thunderstorm warnings begin to matter more as storms approach the Sioux Falls region.",
+        "The simulator should now feel more urgent and more real-time."
+      ],
+      "scene": {
+        "product": "warnings",
+        "layers": [
+          "radar",
+          "warnings"
+        ]
+      },
+      "interaction": {
+        "showClock": true,
+        "showScrubber": true,
+        "showDoppler": true,
+        "allowPlay": true
+      },
+      "ui": {
+        "stepTheme": "orange",
+        "stepKicker": "WARNING MODE",
+        "stepLabel": "3"
+      },
+      "event": {
+        "type": "severeWarning",
+        "headline": "Severe Thunderstorm Warning",
+        "message": "A warning polygon is now in play. Watch radar and the warning edge together.",
+        "theme": "severe"
+      }
+    },
+    {
+      "id": 4,
+      "utc": "2022-05-12T21:32:00Z",
+      "title": "Live Doppler Moment",
+      "narrative": [
+        "This is a strong teaching moment to toggle on the Live Doppler sweep and focus attention on the storm core.",
+        "Students should feel like they are watching a live television weather cut-in."
+      ],
+      "scene": {
+        "product": "live_doppler",
+        "layers": [
+          "radar",
+          "warnings",
+          "live_doppler"
+        ]
+      },
+      "interaction": {
+        "showClock": true,
+        "showScrubber": true,
+        "showDoppler": true,
+        "allowPlay": true
+      },
+      "ui": {
+        "stepTheme": "cyan",
+        "stepKicker": "LIVE DOPPLER",
+        "stepLabel": "4"
+      },
+      "event": {
+        "type": "radarFocus",
+        "headline": "Live Doppler On",
+        "message": "Turn on the sweep and narrate what is changing storm by storm.",
+        "theme": "info"
+      }
+    },
+    {
+      "id": 5,
+      "utc": "2022-05-12T21:48:00Z",
+      "title": "Tornado Warning Flashpoint",
+      "narrative": [
+        "This is the big interruption point of the simulator.",
+        "Pause the timeline, let the alert breathe on screen, and talk through why this moment matters."
+      ],
+      "scene": {
+        "product": "warnings",
+        "layers": [
+          "radar",
+          "warnings"
+        ]
+      },
+      "interaction": {
+        "showClock": true,
+        "showScrubber": true,
+        "showDoppler": true,
+        "allowPlay": true,
+        "pause": true
+      },
+      "ui": {
+        "stepTheme": "red",
+        "stepKicker": "ALERT",
+        "stepLabel": "5"
+      },
+      "event": {
+        "type": "tornadoWarning",
+        "headline": "Tornado Warning",
+        "message": "Pause the simulator here and examine the warning polygon and radar presentation together.",
+        "theme": "tornado",
+        "pauseOnEnter": true
+      }
+    },
+    {
+      "id": 6,
+      "utc": "2022-05-12T22:05:00Z",
+      "title": "Damage Reports Begin",
+      "narrative": [
+        "Storm reports now add reality to the radar presentation.",
+        "This is where the event starts feeling broader than a single warned storm."
+      ],
+      "scene": {
+        "product": "reports",
+        "layers": [
+          "radar",
+          "warnings",
+          "reports"
+        ]
+      },
+      "interaction": {
+        "showClock": true,
+        "showScrubber": true,
+        "showDoppler": false,
+        "allowPlay": true
+      },
+      "ui": {
+        "stepTheme": "orange",
+        "stepKicker": "GROUND TRUTH",
+        "stepLabel": "6"
+      },
+      "event": {
+        "type": "reports",
+        "headline": "Damage Reports Increasing",
+        "message": "Wind damage reports are starting to confirm what radar has been suggesting.",
+        "theme": "reports"
+      }
+    },
+    {
+      "id": 7,
+      "utc": "2022-05-12T22:25:00Z",
+      "title": "Line Matures",
+      "narrative": [
+        "The storm is evolving toward a more organized damaging wind event.",
+        "Use this step to explain how a line changes the hazard footprint."
+      ],
+      "scene": {
+        "product": "radar",
+        "layers": [
+          "radar",
+          "warnings",
+          "reports"
+        ]
+      },
+      "interaction": {
+        "showClock": true,
+        "showScrubber": true,
+        "showDoppler": true,
+        "allowPlay": true
+      },
+      "ui": {
+        "stepTheme": "cyan",
+        "stepKicker": "LINE EVOLUTION",
+        "stepLabel": "7"
+      }
+    },
+    {
+      "id": 8,
+      "utc": "2022-05-12T22:45:00Z",
+      "title": "Lightning Peaks",
+      "narrative": [
+        "If lightning data is available, this is a natural point to turn it on for extra realism.",
+        "Otherwise, keep the focus on radar, warnings, and reports."
+      ],
+      "scene": {
+        "product": "lightning",
+        "layers": [
+          "radar",
+          "warnings",
+          "reports",
+          "lightning"
+        ]
+      },
+      "interaction": {
+        "showClock": true,
+        "showScrubber": true,
+        "showDoppler": false,
+        "allowPlay": true
+      },
+      "ui": {
+        "stepTheme": "purple",
+        "stepKicker": "ELECTRIFIED",
+        "stepLabel": "8"
+      },
+      "event": {
+        "type": "lightning",
+        "headline": "Lightning Increasing",
+        "message": "If enabled, lightning adds another real-time layer to the experience.",
+        "theme": "info"
+      }
+    },
+    {
+      "id": 9,
+      "utc": "2022-05-12T23:05:00Z",
+      "title": "Aftermath Window",
+      "narrative": [
+        "The most intense phase is moving east, but impacts remain.",
+        "Wrap the lesson by connecting radar evolution, warnings, and damage reports to the bigger derecho story."
+      ],
+      "scene": {
+        "product": "reports",
+        "layers": [
+          "reports"
+        ]
+      },
+      "interaction": {
+        "showClock": true,
+        "showScrubber": true,
+        "showDoppler": false,
+        "allowPlay": false
+      },
+      "ui": {
+        "stepTheme": "orange",
+        "stepKicker": "RECAP",
+        "stepLabel": "9"
+      }
+    }
+  ]
+}
