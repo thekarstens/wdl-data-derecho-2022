@@ -1,0 +1,375 @@
+{
+  "storyboardTitle": "May 12, 2022 Derecho \u2014 Live Severe Weather Simulator v5",
+  "timeGroups": [
+    {
+      "time": "2022-05-12T20:00:00Z",
+      "label": "3 PM",
+      "cards": [
+        {
+          "id": "spc-3pm",
+          "title": "SPC Outlook",
+          "topicLabel": "SPC Outlook",
+          "kicker": "Setup",
+          "product": "spc",
+          "layers": [
+            "spc"
+          ],
+          "narrative": [
+            "It is 3:00 PM CDT. Start with the SPC outlook and explain why the setup was already concerning before the biggest impacts hit.",
+            "A key teaching question here is how many people really knew that a high-end wind event was possible at this point in the day."
+          ]
+        },
+        {
+          "id": "watch-3pm",
+          "title": "PDS Watch",
+          "topicLabel": "PDS Watch",
+          "kicker": "Critical Signal",
+          "product": "watch",
+          "layers": [
+            "watch"
+          ],
+          "narrative": [
+            "The Particularly Dangerous Situation watch is a pivotal product for this event.",
+            "Use this card to stress the possibility of 100+ mph winds and why that should have raised the operational level of concern."
+          ]
+        },
+        {
+          "id": "future-radar-3pm",
+          "title": "Future Radar",
+          "topicLabel": "Future Radar",
+          "kicker": "Forecast",
+          "product": "future_radar",
+          "layers": [
+            "future_radar"
+          ],
+          "narrative": [
+            "Future radar helps frame where the line may be heading before the event reaches the peak impact period.",
+            "This is a forecast product, so it is one of the few cards that can legitimately look ahead of the master clock."
+          ]
+        },
+        {
+          "id": "future-winds-3pm",
+          "title": "Future Winds",
+          "topicLabel": "Future Winds",
+          "kicker": "Forecast",
+          "product": "future_radar",
+          "layers": [
+            "future_winds"
+          ],
+          "narrative": [
+            "Use future wind guidance to discuss the potential for damaging straight-line winds ahead of time.",
+            "This is a good place to compare forecast confidence versus what the public might actually perceive."
+          ]
+        },
+        {
+          "id": "satellite-3pm",
+          "title": "Satellite",
+          "topicLabel": "Satellite",
+          "kicker": "Environment",
+          "product": "satellite",
+          "layers": [
+            "satellite"
+          ],
+          "narrative": [
+            "Satellite is part of the preparation phase from 3 to 4 PM.",
+            "Talk through cloud trends, clearing, and how meteorologists read environmental clues before the warnings dominate the screen."
+          ]
+        },
+        {
+          "id": "radar-3pm",
+          "title": "Radar Baseline",
+          "topicLabel": "Radar",
+          "kicker": "Baseline",
+          "product": "radar",
+          "layers": [
+            "radar"
+          ],
+          "narrative": [
+            "Use a quick radar baseline so students understand where storms are before the event ramps up.",
+            "This is not yet the peak severe phase, but it sets up everything that follows."
+          ]
+        }
+      ]
+    },
+    {
+      "time": "2022-05-12T21:00:00Z",
+      "label": "4 PM",
+      "cards": [
+        {
+          "id": "radar-4pm",
+          "title": "Radar Focus",
+          "topicLabel": "Radar",
+          "kicker": "Action Phase",
+          "product": "radar",
+          "layers": [
+            "radar"
+          ],
+          "narrative": [
+            "By 4 PM, radar becomes one of the main teaching tools.",
+            "This is where the simulator should start feeling more urgent as storms organize and approach the region."
+          ]
+        },
+        {
+          "id": "doppler-4pm",
+          "title": "Live Doppler",
+          "topicLabel": "Live Doppler",
+          "kicker": "Operational Tool",
+          "product": "live_doppler",
+          "layers": [
+            "radar",
+            "live_doppler"
+          ],
+          "showDoppler": true,
+          "narrative": [
+            "Live Doppler is one of the signature meteorology moments in this simulator.",
+            "Use it to explain why wind information matters and how Doppler reveals the strength of the event beyond simple reflectivity."
+          ]
+        },
+        {
+          "id": "warnings-4pm",
+          "title": "Warnings",
+          "topicLabel": "Warnings",
+          "kicker": "Warning Mode",
+          "product": "warnings",
+          "layers": [
+            "radar",
+            "warnings"
+          ],
+          "showDoppler": true,
+          "narrative": [
+            "The first batch of warnings is starting to matter more now.",
+            "This is where the operational side of the simulator begins to feel live and consequential."
+          ]
+        },
+        {
+          "id": "radar-warnings-4pm",
+          "title": "Radar + Warnings",
+          "topicLabel": "Radar + Warn",
+          "kicker": "Combo View",
+          "product": "warnings",
+          "layers": [
+            "radar",
+            "warnings"
+          ],
+          "showDoppler": true,
+          "narrative": [
+            "Radar plus warnings is a strong combination card for students because it ties what they see to official action.",
+            "Use this when you want the map to feel like a TV cut-in."
+          ]
+        },
+        {
+          "id": "reports-4pm",
+          "title": "First Reports",
+          "topicLabel": "Reports",
+          "kicker": "Ground Truth",
+          "product": "reports",
+          "layers": [
+            "radar",
+            "reports"
+          ],
+          "narrative": [
+            "Early reports begin adding reality to the radar picture.",
+            "One major moment to build in later is the 107 mph report that captured the seriousness of the wind threat."
+          ]
+        },
+        {
+          "id": "lightning-4pm",
+          "title": "Lightning Trends",
+          "topicLabel": "Lightning",
+          "kicker": "Electrical Trends",
+          "product": "lightning",
+          "layers": [
+            "radar",
+            "lightning"
+          ],
+          "narrative": [
+            "Lightning may or may not be central to every moment, but trends can still be discussed.",
+            "Eventually, the lightning layer should flash strikes from the last 10 to 15 minutes on and off to emphasize recent activity."
+          ]
+        }
+      ]
+    },
+    {
+      "time": "2022-05-12T22:00:00Z",
+      "label": "5 PM",
+      "cards": [
+        {
+          "id": "radar-5pm",
+          "title": "Radar at Peak",
+          "topicLabel": "Radar",
+          "kicker": "Peak Event",
+          "product": "radar",
+          "layers": [
+            "radar"
+          ],
+          "narrative": [
+            "Radar is huge at 5 PM and should probably remain the default anchor product.",
+            "This is where the line evolution becomes the story."
+          ]
+        },
+        {
+          "id": "radar-reports-5pm",
+          "title": "Radar + Reports",
+          "topicLabel": "Radar + Reports",
+          "kicker": "Ground Truth",
+          "product": "reports",
+          "layers": [
+            "radar",
+            "reports"
+          ],
+          "narrative": [
+            "Radar plus storm reports is ideal for showing how impacts confirm what the radar is suggesting.",
+            "This is a key combination for teaching real-time verification."
+          ]
+        },
+        {
+          "id": "radar-lightning-warnings-5pm",
+          "title": "Radar + Lightning + Warnings",
+          "topicLabel": "Radar + Lightning",
+          "kicker": "Busy Screen",
+          "product": "lightning",
+          "layers": [
+            "radar",
+            "lightning",
+            "warnings"
+          ],
+          "showDoppler": true,
+          "narrative": [
+            "This combination card is intentionally busier and should be used when you want the screen to feel operationally intense.",
+            "Students can compare the warning footprint to where the active lightning and strongest radar returns are appearing."
+          ]
+        },
+        {
+          "id": "doppler-warnings-5pm",
+          "title": "Live Doppler + Warnings",
+          "topicLabel": "Doppler + Warn",
+          "kicker": "Wind Focus",
+          "product": "live_doppler",
+          "layers": [
+            "radar",
+            "warnings",
+            "live_doppler"
+          ],
+          "showDoppler": true,
+          "narrative": [
+            "This is one of the best cards for showing the power of Doppler in a damaging-wind event.",
+            "Use this to explain that velocity data often tells a more direct wind story than reflectivity alone."
+          ]
+        },
+        {
+          "id": "photos-5pm",
+          "title": "Storm Photos",
+          "topicLabel": "Photos",
+          "kicker": "Visual Impact",
+          "product": "photos",
+          "layers": [
+            "photos"
+          ],
+          "narrative": [
+            "Photos begin to matter more as the event matures and the human side of the storm becomes visible.",
+            "This will be a strong future card once the damage and storm images are tied to the timeline."
+          ]
+        }
+      ]
+    },
+    {
+      "time": "2022-05-12T23:00:00Z",
+      "label": "6 PM",
+      "cards": [
+        {
+          "id": "radar-6pm",
+          "title": "Radar Continuation",
+          "topicLabel": "Radar",
+          "kicker": "Continuing Event",
+          "product": "radar",
+          "layers": [
+            "radar"
+          ],
+          "narrative": [
+            "The event is still ongoing and radar remains critical.",
+            "This is where the story shifts from isolated moments to the broader sweep of a major windstorm."
+          ]
+        },
+        {
+          "id": "warnings-6pm",
+          "title": "Warnings in Effect",
+          "topicLabel": "Warnings",
+          "kicker": "Operational Load",
+          "product": "warnings",
+          "layers": [
+            "radar",
+            "warnings"
+          ],
+          "narrative": [
+            "Use this card to talk about warning count, overlap, and how busy a warning operation can become in a major event.",
+            "The warnings-in-effect box should reinforce that live operational feel."
+          ]
+        },
+        {
+          "id": "reports-6pm",
+          "title": "Widening Damage Reports",
+          "topicLabel": "Reports",
+          "kicker": "Broader Impacts",
+          "product": "reports",
+          "layers": [
+            "radar",
+            "reports"
+          ],
+          "narrative": [
+            "Storm reports help the class see that the story is no longer limited to one county or one warning polygon.",
+            "The severe wind damage is becoming regional."
+          ]
+        },
+        {
+          "id": "photos-6pm",
+          "title": "Damage Photos",
+          "topicLabel": "Photos",
+          "kicker": "Visual Evidence",
+          "product": "photos",
+          "layers": [
+            "photos"
+          ],
+          "narrative": [
+            "Use this card once photos and media are available for the 6 PM phase.",
+            "This is a strong bridge between the map and the human impact."
+          ]
+        }
+      ]
+    },
+    {
+      "time": "2022-05-13T00:00:00Z",
+      "label": "7 PM",
+      "cards": [
+        {
+          "id": "radar-7pm",
+          "title": "Storms Shift North",
+          "topicLabel": "Radar",
+          "kicker": "Wrap-up",
+          "product": "radar",
+          "layers": [
+            "radar"
+          ],
+          "narrative": [
+            "By 7 PM the event is not over, but for this simulator it is probably enough to wind down the core one-hour lesson.",
+            "Storms are shifting north of Sioux Falls, so this becomes a good transition toward recap."
+          ]
+        },
+        {
+          "id": "reports-7pm",
+          "title": "Report Summary",
+          "topicLabel": "Reports",
+          "kicker": "Summary",
+          "product": "reports",
+          "layers": [
+            "radar",
+            "reports"
+          ],
+          "narrative": [
+            "Use the 7 PM reports card to summarize what the class learned from impacts versus warnings and radar evolution.",
+            "This is a strong place to ask what was most important operationally."
+          ]
+        }
+      ]
+    }
+  ]
+}
