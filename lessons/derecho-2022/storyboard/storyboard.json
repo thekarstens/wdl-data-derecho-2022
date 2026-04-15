@@ -1789,6 +1789,52 @@
     },
     {
       "id": 12,
+      "utc": "2022-05-12T22:30:00Z",
+      "title": "Eyewitness Photo \u2014 Hartford",
+      "narrative": [
+        "This eyewitness photo shows the approaching dust wall south of Hartford, South Dakota.",
+        "It gives a ground-level view of how dramatic the derecho outflow looked as it moved into populated areas."
+      ],
+      "image": "https://thekarstens.github.io/wdl-data-derecho-2022/lessons/derecho-2022/media/photos/deb_adams_johnson_south_of_hartford_sd.jpg",
+      "imageCredit": "Deb Adams Johnson",
+      "scene": {
+        "product": "reports",
+        "layers": [
+          "reports"
+        ]
+      },
+      "interaction": {
+        "showClock": false,
+        "showScrubber": false,
+        "showDoppler": false,
+        "allowPlay": false
+      }
+    },
+    {
+      "id": 13,
+      "utc": "2022-05-12T23:00:00Z",
+      "title": "Eyewitness Photo \u2014 Rock Rapids",
+      "narrative": [
+        "This image from Rock Rapids, Iowa shows the leading edge of the dust storm as the derecho approached town.",
+        "Use it as a visual reminder that storm reports and radar signatures connect to real conditions on the ground."
+      ],
+      "image": "https://thekarstens.github.io/wdl-data-derecho-2022/lessons/derecho-2022/media/photos/Rock Rapids Scott Stuerman.jpg",
+      "imageCredit": "Scott Stuerman",
+      "scene": {
+        "product": "reports",
+        "layers": [
+          "reports"
+        ]
+      },
+      "interaction": {
+        "showClock": false,
+        "showScrubber": false,
+        "showDoppler": false,
+        "allowPlay": false
+      }
+    },
+    {
+      "id": 14,
       "utc": "2022-05-12T22:45:00Z",
       "title": "Lightning Peaks",
       "narrative": [
@@ -1956,7 +2002,7 @@
       }
     },
     {
-      "id": 13,
+      "id": 15,
       "utc": "2022-05-12T23:00:00Z",
       "title": "Aftermath",
       "narrative": [
