@@ -12,3 +12,17 @@
   "time": "2022-05-12T23:00:00Z",
   "location_note": "Approximate town-level placement"
 }
+{
+  "id": "hartford_deb_adams_johnson_dust_01",
+  "type": "image",
+  "title": "Dust wall south of Hartford",
+  "file": "media/photos/deb_adams_johnson_south_of_hartford_sd.jpg",
+  "lat": 43.58,
+  "lon": -96.93,
+  "town": "Hartford",
+  "state": "SD",
+  "credit": "Deb Adams Johnson",
+  "caption": "Large wall of blowing dust moving through the area south of Hartford, South Dakota, during the May 12, 2022 derecho.",
+  "time": "2022-05-12T22:30:00Z",
+  "location_note": "Approximate placement south of Hartford"
+}
