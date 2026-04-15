@@ -540,7 +540,7 @@
     },
     {
       "id": 4,
-      "utc": "2022-05-12T19:15:00Z",
+      "utc": "2022-05-12T20:00:00Z",
       "title": "PDS Watch",
       "narrative": [
         "SPC issued a Particularly Dangerous Situation Severe Thunderstorm Watch for the corridor at greatest risk of destructive wind damage.",
@@ -558,27 +558,6 @@
       "interaction": {
         "showClock": false,
         "showScrubber": false,
-        "showDoppler": false,
-        "allowPlay": false
-      }
-    },
-    {
-      "id": 5,
-      "utc": "2022-05-12T20:00:00Z",
-      "title": "Forecast Temperatures",
-      "narrative": [
-        "Future temperatures should scrub by HRRR frames, matching the way future winds behaves.",
-        "State boundaries and county lines remain on for context."
-      ],
-      "scene": {
-        "product": "hrrr_temp",
-        "layers": [
-          "hrrr_temp"
-        ]
-      },
-      "interaction": {
-        "showClock": true,
-        "showScrubber": true,
         "showDoppler": false,
         "allowPlay": false
       },
@@ -733,7 +712,7 @@
       }
     },
     {
-      "id": 6,
+      "id": 5,
       "utc": "2022-05-12T20:15:00Z",
       "title": "Instability Builds",
       "narrative": [
@@ -903,7 +882,7 @@
       }
     },
     {
-      "id": 7,
+      "id": 6,
       "utc": "2022-05-12T20:30:00Z",
       "title": "Wind Energy Builds",
       "narrative": [
@@ -1073,7 +1052,7 @@
       }
     },
     {
-      "id": 8,
+      "id": 7,
       "utc": "2022-05-12T21:00:00Z",
       "title": "Storms Begin to Develop",
       "narrative": [
@@ -1243,7 +1222,7 @@
       }
     },
     {
-      "id": 9,
+      "id": 8,
       "utc": "2022-05-12T21:30:00Z",
       "title": "Warnings Issued",
       "narrative": [
@@ -1412,7 +1391,7 @@
       }
     },
     {
-      "id": 10,
+      "id": 9,
       "utc": "2022-05-12T22:00:00Z",
       "title": "Live Doppler View",
       "narrative": [
@@ -1581,7 +1560,7 @@
       }
     },
     {
-      "id": 11,
+      "id": 10,
       "utc": "2022-05-12T22:30:00Z",
       "title": "Damage Reports Increase",
       "narrative": [
@@ -1749,7 +1728,7 @@
       }
     },
     {
-      "id": 12,
+      "id": 11,
       "utc": "2022-05-12T22:45:00Z",
       "title": "Lightning Peaks",
       "narrative": [
@@ -1917,7 +1896,7 @@
       }
     },
     {
-      "id": 13,
+      "id": 12,
       "utc": "2022-05-12T23:00:00Z",
       "title": "Aftermath",
       "narrative": [
