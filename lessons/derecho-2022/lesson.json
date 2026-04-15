@@ -68,7 +68,7 @@
     {
       "name": "Day 1 Outlook",
       "type": "geojson",
-      "url": "spc/Day1.json"
+      "url": "spc/day1otlk_20220512_1300_cat.lyr.geojson"
     }
   ],
   "storyboard": {
