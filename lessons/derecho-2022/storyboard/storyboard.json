@@ -4,6 +4,71 @@
     {
       "id": 1,
       "utc": "2022-05-12T18:00:00Z",
+      "title": "Setting the Stage",
+      "narrative": [
+        "Welcome to the May 12, 2022 derecho simulator.",
+        "Start with the 3 PM surface map to identify the cold front, warm front, and overall setup before storms intensify.",
+        "This opening step gives the big-picture context for the rest of the simulation."
+      ],
+      "scene": {
+        "product": "fronts",
+        "layers": [
+          "fronts"
+        ],
+        "overlayUrl": "fronts/fronts_May12-3pm.geojson"
+      },
+      "interaction": {
+        "showClock": false,
+        "showScrubber": false,
+        "showDoppler": false,
+        "allowPlay": false
+      },
+      "levels": {
+        "A": {
+          "1": {
+            "title": "Setting the Stage",
+            "narrative": [
+              "Welcome to the May 12, 2022 derecho simulator.",
+              "Start with the 3 PM surface map to identify the main boundaries before storms intensify.",
+              "This gives the big-picture setup for everything that follows."
+            ]
+          }
+        },
+        "B": {
+          "1": {
+            "title": "Surface Pattern",
+            "narrative": [
+              "Find the main frontal boundaries and describe where they are located.",
+              "How might those boundaries help focus later storm development?"
+            ]
+          }
+        },
+        "C": {
+          "1": {
+            "title": "Why This Matters",
+            "narrative": [
+              "The surface map shows where air masses are meeting and where lift may be concentrated.",
+              "This is the starting point for understanding why SPC and later radar trends become so important."
+            ]
+          }
+        },
+        "D": {
+          "1": {
+            "title": "What Comes Next?",
+            "narrative": [
+              "After the surface setup, the next step is to look at the SPC outlook and compare the forecast area with the actual boundary placement."
+            ]
+          }
+        }
+      },
+      "ui": {
+        "stepKicker": "SIMULATOR INTRO",
+        "stepTheme": "orange"
+      }
+    },
+    {
+      "id": 2,
+      "utc": "2022-05-12T18:05:00Z",
       "title": "Atmosphere Primed",
       "narrative": [
         "Warm, moist air is surging northward across the Plains.",
@@ -175,7 +240,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 3,
       "utc": "2022-05-12T18:30:00Z",
       "title": "Moisture Returns",
       "narrative": [
@@ -346,9 +411,9 @@
       }
     },
     {
-      "id": 3,
+      "id": 4,
       "utc": "2022-05-12T19:00:00Z",
-      "title": "13Z Moderate Risk",
+      "title": "SPC Upgrade",
       "narrative": [
         "The Storm Prediction Center upgraded parts of the region to a Moderate Risk at 13Z.",
         "The main concern is that storms later today may organize into a damaging wind event, with large hail and a few tornadoes also possible."
@@ -357,9 +422,7 @@
         "product": "spc",
         "layers": [
           "spc_outlook"
-        ],
-        "overlayUrl": "spc/day1otlk_20220512_1300_cat.lyr.geojson",
-        "detailsFile": "spc/Day1-13ZUpdate-Moderate.json"
+        ]
       },
       "interaction": {
         "showClock": false,
@@ -539,25 +602,22 @@
       }
     },
     {
-      "id": 4,
+      "id": 5,
       "utc": "2022-05-12T20:00:00Z",
-      "title": "PDS Watch",
+      "title": "Forecast Temperatures",
       "narrative": [
-        "SPC issued a Particularly Dangerous Situation Severe Thunderstorm Watch for the corridor at greatest risk of destructive wind damage.",
-        "Click the watch polygon to read the full watch text, including the PDS wording and hazard details."
+        "Future temperatures should scrub by HRRR frames, matching the way future winds behaves.",
+        "State boundaries and county lines remain on for context."
       ],
       "scene": {
-        "product": "pds_watch",
+        "product": "hrrr_temp",
         "layers": [
-          "pds_watch"
-        ],
-        "overlayUrl": "spc/watches_202205120000_202205122300.geojson",
-        "detailsFile": "spc/PDS_watch.json",
-        "watchNumber": 208
+          "hrrr_temp"
+        ]
       },
       "interaction": {
-        "showClock": false,
-        "showScrubber": false,
+        "showClock": true,
+        "showScrubber": true,
         "showDoppler": false,
         "allowPlay": false
       },
@@ -712,7 +772,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 6,
       "utc": "2022-05-12T20:15:00Z",
       "title": "Instability Builds",
       "narrative": [
@@ -882,7 +942,7 @@
       }
     },
     {
-      "id": 6,
+      "id": 7,
       "utc": "2022-05-12T20:30:00Z",
       "title": "Wind Energy Builds",
       "narrative": [
@@ -1052,7 +1112,7 @@
       }
     },
     {
-      "id": 7,
+      "id": 8,
       "utc": "2022-05-12T21:00:00Z",
       "title": "Storms Begin to Develop",
       "narrative": [
@@ -1222,7 +1282,7 @@
       }
     },
     {
-      "id": 8,
+      "id": 9,
       "utc": "2022-05-12T21:30:00Z",
       "title": "Warnings Issued",
       "narrative": [
@@ -1391,7 +1451,7 @@
       }
     },
     {
-      "id": 9,
+      "id": 10,
       "utc": "2022-05-12T22:00:00Z",
       "title": "Live Doppler View",
       "narrative": [
@@ -1560,7 +1620,7 @@
       }
     },
     {
-      "id": 10,
+      "id": 11,
       "utc": "2022-05-12T22:30:00Z",
       "title": "Damage Reports Increase",
       "narrative": [
@@ -1728,7 +1788,7 @@
       }
     },
     {
-      "id": 11,
+      "id": 12,
       "utc": "2022-05-12T22:45:00Z",
       "title": "Lightning Peaks",
       "narrative": [
@@ -1896,7 +1956,7 @@
       }
     },
     {
-      "id": 12,
+      "id": 13,
       "utc": "2022-05-12T23:00:00Z",
       "title": "Aftermath",
       "narrative": [
