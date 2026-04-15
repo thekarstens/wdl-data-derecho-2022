@@ -350,14 +350,15 @@
       "utc": "2022-05-12T19:00:00Z",
       "title": "13Z Moderate Risk",
       "narrative": [
-        "At 13Z, the Storm Prediction Center upgraded parts of the region to a Moderate Risk.",
-        "The main concern is a damaging wind event later today, with large hail and a few tornadoes also possible."
+        "The Storm Prediction Center upgraded parts of the region to a Moderate Risk at 13Z.",
+        "The main concern is that storms later today may organize into a damaging wind event, with large hail and a few tornadoes also possible."
       ],
       "scene": {
         "product": "spc",
         "layers": [
           "spc_outlook"
         ],
+        "overlayUrl": "spc/day1otlk_20220512_1300_cat.lyr.geojson",
         "detailsFile": "spc/Day1-13ZUpdate-Moderate.json"
       },
       "interaction": {
@@ -369,11 +370,11 @@
       "levels": {
         "A": {
           "1": {
-            "title": "13Z Moderate Risk",
+            "title": "SPC Upgrade",
             "narrative": [
-              "This is the 13Z SPC Day 1 Outlook.",
-              "It upgraded parts of eastern South Dakota, western Minnesota, and southeastern North Dakota to a Moderate Risk.",
-              "Find the highest-risk shading and describe where it is located."
+              "This is the SPC Day 1 Outlook.",
+              "It shows where severe thunderstorms are most likely later today.",
+              "Find the area with the highest risk shading on the map."
             ]
           },
           "2": {
@@ -421,8 +422,8 @@
           "2": {
             "title": "Main Hazards",
             "narrative": [
-              "The 13Z outlook highlights damaging wind as the main concern, with large hail and a few tornadoes also possible.",
-              "Some severe thunderstorm gusts may approach 75 mph later today.",
+              "The 13Z outlook highlights three main hazards: damaging wind, large hail, and a few tornadoes.",
+              "The biggest overall concern is widespread damaging wind, with some gusts that could become very strong.",
               "Which hazard would likely affect the largest area?"
             ]
           },
@@ -535,10 +536,6 @@
             ]
           }
         }
-      },
-      "ui": {
-        "stepKicker": "13Z SPC UPDATE",
-        "stepTheme": "blue"
       }
     },
     {
