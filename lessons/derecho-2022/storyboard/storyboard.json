@@ -1810,6 +1810,31 @@
     },
     {
       "id": 13,
+      "utc": "2022-05-12T22:35:00Z",
+      "title": "Eyewitness Ground Truth",
+      "narrative": [
+        "These eyewitness photos help connect radar and storm reports to what people actually saw on the ground.",
+        "Click the media markers to open the photos, then click the image to enlarge it."
+      ],
+      "scene": {
+        "product": "media",
+        "layers": [
+          "media"
+        ],
+        "mediaIds": [
+          "hartford_deb_adams_johnson_dust_01",
+          "rock_rapids_stuerman_dust_01"
+        ]
+      },
+      "interaction": {
+        "showClock": false,
+        "showScrubber": false,
+        "showDoppler": false,
+        "allowPlay": false
+      }
+    },
+    {
+      "id": 14,
       "utc": "2022-05-12T22:45:00Z",
       "title": "Lightning Peaks",
       "narrative": [
@@ -1977,7 +2002,7 @@
       }
     },
     {
-      "id": 14,
+      "id": 15,
       "utc": "2022-05-12T23:00:00Z",
       "title": "Aftermath",
       "narrative": [
