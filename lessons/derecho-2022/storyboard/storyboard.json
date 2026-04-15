@@ -543,14 +543,17 @@
       "utc": "2022-05-12T19:15:00Z",
       "title": "PDS Watch",
       "narrative": [
-        "Placeholder for the Particularly Dangerous Situation watch step.",
-        "This step will be wired to the SPC watch product in the next storyboard build."
+        "SPC issued a Particularly Dangerous Situation Severe Thunderstorm Watch for the corridor at greatest risk of destructive wind damage.",
+        "Click the watch polygon to read the full watch text, including the PDS wording and hazard details."
       ],
       "scene": {
-        "product": "watch",
+        "product": "pds_watch",
         "layers": [
-          "watch"
-        ]
+          "pds_watch"
+        ],
+        "overlayUrl": "spc/watches_202205120000_202205122300.geojson",
+        "detailsFile": "spc/PDS_watch.json",
+        "watchNumber": 208
       },
       "interaction": {
         "showClock": false,
