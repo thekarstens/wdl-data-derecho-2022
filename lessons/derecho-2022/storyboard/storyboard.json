@@ -1624,8 +1624,9 @@
       "utc": "2022-05-12T22:05:00Z",
       "title": "Radar Velocity Test",
       "narrative": [
-        "This card is wired directly to the KFSD velocity test data.",
-        "Use the probe tool over the velocity image to see whether the point-value lookup is working."
+        "This card is wired directly to the KFSD velocity sequence.",
+        "Use the scrubber or play control to step through the velocity frames as the derecho evolves.",
+        "Green values are treated as toward the radar and red values as away from the radar."
       ],
       "scene": {
         "product": "radar_velocity",
@@ -1634,10 +1635,10 @@
         ]
       },
       "interaction": {
-        "showClock": false,
-        "showScrubber": false,
+        "showClock": true,
+        "showScrubber": true,
         "showDoppler": false,
-        "allowPlay": false
+        "allowPlay": true
       }
     },
     {
