@@ -1,1 +1,325 @@
-test
+{
+  "storyboardTitle": "May 12, 2022 Derecho — Interactive Demo",
+  "steps": [
+    {
+      "id": 1,
+      "utc": "2022-05-12T18:00:00Z",
+      "title": "Setting the Stage",
+      "narrative": [
+        "Warm, humid air was spreading north while a strong weather system approached the Plains.",
+        "This is the big-picture setup that helped prepare the atmosphere for severe storms later in the day."
+      ],
+      "scene": {
+        "product": "fronts",
+        "layers": [
+          "fronts"
+        ],
+        "overlayUrl": "../derecho-2022/fronts/fronts_May12-3pm.geojson"
+      },
+      "interaction": {
+        "showClock": false,
+        "showScrubber": false,
+        "showDoppler": false,
+        "allowPlay": false
+      },
+      "levels": {
+        "A": {
+          "1": {
+            "title": "Setting the Stage",
+            "narrative": [
+              "Start by finding the main fronts and the overall storm setup.",
+              "Notice where the warm, unstable air is located compared to the boundaries."
+            ]
+          }
+        },
+        "B": {
+          "1": {
+            "title": "What Forecasters Watch",
+            "narrative": [
+              "Surface fronts often help focus storm development.",
+              "This is one reason the setup matters before radar gets busy."
+            ]
+          }
+        },
+        "C": {
+          "1": {
+            "title": "Why This Matters",
+            "narrative": [
+              "A severe weather day usually begins with a favorable large-scale pattern.",
+              "This map helps explain why later warnings did not happen by surprise."
+            ]
+          }
+        },
+        "D": {
+          "1": {
+            "title": "What Comes Next",
+            "narrative": [
+              "The next step is to compare the setup with the severe weather outlook.",
+              "That helps connect the forecast to the actual environment."
+            ]
+          }
+        }
+      },
+      "ui": {
+        "stepKicker": "DEMO INTRO",
+        "stepTheme": "orange"
+      }
+    },
+    {
+      "id": 2,
+      "utc": "2022-05-12T18:05:00Z",
+      "title": "Forecasters Saw the Risk Early",
+      "narrative": [
+        "This region was highlighted for severe weather before storms fully developed.",
+        "Forecast outlooks help show where the atmosphere is most supportive of dangerous storms."
+      ],
+      "scene": {
+        "product": "spc",
+        "layers": [
+          "spc"
+        ],
+        "overlayUrl": "../derecho-2022/spc/day1otlk_20220512_1300_cat.lyr.geojson"
+      },
+      "interaction": {
+        "showClock": false,
+        "showScrubber": false,
+        "showDoppler": false,
+        "allowPlay": false
+      },
+      "levels": {
+        "A": {
+          "1": {
+            "title": "Forecasters Saw the Risk Early",
+            "narrative": [
+              "Notice how the highlighted risk area covers eastern South Dakota and nearby states.",
+              "This shows that severe weather potential was recognized ahead of time."
+            ]
+          }
+        },
+        "B": {
+          "1": {
+            "title": "Forecast Thinking",
+            "narrative": [
+              "SPC outlooks are designed to communicate where dangerous storms are most likely.",
+              "They are one of the first clues in the severe weather story."
+            ]
+          }
+        },
+        "C": {
+          "1": {
+            "title": "Forecast to Reality",
+            "narrative": [
+              "The outlook is not radar yet, but it sets expectations for the day.",
+              "It gives a forecast framework before storms intensify."
+            ]
+          }
+        },
+        "D": {
+          "1": {
+            "title": "What Comes Next",
+            "narrative": [
+              "Now it is time to look at the air mass itself.",
+              "A dangerous setup becomes more meaningful when moisture and instability increase."
+            ]
+          }
+        }
+      },
+      "ui": {
+        "stepKicker": "FORECAST",
+        "stepTheme": "red"
+      }
+    },
+    {
+      "id": 3,
+      "utc": "2022-05-12T18:30:00Z",
+      "title": "The Atmosphere Becomes Dangerous",
+      "narrative": [
+        "Moisture was increasing across the region as the afternoon continued.",
+        "That richer low-level air helped create a more favorable environment for strong storms."
+      ],
+      "scene": {
+        "product": "metars",
+        "layers": [
+          "metars",
+          "metar_dewpoint"
+        ]
+      },
+      "interaction": {
+        "showClock": true,
+        "showScrubber": true,
+        "showDoppler": false,
+        "allowPlay": false
+      },
+      "levels": {
+        "A": {
+          "1": {
+            "title": "The Atmosphere Becomes Dangerous",
+            "narrative": [
+              "This view highlights dew point so moisture is easier to see and explain.",
+              "Watch where the richer air is spreading and pooling."
+            ]
+          }
+        },
+        "B": {
+          "1": {
+            "title": "Why Moisture Matters",
+            "narrative": [
+              "Warm, moist air is one of the key ingredients for severe thunderstorms.",
+              "It helps support stronger updrafts and more energetic storm development."
+            ]
+          }
+        },
+        "C": {
+          "1": {
+            "title": "A Simple Science View",
+            "narrative": [
+              "This is one way to show that the atmosphere was becoming more storm-ready.",
+              "The setup and the air mass were lining up in the same region."
+            ]
+          }
+        },
+        "D": {
+          "1": {
+            "title": "What Comes Next",
+            "narrative": [
+              "Once storms form in this kind of environment, radar trends become much more important.",
+              "That is where the story turns from setup to action."
+            ]
+          }
+        }
+      },
+      "ui": {
+        "stepKicker": "ATMOSPHERE",
+        "stepTheme": "green"
+      }
+    },
+    {
+      "id": 4,
+      "utc": "2022-05-12T20:00:00Z",
+      "title": "Now the Storm Comes Alive",
+      "narrative": [
+        "Radar showed a fast-moving line of severe storms racing across the region.",
+        "As the system intensified, warnings were issued and reports of damage began to appear."
+      ],
+      "scene": {
+        "product": "radar",
+        "layers": [
+          "radar",
+          "warnings",
+          "reports"
+        ]
+      },
+      "interaction": {
+        "showClock": true,
+        "showScrubber": true,
+        "showDoppler": true,
+        "allowPlay": true
+      },
+      "levels": {
+        "A": {
+          "1": {
+            "title": "Now the Storm Comes Alive",
+            "narrative": [
+              "This is the most important scene in the public demo.",
+              "Watch how radar, warnings, and reports begin to work together."
+            ]
+          }
+        },
+        "B": {
+          "1": {
+            "title": "A Real-Time Feel",
+            "narrative": [
+              "Radar shows where the storm is, warnings show where danger is being communicated, and reports show what people are experiencing.",
+              "Together they create a more complete picture of the event."
+            ]
+          }
+        },
+        "C": {
+          "1": {
+            "title": "Why This Is Powerful",
+            "narrative": [
+              "This step brings forecasting, observation, and impact together in one view.",
+              "It shows why an interactive simulator can teach more than a static image."
+            ]
+          }
+        },
+        "D": {
+          "1": {
+            "title": "What Comes Next",
+            "narrative": [
+              "The final step connects the storm to the real world on the ground.",
+              "That is where reports and photos help tell the human side of the story."
+            ]
+          }
+        }
+      },
+      "ui": {
+        "stepKicker": "THE WOW MOMENT",
+        "stepTheme": "blue"
+      }
+    },
+    {
+      "id": 5,
+      "utc": "2022-05-12T21:00:00Z",
+      "title": "Real Impact on the Ground",
+      "narrative": [
+        "Storm reports help connect the weather map to what was happening in towns and counties on the ground.",
+        "This final step shows that the derecho was not just a radar event — it had real impact."
+      ],
+      "scene": {
+        "product": "reports",
+        "layers": [
+          "reports"
+        ]
+      },
+      "interaction": {
+        "showClock": true,
+        "showScrubber": true,
+        "showDoppler": false,
+        "allowPlay": false
+      },
+      "levels": {
+        "A": {
+          "1": {
+            "title": "Real Impact on the Ground",
+            "narrative": [
+              "Watch where reports cluster compared to the storm path.",
+              "This helps connect the map to real-world damage and eyewitness accounts."
+            ]
+          }
+        },
+        "B": {
+          "1": {
+            "title": "Why Reports Matter",
+            "narrative": [
+              "Storm reports add ground truth to radar and warning information.",
+              "They help confirm what kind of damage or severe weather actually occurred."
+            ]
+          }
+        },
+        "C": {
+          "1": {
+            "title": "Human Impact",
+            "narrative": [
+              "A weather event becomes more meaningful when people can connect science to lived experience.",
+              "That is one reason photos and reports are so valuable in education."
+            ]
+          }
+        },
+        "D": {
+          "1": {
+            "title": "Where the Full Lab Goes Further",
+            "narrative": [
+              "This demo is only a first look.",
+              "The full lab experience can go deeper into observations, analysis, and scientific investigation."
+            ]
+          }
+        }
+      },
+      "ui": {
+        "stepKicker": "IMPACT",
+        "stepTheme": "purple"
+      }
+    }
+  ]
+}
