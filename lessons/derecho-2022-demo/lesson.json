@@ -1,1 +1,80 @@
-test
+{
+  "id": "derecho-2022-demo",
+  "titleTop": "Interactive Severe Weather Demo",
+  "drivingQuestion": "How did the May 12, 2022 derecho evolve from setup to real-world impact?",
+  "productLabel": "DEMO",
+  "dataBase": "https://thekarstens.github.io/wdl-data-derecho-2022/lessons/derecho-2022-demo/",
+  "startZ": "2022-05-12T18:00:00Z",
+  "endZ": "2022-05-12T23:00:00Z",
+  "stepMinutes": 1,
+  "displayTimezone": "America/Chicago",
+  "roundMinutes": 1,
+  "ui_mode": "demo",
+  "public_demo": true,
+  "map": {
+    "initialView": {
+      "lat": 43.55,
+      "lon": -96.73,
+      "zoom": 6
+    }
+  },
+  "radar": {
+    "mode": "manifest",
+    "manifest": "../derecho-2022/radar/kfsd/manifest.json",
+    "opacityDefault": 0.75
+  },
+  "warnings": {
+    "enabled": true,
+    "geojson": "../derecho-2022/alerts/may12_2022_tornado_severe_warnings.geojson",
+    "summary": "../derecho-2022/alerts/may12_2022_tornado_severe_warnings_summary.json"
+  },
+  "satellite": {
+    "enabled": true,
+    "mode": "manifest",
+    "manifest": "../derecho-2022/satellite/truecolor/manifest.json"
+  },
+  "metars": {
+    "enabled": true,
+    "mode": "manifest",
+    "manifest": "../derecho-2022/metars/manifest.json",
+    "fallbackFile": "../derecho-2022/metars/metars.json"
+  },
+  "hrrr": {
+    "enabled": true,
+    "mode": "manifest",
+    "manifest": "../derecho-2022/hrrr/temp/manifest.json",
+    "tempManifest": "../derecho-2022/hrrr/temp/manifest.json",
+    "radarManifest": "../derecho-2022/hrrr/radar/manifest.json",
+    "products": {
+      "temp": {
+        "manifest": "../derecho-2022/hrrr/temp/manifest.json"
+      },
+      "radar": {
+        "manifest": "../derecho-2022/hrrr/radar/manifest.json"
+      },
+      "winds": {
+        "manifest": "../derecho-2022/hrrr/winds/manifest.json"
+      },
+      "cape": {
+        "manifest": "../derecho-2022/hrrr/cape/manifest.json"
+      }
+    },
+    "windsManifest": "../derecho-2022/hrrr/winds/manifest.json",
+    "capeManifest": "../derecho-2022/hrrr/cape/manifest.json"
+  },
+  "boundaries": {
+    "states": "../derecho-2022/boundaries/states.geojson",
+    "counties": "../derecho-2022/boundaries/counties.geojson"
+  },
+  "overlays": [
+    {
+      "name": "Day 1 Outlook",
+      "type": "geojson",
+      "url": "../derecho-2022/spc/day1otlk_20220512_1300_cat.lyr.geojson"
+    }
+  ],
+  "storyboard": {
+    "type": "json",
+    "url": "storyboard/storyboard.json"
+  }
+}
