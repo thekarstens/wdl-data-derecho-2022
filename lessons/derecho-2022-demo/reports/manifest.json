@@ -1,1 +1,8 @@
-test
+{
+  "reports": [
+    {
+      "label": "May 12, 2022 Derecho Reports",
+      "file": "../derecho-2022/reports/may12_2022_derecho_lsr.geojson"
+    }
+  ]
+}
