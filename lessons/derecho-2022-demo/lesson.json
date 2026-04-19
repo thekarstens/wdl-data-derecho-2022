@@ -76,5 +76,10 @@
   "storyboard": {
     "type": "json",
     "url": "storyboard/storyboard.json"
+  },
+  "surfaceWinds": {
+    "enabled": true,
+    "manifest": "winds/surface/manifest.json",
+    "label": "Surface Winds"
   }
 }
