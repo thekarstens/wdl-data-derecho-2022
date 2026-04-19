@@ -1,0 +1,17 @@
+{
+  "product": "lightning",
+  "type": "eventPoints",
+  "source": "GOES-16 GLM-L2-LCFA",
+  "timeField": "utc",
+  "idField": "id",
+  "files": [
+    {
+      "file": "lightning.json"
+    }
+  ],
+  "style": {
+    "flashMs": 650,
+    "recentMinutes": 2,
+    "counterWindowMinutes": 5
+  }
+}
