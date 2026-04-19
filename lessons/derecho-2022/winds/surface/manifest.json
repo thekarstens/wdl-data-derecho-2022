@@ -1,0 +1,19 @@
+{
+  "id": "narr_10m_20220512_1800",
+  "title": "Surface Winds 10m 2022-05-12T18:00:00",
+  "dataset": "NARR",
+  "event": "May 12 2022 10m winds",
+  "level_mb": "10m",
+  "product_type": "velocity",
+  "units": "m/s",
+  "bounds": [
+    [20.0, -130.0],
+    [60.0, -60.0]
+  ],
+  "frames": [
+    {
+      "filename": "narr_10m_20220512_1800z_NA_leaflet_velocity.json",
+      "refTime": "2022-05-12T18:00:00"
+    }
+  ]
+}
