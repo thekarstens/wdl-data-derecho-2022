@@ -1,5 +1,5 @@
 {
-  "storyboardTitle": "May 12, 2022 Derecho — Interactive Demo",
+  "storyboardTitle": "May 12, 2022 Derecho \u2014 Interactive Demo",
   "steps": [
     {
       "id": 1,
@@ -11,7 +11,9 @@
       ],
       "scene": {
         "product": "fronts",
-        "layers": ["fronts"],
+        "layers": [
+          "fronts"
+        ],
         "overlayUrl": "../derecho-2022/fronts/fronts_May12-3pm.geojson",
         "view": {
           "lat": 44.9,
@@ -40,7 +42,9 @@
       ],
       "scene": {
         "product": "spc",
-        "layers": ["spc"],
+        "layers": [
+          "spc"
+        ],
         "overlayUrl": "../derecho-2022/spc/day1otlk_20220512_1300_cat.lyr.geojson",
         "view": {
           "lat": 44.9,
@@ -65,11 +69,15 @@
       "title": "Moisture Returns",
       "narrative": [
         "By 4 PM, richer low-level moisture had spread north into the target area.",
-        "This card should wire to the METAR dew point view so the moisture field is easy to see and explain."
+        "This card should wire to the METAR dew point view with a subtle surface-wind particle effect in the background so the moisture return and low-level flow are easy to see together."
       ],
       "scene": {
         "product": "metars",
-        "layers": ["metars", "metar_dewpoint"],
+        "layers": [
+          "metars",
+          "metar_dewpoint",
+          "surface_winds"
+        ],
         "view": {
           "lat": 43.9,
           "lon": -96.9,
@@ -97,7 +105,12 @@
       ],
       "scene": {
         "product": "radar",
-        "layers": ["radar", "warnings", "reports", "lightning"],
+        "layers": [
+          "radar",
+          "warnings",
+          "reports",
+          "lightning"
+        ],
         "view": {
           "lat": 43.45,
           "lon": -96.35,
@@ -125,7 +138,9 @@
       ],
       "scene": {
         "product": "reports",
-        "layers": ["reports"],
+        "layers": [
+          "reports"
+        ],
         "view": {
           "lat": 43.55,
           "lon": -96.73,
