@@ -49,7 +49,7 @@
         "view": {
           "lat": 44.9,
           "lon": -97.2,
-          "zoom": 5
+          "zoom": 4.7
         }
       },
       "interaction": {
@@ -114,7 +114,7 @@
         "view": {
           "lat": 43.45,
           "lon": -96.35,
-          "zoom": 7
+          "zoom": 7.6
         }
       },
       "interaction": {
@@ -142,9 +142,9 @@
           "reports"
         ],
         "view": {
-          "lat": 43.55,
-          "lon": -96.73,
-          "zoom": 6
+          "lat": 43.45,
+          "lon": -96.35,
+          "zoom": 7.6
         }
       },
       "interaction": {
