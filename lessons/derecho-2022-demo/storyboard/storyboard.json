@@ -6,8 +6,8 @@
       "utc": "2022-05-12T20:00:00Z",
       "title": "Setting the Stage",
       "narrative": [
-        "The story of the May 12, 2022 derecho began as most severe weather event do.",
-        "A strong area of low pressure tracking just west of Sioux Falls.  Warm fronts and cold fronts are key to watching developing severe weather and this event became a day many of us will not forget!"
+        "Welcome to weatherworkshops.com and my new interactive weather simulator.  My hope is this project will open the door to a world of learning and discovery by do real hands-on science.  This demo shows some of the data from the big derecho day that struck
+        on May 12, 2022, a day many of us will not forget!"
       ],
       "scene": {
         "product": "fronts",
@@ -37,8 +37,8 @@
       "utc": "2022-05-12T20:05:00Z",
       "title": "Forecasters Saw the Risk Early",
       "narrative": [
-        "This region was highlighted for severe weather before storms fully developed.",
-        "Pull the view back a little and center near Watertown to compare the forecast risk with the broader setup."
+        "The Storm Prediction Center issued a moderate risk that day, a rare event for this region of the plains",
+        "Many ingredients came together that day to produce widespread severe weather.  This weather discovery lab explores many of the key ingredients that led to this event."
       ],
       "scene": {
         "product": "spc",
@@ -68,8 +68,8 @@
       "utc": "2022-05-12T21:00:00Z",
       "title": "Moisture Returns",
       "narrative": [
-        "By 4 PM, richer low-level moisture had spread north into the target area.",
-        "This card should wire to the METAR dew point view with a subtle surface-wind particle effect in the background so the moisture return and low-level flow are easy to see together."
+        "We'll also look at the actual weather condtions like dew points that contributed to the unstable air across the region.",
+        "This map also illustrates the flow of wind ahead the storm that day so students can visualize what was happening.  Zoom around the map and click on any weather station for more detailed information!"
       ],
       "scene": {
         "product": "metars",
@@ -98,10 +98,11 @@
     {
       "id": 4,
       "utc": "2022-05-12T21:45:00Z",
-      "title": "Now the Storm Comes Alive",
+      "title": "The heart of the storm",
       "narrative": [
-        "This is the hero scene for the public demo.",
-        "Lock this card to 4:45 PM with a tighter view over southeast South Dakota, southwest Minnesota, northwest Iowa, and a little northeast Nebraska."
+        "I believe the best way to learn about severe weather is rewind and recreate the events as they happened.",
+        "This map shows the doppler radar scan of the storm just prior to the storm arrival in Sioux Falls.  100mph winds were recorded west of Sioux Falls at this time.  You'll notice I recreated the warnings, flashing in yellow or red to represent tornado and severe thunderstorm warnings.  
+        I also have gathered all the lightning strikes from the event, which is very important as we observe the strength of these storms."
       ],
       "scene": {
         "product": "radar",
@@ -134,7 +135,7 @@
       "title": "Storm Reports",
       "narrative": [
         "Storm reports help connect the weather map to what was happening on the ground.",
-        "This final card should wire directly to the reports layer so the impact is easy to see."
+        "Students will be able walk through the science of the storms from beginning to end.  Each of these topic cards "
       ],
       "scene": {
         "product": "reports",
