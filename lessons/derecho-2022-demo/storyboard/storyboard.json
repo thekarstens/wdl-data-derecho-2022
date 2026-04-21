@@ -6,8 +6,8 @@
       "utc": "2022-05-12T20:00:00Z",
       "title": "Setting the Stage",
       "narrative": [
-        "Welcome to weatherworkshops.com and my new interactive weather simulator.  My hope is this project will open the door to a world of learning and discovery by do real hands-on science.  This demo shows some of the data from the big derecho day that struck
-        on May 12, 2022, a day many of us will not forget!"
+        "Welcome to weatherworkshops.com and my new interactive weather simulator. My hope is this project will open the door to a world of learning and discovery by doing real hands-on science.",
+        "This demo shows some of the data from the big derecho day that struck on May 12, 2022, a day many of us will not forget!"
       ],
       "scene": {
         "product": "fronts",
@@ -37,8 +37,8 @@
       "utc": "2022-05-12T20:05:00Z",
       "title": "Forecasters Saw the Risk Early",
       "narrative": [
-        "The Storm Prediction Center issued a moderate risk that day, a rare event for this region of the plains",
-        "Many ingredients came together that day to produce widespread severe weather.  This weather discovery lab explores many of the key ingredients that led to this event."
+        "The Storm Prediction Center issued a moderate risk that day, a rare event for this region of the Plains.",
+        "Many ingredients came together that day to produce widespread severe weather. This Weather Discovery Lab explores many of the key ingredients that led to this event."
       ],
       "scene": {
         "product": "spc",
@@ -68,8 +68,8 @@
       "utc": "2022-05-12T21:00:00Z",
       "title": "Moisture Returns",
       "narrative": [
-        "We'll also look at the actual weather condtions like dew points that contributed to the unstable air across the region.",
-        "This map also illustrates the flow of wind ahead the storm that day so students can visualize what was happening.  Zoom around the map and click on any weather station for more detailed information!"
+        "We'll also look at the actual weather conditions, like dew points, that contributed to the unstable air across the region.",
+        "This map also illustrates the flow of wind ahead of the storm that day so students can visualize what was happening. Zoom around the map and click on any weather station for more detailed information!"
       ],
       "scene": {
         "product": "metars",
@@ -98,11 +98,10 @@
     {
       "id": 4,
       "utc": "2022-05-12T21:45:00Z",
-      "title": "The heart of the storm",
+      "title": "The Heart of the Storm",
       "narrative": [
-        "I believe the best way to learn about severe weather is rewind and recreate the events as they happened.",
-        "This map shows the doppler radar scan of the storm just prior to the storm arrival in Sioux Falls.  100mph winds were recorded west of Sioux Falls at this time.  You'll notice I recreated the warnings, flashing in yellow or red to represent tornado and severe thunderstorm warnings.  
-        I also have gathered all the lightning strikes from the event, which is very important as we observe the strength of these storms."
+        "I believe the best way to learn about severe weather is to rewind and recreate the events as they happened.",
+        "This map shows the Doppler radar scan of the storm just prior to its arrival in Sioux Falls. Winds near 100 mph were recorded west of Sioux Falls at this time. You'll notice I recreated the warnings, flashing in yellow or red to represent tornado and severe thunderstorm warnings. I also gathered the lightning strikes from the event, which is very important as we observe the strength of these storms."
       ],
       "scene": {
         "product": "radar",
@@ -135,7 +134,7 @@
       "title": "Storm Reports",
       "narrative": [
         "Storm reports help connect the weather map to what was happening on the ground.",
-        "Students will be able walk through the science of the storms from beginning to end.  Each of these topic cards "
+        "Students will be able to walk through the science of the storms from beginning to end using each of these topic cards."
       ],
       "scene": {
         "product": "reports",
