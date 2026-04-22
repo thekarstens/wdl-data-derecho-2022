@@ -1,40 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <defs>
-    <filter id="glowBlueBright" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="6" result="blur1"/>
-      <feGaussianBlur in="SourceAlpha" stdDeviation="14" result="blur2"/>
-      <feGaussianBlur in="SourceAlpha" stdDeviation="24" result="blur3"/>
+    <filter id="neonBlue" x="-90%" y="-90%" width="280%" height="280%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="7" result="b1"/>
+      <feGaussianBlur in="SourceAlpha" stdDeviation="18" result="b2"/>
+      <feGaussianBlur in="SourceAlpha" stdDeviation="34" result="b3"/>
+      <feGaussianBlur in="SourceAlpha" stdDeviation="54" result="b4"/>
 
-      <feColorMatrix in="blur1" type="matrix"
-        values="0 0 0 0 0
-                0 0.78 0 0 0
-                0 0 1 0 0
-                0 0 0 1.0 0" result="blue1"/>
-      <feColorMatrix in="blur2" type="matrix"
-        values="0 0 0 0 0
-                0 0.74 0 0 0
-                0 0 1 0 0
-                0 0 0 0.82 0" result="blue2"/>
-      <feColorMatrix in="blur3" type="matrix"
-        values="0 0 0 0 0.08
-                0 0.70 0 0 0
-                0 0 1 0 0
-                0 0 0 0.55 0" result="blue3"/>
+      <feFlood flood-color="#00c8ff" flood-opacity="1" result="c1"/>
+      <feFlood flood-color="#00b7ff" flood-opacity="0.95" result="c2"/>
+      <feFlood flood-color="#2d9fff" flood-opacity="0.72" result="c3"/>
+      <feFlood flood-color="#aee8ff" flood-opacity="0.45" result="c4"/>
+
+      <feComposite in="c1" in2="b1" operator="in" result="g1"/>
+      <feComposite in="c2" in2="b2" operator="in" result="g2"/>
+      <feComposite in="c3" in2="b3" operator="in" result="g3"/>
+      <feComposite in="c4" in2="b4" operator="in" result="g4"/>
 
       <feMerge>
-        <feMergeNode in="blue3"/>
-        <feMergeNode in="blue2"/>
-        <feMergeNode in="blue1"/>
+        <feMergeNode in="g4"/>
+        <feMergeNode in="g3"/>
+        <feMergeNode in="g2"/>
+        <feMergeNode in="g1"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
   </defs>
 
-  <g filter="url(#glowBlueBright)">
+  <g filter="url(#neonBlue)">
     <path d="M323 36 L208 287 L288 257 L193 476 L309 226 L230 257 Z"
           fill="#ffffff"
-          stroke="#18a8ff"
-          stroke-width="6"
+          stroke="#00c8ff"
+          stroke-width="5"
           stroke-linejoin="round"/>
   </g>
 </svg>
