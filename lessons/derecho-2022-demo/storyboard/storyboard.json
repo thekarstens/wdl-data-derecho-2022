@@ -6,30 +6,30 @@
       "utc": "2022-05-12T20:00:00Z",
       "title": "Setting the Stage",
       "narrative": [
-        "Welcome to weatherworkshops.com and my new interactive weather simulator. My hope is this project will open the door to a world of learning and discovery by doing real hands-on science.",
-        "This demo shows some of the data from the big derecho day that struck on May 12, 2022, a day many of us will not forget!"
+        "Welcome to my weather disocvery lab.  My goal with this project is to bring to life the stories and events memorable weather events like the May 12, 2022 derecho across eastern SD, western MN, and northwest IA.
+      I wanted this to be a unique expereience where the students get to exeperience what it's like to do my job.  I created a LIVE Doppler radar simulator and you'll see this tool often in my program.",
+        "Students will get to use some real life tools in a teaching enviroment that will prompt good questions to think about."
       ],
       "scene": {
-        "product": "fronts",
+        "product": "radar",
         "layers": [
-          "fronts"
+          "radar"
         ],
-        "overlayUrl": "../derecho-2022/fronts/fronts_May12-3pm.geojson",
         "view": {
-          "lat": 44.7,
-          "lon": -98.6,
-          "zoom": 6.5
+          "lat": 43.55,
+          "lon": -96.73,
+          "zoom": 7.4
         }
       },
       "interaction": {
         "showClock": false,
         "showScrubber": false,
-        "showDoppler": false,
+        "showDoppler": true,
         "allowPlay": false
       },
       "ui": {
-        "stepKicker": "SETTING THE STAGE",
-        "stepTheme": "orange"
+        "stepKicker": "LIVE DOPPLER",
+        "stepTheme": "yellow"
       }
     },
     {
@@ -37,8 +37,8 @@
       "utc": "2022-05-12T20:05:00Z",
       "title": "Forecasters Saw the Risk Early",
       "narrative": [
-        "The Storm Prediction Center issued a moderate risk that day, a rare event for this region of the Plains.",
-        "Many ingredients came together that day to produce widespread severe weather. This Weather Discovery Lab explores many of the key ingredients that led to this event."
+        "This region was highlighted for severe weather before storms fully developed.",
+        "Tap Details on the Moderate Risk outlook to read the setup and why forecasters were concerned."
       ],
       "scene": {
         "product": "spc",
@@ -60,23 +60,55 @@
       },
       "ui": {
         "stepKicker": "MODERATE RISK",
-        "stepTheme": "red"
+        "stepTheme": "orange"
       }
     },
     {
       "id": 3,
-      "utc": "2022-05-12T21:00:00Z",
-      "title": "Moisture Returns",
+      "utc": "2022-05-12T20:00:00Z",
+      "title": "Surface Setup and Model Temperatures",
       "narrative": [
-        "We'll also look at the actual weather conditions, like dew points, that contributed to the unstable air across the region.",
-        "This map also illustrates the flow of wind ahead of the storm that day so students can visualize what was happening. Zoom around the map and click on any weather station for more detailed information!"
+        "This card combines the surface map and fronts with subtle wind particles so students can see the larger setup.",
+        "The 3 PM HRRR temperature layer is also turned on here so you can probe the model temperatures directly on the map."
+      ],
+      "scene": {
+        "product": "model_temp",
+        "layers": [
+          "fronts",
+          "surface_winds",
+          "model_temp"
+        ],
+        "overlayUrl": "../derecho-2022/fronts/fronts_May12-3pm.geojson",
+        "view": {
+          "lat": 44.3,
+          "lon": -98.1,
+          "zoom": 6.6
+        }
+      },
+      "interaction": {
+        "showClock": false,
+        "showScrubber": false,
+        "showDoppler": false,
+        "allowPlay": false
+      },
+      "ui": {
+        "stepKicker": "SURFACE SETUP",
+        "stepTheme": "green"
+      }
+    },
+    {
+      "id": 4,
+      "utc": "2022-05-12T21:00:00Z",
+      "title": "Dew Point",
+      "narrative": [
+        "By 4 PM, richer low-level moisture had spread north into the target area.",
+        "This card now focuses only on METAR dew points so the moisture field is easy to read and explain."
       ],
       "scene": {
         "product": "metars",
         "layers": [
           "metars",
-          "metar_dewpoint",
-          "surface_winds"
+          "metar_dewpoint"
         ],
         "view": {
           "lat": 43.9,
@@ -92,16 +124,16 @@
       },
       "ui": {
         "stepKicker": "DEW POINT",
-        "stepTheme": "green"
+        "stepTheme": "blue"
       }
     },
     {
-      "id": 4,
+      "id": 5,
       "utc": "2022-05-12T21:45:00Z",
-      "title": "The Heart of the Storm",
+      "title": "Now the Storm Comes Alive",
       "narrative": [
-        "I believe the best way to learn about severe weather is to rewind and recreate the events as they happened.",
-        "This map shows the Doppler radar scan of the storm just prior to its arrival in Sioux Falls. Winds near 100 mph were recorded west of Sioux Falls at this time. You'll notice I recreated the warnings, flashing in yellow or red to represent tornado and severe thunderstorm warnings. I also gathered the lightning strikes from the event, which is very important as we observe the strength of these storms."
+        "This is the hero scene for the public demo.",
+        "Lock this card to 4:45 PM with a tighter view over southeast South Dakota, southwest Minnesota, northwest Iowa, and a little northeast Nebraska."
       ],
       "scene": {
         "product": "radar",
@@ -129,12 +161,12 @@
       }
     },
     {
-      "id": 5,
+      "id": 6,
       "utc": "2022-05-12T22:00:00Z",
       "title": "Storm Reports",
       "narrative": [
         "Storm reports help connect the weather map to what was happening on the ground.",
-        "Students will be able to walk through the science of the storms from beginning to end using each of these topic cards."
+        "This final card should wire directly to the reports layer so the impact is easy to see."
       ],
       "scene": {
         "product": "reports",
