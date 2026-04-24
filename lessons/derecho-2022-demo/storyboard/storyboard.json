@@ -67,8 +67,8 @@
       "utc": "2022-05-12T20:00:00Z",
       "title": "Surface Setup and Model Temperatures",
       "narrative": [
-        "This card combines the surface map and fronts with subtle wind particles so students can see the larger setup.",
-        "The 3 PM HRRR temperature layer is also turned on here so you can probe the model temperatures directly on the map."
+        "Take a look at the weather map from that afternoon.  We can see an area of low pressure to the west of Sioux Falls and a steady south and southeast wind across the region.",
+        "The 3 PM HRRR temperature layer is also turned on here so you can probe the model temperatures directly on the map.  Go ahead click around the map to find out how hot it was in your location!"
       ],
       "scene": {
         "product": "model_temp",
