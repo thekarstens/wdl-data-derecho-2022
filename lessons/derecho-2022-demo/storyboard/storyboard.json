@@ -15,7 +15,7 @@
           "radar"
         ],
         "view": {
-          "lat": 43.55,
+          "lat": 43.0,
           "lon": -96.73,
           "zoom": 7.4
         }
@@ -46,9 +46,9 @@
         ],
         "overlayUrl": "../derecho-2022/spc/day1otlk_20220512_1300_cat.lyr.geojson",
         "view": {
-          "lat": 45.3,
-          "lon": -98.8,
-          "zoom": 5.4
+          "lat": 43.0,
+          "lon": -96.73,
+          "zoom": 7.4
         }
       },
       "interaction": {
@@ -79,9 +79,9 @@
         ],
         "overlayUrl": "../derecho-2022/fronts/fronts_May12-3pm.geojson",
         "view": {
-          "lat": 44.3,
-          "lon": -98.1,
-          "zoom": 6.6
+          "lat": 43.0,
+          "lon": -96.73,
+          "zoom": 7.4
         }
       },
       "interaction": {
@@ -110,9 +110,9 @@
           "metar_dewpoint"
         ],
         "view": {
-          "lat": 43.9,
-          "lon": -97.2,
-          "zoom": 6.3
+          "lat": 43.0,
+          "lon": -96.73,
+          "zoom": 7.4
         }
       },
       "interaction": {
@@ -144,8 +144,8 @@
         ],
         "view": {
           "lat": 43.35,
-          "lon": -97.15,
-          "zoom": 7.6
+          "lon": -96.95,
+          "zoom": 8.1
         }
       },
       "interaction": {
@@ -173,9 +173,9 @@
           "reports"
         ],
         "view": {
-          "lat": 43.75,
-          "lon": -98.0,
-          "zoom": 7.0
+          "lat": 43.55,
+          "lon": -97.2,
+          "zoom": 7.7
         }
       },
       "interaction": {
