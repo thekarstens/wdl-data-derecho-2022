@@ -101,7 +101,7 @@
       "title": "Dew Point",
       "narrative": [
         "By 4 PM, richer low-level moisture had spread north into the target area.",
-        "This card now focuses only on METAR dew points so the moisture field is easy to read and explain."
+        "You can click on any of the weather reporting stations for more details of the weather conditions at 4pm that day."
       ],
       "scene": {
         "product": "metars",
