@@ -132,7 +132,7 @@
       "title": "Now the Storm Comes Alive",
       "narrative": [
         "Storms are moving toward Sioux Falls quickly!",
-        "My program takes students right back to the moment the storm was happening with real warning and even lightning strikes, giving a sense of real-time urgency to the lab.  It even comes with my very own storm tracker tool."
+        "My program takes students right back to the moment the storm was happening with real warnings and even lightning strikes, giving a sense of real-time urgency to the lab.  It even comes with my very own storm tracker tool."
       ],
       "scene": {
         "product": "radar",
@@ -162,10 +162,10 @@
     {
       "id": 6,
       "utc": "2022-05-12T22:00:00Z",
-      "title": "Storm Reports",
+      "title": "Storm Reports:  1 Billion Dollars in Damage",
       "narrative": [
         "Storm reports help connect the weather map to what was happening on the ground.",
-        "This final card should wire directly to the reports layer so the impact is easy to see."
+        "Click on any of the symbols on the map to sample what damage this storm left behind."
       ],
       "scene": {
         "product": "reports",
