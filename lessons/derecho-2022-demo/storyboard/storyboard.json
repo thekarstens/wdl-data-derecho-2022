@@ -1,5 +1,5 @@
 {
-  "storyboardTitle": "May 12, 2022 Derecho \u2014 Interactive Demo",
+  "storyboardTitle": "May 12, 2022 Derecho — Interactive Demo",
   "steps": [
     {
       "id": 1,
@@ -15,10 +15,23 @@
           "radar"
         ],
         "view": {
-          "lat": 43.0,
-          "lon": -96.73,
-          "zoom": 7.4
-        }
+          "desktop": {
+            "center": [
+              43.5744,
+              -97.8662
+            ],
+            "zoom": 8
+          },
+          "mobile": {
+            "center": [
+              42.4424,
+              -96.7566
+            ],
+            "zoom": 7
+          }
+        },
+        "cameraMode": "director",
+        "lockCamera": true
       },
       "interaction": {
         "showClock": false,
@@ -46,10 +59,23 @@
         ],
         "overlayUrl": "../derecho-2022/spc/day1otlk_20220512_1300_cat.lyr.geojson",
         "view": {
-          "lat": 43.0,
-          "lon": -96.73,
-          "zoom": 7.4
-        }
+          "desktop": {
+            "center": [
+              44.5083,
+              -99.2615
+            ],
+            "zoom": 7
+          },
+          "mobile": {
+            "center": [
+              41.875,
+              -97.0825
+            ],
+            "zoom": 6
+          }
+        },
+        "cameraMode": "director",
+        "lockCamera": true
       },
       "interaction": {
         "showClock": false,
@@ -79,10 +105,23 @@
         ],
         "overlayUrl": "../derecho-2022/fronts/fronts_May12-3pm.geojson",
         "view": {
-          "lat": 43.0,
-          "lon": -96.73,
-          "zoom": 7.4
-        }
+          "desktop": {
+            "center": [
+              43.9434,
+              -98.2178
+            ],
+            "zoom": 8
+          },
+          "mobile": {
+            "center": [
+              41.875,
+              -97.0825
+            ],
+            "zoom": 6
+          }
+        },
+        "cameraMode": "director",
+        "lockCamera": true
       },
       "interaction": {
         "showClock": false,
@@ -110,10 +149,23 @@
           "metar_dewpoint"
         ],
         "view": {
-          "lat": 43.0,
-          "lon": -96.73,
-          "zoom": 7.4
-        }
+          "desktop": {
+            "center": [
+              43.7215,
+              -97.3444
+            ],
+            "zoom": 8
+          },
+          "mobile": {
+            "center": [
+              41.4372,
+              -96.7529
+            ],
+            "zoom": 6
+          }
+        },
+        "cameraMode": "director",
+        "lockCamera": true
       },
       "interaction": {
         "showClock": false,
@@ -143,10 +195,23 @@
           "lightning"
         ],
         "view": {
-          "lat": 43.35,
-          "lon": -96.95,
-          "zoom": 8.1
-        }
+          "desktop": {
+            "center": [
+              43.5237,
+              -97.1301
+            ],
+            "zoom": 9
+          },
+          "mobile": {
+            "center": [
+              42.8209,
+              -96.8921
+            ],
+            "zoom": 8
+          }
+        },
+        "cameraMode": "director",
+        "lockCamera": true
       },
       "interaction": {
         "showClock": false,
@@ -173,10 +238,23 @@
           "reports"
         ],
         "view": {
-          "lat": 43.55,
-          "lon": -97.2,
-          "zoom": 7.7
-        }
+          "desktop": {
+            "center": [
+              43.4619,
+              -97.5723
+            ],
+            "zoom": 9
+          },
+          "mobile": {
+            "center": [
+              42.1797,
+              -97.1265
+            ],
+            "zoom": 7
+          }
+        },
+        "cameraMode": "director",
+        "lockCamera": true
       },
       "interaction": {
         "showClock": false,
