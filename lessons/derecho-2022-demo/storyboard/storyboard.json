@@ -6,8 +6,9 @@
       "utc": "2022-05-12T20:00:00Z",
       "title": "Setting the Stage",
       "narrative": [
-        "Welcome to my weather disocvery lab.  My goal with this project is to bring to life the stories and events memorable weather events like the May 12, 2022 derecho across eastern SD, western MN, and northwest IA. I wanted this to be a unique expereience where the students get to exeperience what it's like to do my job.  I created a LIVE Doppler radar simulator and you'll see this tool often in my program.",
-        "Students will get to use some real life tools in a teaching enviroment that will prompt good questions to think about."
+        "Welcome to my weather disocvery lab.  I launched with this project with the goal of bringing us back in time to some of the most extreme weather and be able to do real science by investigating the clues that made these storms so memorable.  
+        This first case study takes us back to the derecho of May 12, 2022.  Imagine pulling up a chair right me as I tracked this storm live a few years ago.  You'll get that experience, with a LIVE Doppler radar simulator and even storm tracker tools that I will teach you!  I wanted this to be a unique expereience where the students get to exeperience what it's like to do my job.  I created a LIVE Doppler radar simulator and you'll see this tool often in my program.",
+        
       ],
       "scene": {
         "product": "radar",
@@ -94,7 +95,7 @@
       "title": "Surface Setup and Model Temperatures",
       "narrative": [
         "Take a look at the weather map from that afternoon.  We can see an area of low pressure to the west of Sioux Falls and a steady south and southeast wind across the region.",
-        "The 3 PM HRRR temperature layer is also turned on here so you can probe the model temperatures directly on the map.  Go ahead click around the map to find out how hot it was in your location!"
+        "The 3 PM HRRR temperature layer is also turned on here so you can probe the model temperatures directly on the map.  Go ahead click around the map to find out how hot it was in your location!  Students will get to use some real life tools in a teaching enviroment that will prompt good questions to think about"
       ],
       "scene": {
         "product": "model_temp",
