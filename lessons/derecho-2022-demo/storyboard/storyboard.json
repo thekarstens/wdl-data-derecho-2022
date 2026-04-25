@@ -6,7 +6,7 @@
       "utc": "2022-05-12T20:00:00Z",
       "title": "Setting the Stage",
       "narrative": [
-        "Welcome to my weather discovery lab. I launched this project with the goal of bringing us back in time to some of the most extreme weather, so we can do real science by investigating the clues that made these storms so memorable. This first case study takes us back to the derecho of May 12, 2022. Imagine pulling up a chair right next to me as I tracked this storm live a few years ago. You'll get that experience with a LIVE Doppler radar simulator and even storm tracker tools that I will teach you!"
+        "Welcome to my weather discovery lab. I launched this project with the goal of bringing us back in time to some extreme weather events so we can do real science by investigating the clues that made these storms so memorable. This first case study takes us back to the derecho of May 12, 2022. Imagine pulling up a chair right next to me as I tracked this storm live a few years ago. You'll get that experience with a LIVE Doppler radar simulator and even storm tracker tools that I will teach you!"
       ],
       "scene": {
         "product": "radar",
