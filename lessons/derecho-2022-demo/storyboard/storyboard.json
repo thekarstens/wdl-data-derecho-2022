@@ -191,7 +191,6 @@
         "layers": [
           "radar",
           "warnings",
-          "reports",
           "lightning"
         ],
         "view": {
@@ -254,7 +253,10 @@
           }
         },
         "cameraMode": "director",
-        "lockCamera": true
+        "lockCamera": true,
+        "showAllReports": true,
+        "reportsMode": "all",
+        "reportsTimeFilter": "off"
       },
       "interaction": {
         "showClock": false,
