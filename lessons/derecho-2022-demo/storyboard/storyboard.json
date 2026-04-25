@@ -182,9 +182,9 @@
     {
       "id": 5,
       "utc": "2022-05-12T21:45:00Z",
-      "title": "Now the Storm Comes Alive",
+      "title": "The Storm Quickly Approaches",
       "narrative": [
-        "Storms are moving toward Sioux Falls quickly!",
+        "Storms are moving toward Sioux Falls at 70mph!",
         "My program takes students right back to the moment the storm was happening with real warnings and even lightning strikes, giving a sense of real-time urgency to the lab.  It even comes with my very own storm tracker tool."
       ],
       "scene": {
