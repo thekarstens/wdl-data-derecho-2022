@@ -6,9 +6,7 @@
       "utc": "2022-05-12T20:00:00Z",
       "title": "Setting the Stage",
       "narrative": [
-        "Welcome to my weather disocvery lab.  I launched with this project with the goal of bringing us back in time to some of the most extreme weather and be able to do real science by investigating the clues that made these storms so memorable.  
-        This first case study takes us back to the derecho of May 12, 2022.  Imagine pulling up a chair right me as I tracked this storm live a few years ago.  You'll get that experience, with a LIVE Doppler radar simulator and even storm tracker tools that I will teach you!  I wanted this to be a unique expereience where the students get to exeperience what it's like to do my job.  I created a LIVE Doppler radar simulator and you'll see this tool often in my program.",
-        
+        "Welcome to my weather discovery lab. I launched this project with the goal of bringing us back in time to some of the most extreme weather, so we can do real science by investigating the clues that made these storms so memorable. This first case study takes us back to the derecho of May 12, 2022. Imagine pulling up a chair right next to me as I tracked this storm live a few years ago. You'll get that experience with a LIVE Doppler radar simulator and even storm tracker tools that I will teach you!"
       ],
       "scene": {
         "product": "radar",
@@ -94,8 +92,8 @@
       "utc": "2022-05-12T20:00:00Z",
       "title": "Surface Setup and Model Temperatures",
       "narrative": [
-        "Take a look at the weather map from that afternoon.  We can see an area of low pressure to the west of Sioux Falls and a steady south and southeast wind across the region.",
-        "The 3 PM HRRR temperature layer is also turned on here so you can probe the model temperatures directly on the map.  Go ahead click around the map to find out how hot it was in your location!  Students will get to use some real life tools in a teaching enviroment that will prompt good questions to think about"
+        "Take a look at the weather map from that afternoon. We can see an area of low pressure to the west of Sioux Falls and a steady south and southeast wind across the region.",
+        "The 3 PM HRRR temperature layer is also turned on here so you can probe the model temperatures directly on the map. Go ahead and click around the map to find out how hot it was in your location! Students will get to use real-life tools in a teaching environment that prompts good questions to think about."
       ],
       "scene": {
         "product": "model_temp",
@@ -141,7 +139,7 @@
       "title": "Dew Point",
       "narrative": [
         "By 4 PM, richer low-level moisture had spread north into the target area.",
-        "You can click on any of the weather reporting stations for more details of the weather conditions at 4pm that day."
+        "You can click on any of the weather reporting stations for more details about the weather conditions at 4 PM that day."
       ],
       "scene": {
         "product": "metars",
@@ -184,8 +182,8 @@
       "utc": "2022-05-12T21:45:00Z",
       "title": "The Storm Quickly Approaches",
       "narrative": [
-        "Storms are moving toward Sioux Falls at 70mph!",
-        "My program takes students right back to the moment the storm was happening with real warnings and even lightning strikes, giving a sense of real-time urgency to the lab.  It even comes with my very own storm tracker tool."
+        "Storms are moving toward Sioux Falls at 70 mph!",
+        "My program takes students right back to the moment the storm was happening with real warnings and even lightning strikes, giving a sense of real-time urgency to the lab. It even comes with my very own storm tracker tool."
       ],
       "scene": {
         "product": "radar",
@@ -227,7 +225,7 @@
     {
       "id": 6,
       "utc": "2022-05-12T22:00:00Z",
-      "title": "Storm Reports:  1 Billion Dollars in Damage",
+      "title": "Storm Reports: 1 Billion Dollars in Damage",
       "narrative": [
         "Storm reports help connect the weather map to what was happening on the ground.",
         "Click on any of the symbols on the map to sample what damage this storm left behind."
