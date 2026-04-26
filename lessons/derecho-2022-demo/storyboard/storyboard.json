@@ -6,7 +6,7 @@
       "utc": "2022-05-12T20:00:00Z",
       "title": "Setting the Stage",
       "narrative": [
-        "Welcome to my weather discovery lab. I launched this project with the goal of bringing us back in time to some extreme weather events so we can do real science by investigating the clues that made these storms so memorable. This first case study takes us back to the derecho of May 12, 2022. Imagine pulling up a chair right next to me as I tracked this storm live a few years ago. You'll get that experience with a LIVE Doppler radar simulator and even storm tracker tools that I will teach you!"
+        "Welcome to my weather discovery lab. I launched this project with the goal of bringing us back in time to some of the most extreme weather, so we can do real science by investigating the clues that made these storms so memorable. This first case study takes us back to the derecho of May 12, 2022. Imagine pulling up a chair right next to me as I tracked this storm live a few years ago. You'll get that experience with a LIVE Doppler radar simulator and even storm tracker tools that I will teach you!"
       ],
       "scene": {
         "product": "radar",
@@ -16,10 +16,10 @@
         "view": {
           "desktop": {
             "center": [
-              43.5744,
-              -97.8662
+              43.7513,
+              -98.1628
             ],
-            "zoom": 8
+            "zoom": 7
           },
           "mobile": {
             "center": [
@@ -60,10 +60,10 @@
         "view": {
           "desktop": {
             "center": [
-              44.5083,
-              -99.2615
+              45.1743,
+              -98.2837
             ],
-            "zoom": 7
+            "zoom": 6
           },
           "mobile": {
             "center": [
@@ -106,10 +106,10 @@
         "view": {
           "desktop": {
             "center": [
-              43.9434,
-              -98.2178
+              44.3041,
+              -98.4045
             ],
-            "zoom": 8
+            "zoom": 7
           },
           "mobile": {
             "center": [
@@ -150,8 +150,8 @@
         "view": {
           "desktop": {
             "center": [
-              43.7215,
-              -97.3444
+              43.8246,
+              -97.2949
             ],
             "zoom": 8
           },
@@ -173,7 +173,7 @@
         "allowPlay": false
       },
       "ui": {
-        "stepKicker": "HUMIDITY IN THE AIR",
+        "stepKicker": "DEW POINT",
         "stepTheme": "blue"
       }
     },
@@ -195,10 +195,10 @@
         "view": {
           "desktop": {
             "center": [
-              43.5237,
-              -97.1301
+              43.6023,
+              -97.5146
             ],
-            "zoom": 9
+            "zoom": 8
           },
           "mobile": {
             "center": [
@@ -238,10 +238,10 @@
         "view": {
           "desktop": {
             "center": [
-              43.4619,
-              -97.5723
+              44.3589,
+              -98.2727
             ],
-            "zoom": 9
+            "zoom": 7
           },
           "mobile": {
             "center": [
