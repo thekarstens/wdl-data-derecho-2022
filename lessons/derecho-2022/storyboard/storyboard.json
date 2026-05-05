@@ -1,5 +1,5 @@
 {
-  "storyboardTitle": "May 12, 2022 Derecho \u2014 Guided Simulation",
+  "storyboardTitle": "May 12, 2022 Derecho — Guided Simulation",
   "steps": [
     {
       "id": 1,
@@ -7,8 +7,9 @@
       "title": "Setting the Stage",
       "narrative": [
         "Welcome to the May 12, 2022 derecho simulator.",
-        "Start with the 3 PM surface map to identify the cold front, warm front, and overall setup before storms intensify.",
-        "This opening step gives the big-picture context for the rest of the simulation."
+        "This major weather event started like many weather events: with air masses clashing across the region.",
+        "Meteorologists use fronts, pressure centers, and other weather-map symbols to show where air is moving and where storms may form.",
+        "Questions: Can you find the cold front, warm front, low pressure, and high pressure? What could these features do later in the day?"
       ],
       "scene": {
         "product": "fronts",
@@ -29,41 +30,49 @@
             "title": "Setting the Stage",
             "narrative": [
               "Welcome to the May 12, 2022 derecho simulator.",
-              "Start with the 3 PM surface map to identify the main boundaries before storms intensify.",
-              "This gives the big-picture setup for everything that follows."
+              "This major weather event started like many weather events: with air masses clashing across the region.",
+              "Meteorologists use fronts, pressure centers, and other weather-map symbols to show where air is moving and where storms may form.",
+              "Questions: Can you find the cold front, warm front, low pressure, and high pressure? What could these features do later in the day?"
             ]
           }
         },
         "B": {
           "1": {
-            "title": "Surface Pattern",
+            "title": "Setting the Stage",
             "narrative": [
-              "Find the main frontal boundaries and describe where they are located.",
-              "How might those boundaries help focus later storm development?"
+              "Welcome to the May 12, 2022 derecho simulator.",
+              "This major weather event started like many weather events: with air masses clashing across the region.",
+              "Meteorologists use fronts, pressure centers, and other weather-map symbols to show where air is moving and where storms may form.",
+              "Questions: Can you find the cold front, warm front, low pressure, and high pressure? What could these features do later in the day?"
             ]
           }
         },
         "C": {
           "1": {
-            "title": "Why This Matters",
+            "title": "Setting the Stage",
             "narrative": [
-              "The surface map shows where air masses are meeting and where lift may be concentrated.",
-              "This is the starting point for understanding why SPC and later radar trends become so important."
+              "Welcome to the May 12, 2022 derecho simulator.",
+              "This major weather event started like many weather events: with air masses clashing across the region.",
+              "Meteorologists use fronts, pressure centers, and other weather-map symbols to show where air is moving and where storms may form.",
+              "Questions: Can you find the cold front, warm front, low pressure, and high pressure? What could these features do later in the day?"
             ]
           }
         },
         "D": {
           "1": {
-            "title": "What Comes Next?",
+            "title": "Setting the Stage",
             "narrative": [
-              "After the surface setup, the next step is to look at the SPC outlook and compare the forecast area with the actual boundary placement."
+              "Welcome to the May 12, 2022 derecho simulator.",
+              "This major weather event started like many weather events: with air masses clashing across the region.",
+              "Meteorologists use fronts, pressure centers, and other weather-map symbols to show where air is moving and where storms may form.",
+              "Questions: Can you find the cold front, warm front, low pressure, and high pressure? What could these features do later in the day?"
             ]
           }
         }
       },
       "ui": {
         "stepKicker": "SIMULATOR INTRO",
-        "stepTheme": "orange"
+        "stepTheme": "setup"
       }
     },
     {
@@ -72,8 +81,8 @@
       "title": "Atmosphere Primed",
       "narrative": [
         "Warm, moist air is surging northward across the Plains.",
-        "This step uses TV-style temperature markers and keeps the bottom scrubber synced to the METAR timeline.",
-        "Use the METAR controls to switch between temperature, dew point, wind, and pressure."
+        "Each temperature on the map comes from a weather station called a METAR. Many METAR stations are located at airports around the region.",
+        "Questions: What do you notice about the temperatures that afternoon? What seems interesting or unusual for early May?"
       ],
       "scene": {
         "product": "metars",
@@ -94,8 +103,8 @@
             "title": "Atmosphere Primed",
             "narrative": [
               "Warm, moist air is surging northward across the Plains.",
-              "This step uses TV-style temperature markers and keeps the bottom scrubber synced to the METAR timeline.",
-              "Use the METAR controls to switch between temperature, dew point, wind, and pressure."
+              "Each temperature on the map comes from a weather station called a METAR. Many METAR stations are located at airports around the region.",
+              "Questions: What do you notice about the temperatures that afternoon? What seems interesting or unusual for early May?"
             ]
           },
           "2": {
@@ -131,7 +140,9 @@
           "1": {
             "title": "Atmosphere Primed",
             "narrative": [
-              "Explain what is happening in simple terms."
+              "Warm, moist air is surging northward across the Plains.",
+              "Each temperature on the map comes from a weather station called a METAR. Many METAR stations are located at airports around the region.",
+              "Questions: What do you notice about the temperatures that afternoon? What seems interesting or unusual for early May?"
             ]
           },
           "2": {
@@ -167,8 +178,9 @@
           "1": {
             "title": "Atmosphere Primed",
             "narrative": [
-              "Analyze the science at a basic level.",
-              "What does this product suggest about the atmosphere?"
+              "Warm, moist air is surging northward across the Plains.",
+              "Each temperature on the map comes from a weather station called a METAR. Many METAR stations are located at airports around the region.",
+              "Questions: What do you notice about the temperatures that afternoon? What seems interesting or unusual for early May?"
             ]
           },
           "2": {
@@ -204,8 +216,9 @@
           "1": {
             "title": "Atmosphere Primed",
             "narrative": [
-              "Apply this information to a simple forecast idea.",
-              "What would you tell students or viewers?"
+              "Warm, moist air is surging northward across the Plains.",
+              "Each temperature on the map comes from a weather station called a METAR. Many METAR stations are located at airports around the region.",
+              "Questions: What do you notice about the temperatures that afternoon? What seems interesting or unusual for early May?"
             ]
           },
           "2": {
@@ -237,6 +250,10 @@
             ]
           }
         }
+      },
+      "ui": {
+        "stepKicker": "CURRENT TEMPERATURES",
+        "stepTheme": "metar"
       }
     },
     {
@@ -244,8 +261,9 @@
       "utc": "2022-05-12T18:30:00Z",
       "title": "Moisture Returns",
       "narrative": [
-        "This view switches the METAR markers to dew point so moisture return is easier to explain.",
-        "The clock and scrubber stay visible here too."
+        "Dew point measures how much water vapor is really in the air. Higher dew points usually mean the air feels more humid.",
+        "Look around Sioux Falls and the surrounding region ahead of the storms.",
+        "Questions: What do you notice about the dew points? Do you see differences across South Dakota? Could this be a warning sign that stronger storms were possible?"
       ],
       "scene": {
         "product": "metars",
@@ -265,8 +283,9 @@
           "1": {
             "title": "Moisture Returns",
             "narrative": [
-              "This view switches the METAR markers to dew point so moisture return is easier to explain.",
-              "The clock and scrubber stay visible here too."
+              "Dew point measures how much water vapor is really in the air. Higher dew points usually mean the air feels more humid.",
+              "Look around Sioux Falls and the surrounding region ahead of the storms.",
+              "Questions: What do you notice about the dew points? Do you see differences across South Dakota? Could this be a warning sign that stronger storms were possible?"
             ]
           },
           "2": {
@@ -302,7 +321,9 @@
           "1": {
             "title": "Moisture Returns",
             "narrative": [
-              "Explain what is happening in simple terms."
+              "Dew point measures how much water vapor is really in the air. Higher dew points usually mean the air feels more humid.",
+              "Look around Sioux Falls and the surrounding region ahead of the storms.",
+              "Questions: What do you notice about the dew points? Do you see differences across South Dakota? Could this be a warning sign that stronger storms were possible?"
             ]
           },
           "2": {
@@ -338,8 +359,9 @@
           "1": {
             "title": "Moisture Returns",
             "narrative": [
-              "Analyze the science at a basic level.",
-              "What does this product suggest about the atmosphere?"
+              "Dew point measures how much water vapor is really in the air. Higher dew points usually mean the air feels more humid.",
+              "Look around Sioux Falls and the surrounding region ahead of the storms.",
+              "Questions: What do you notice about the dew points? Do you see differences across South Dakota? Could this be a warning sign that stronger storms were possible?"
             ]
           },
           "2": {
@@ -375,8 +397,9 @@
           "1": {
             "title": "Moisture Returns",
             "narrative": [
-              "Apply this information to a simple forecast idea.",
-              "What would you tell students or viewers?"
+              "Dew point measures how much water vapor is really in the air. Higher dew points usually mean the air feels more humid.",
+              "Look around Sioux Falls and the surrounding region ahead of the storms.",
+              "Questions: What do you notice about the dew points? Do you see differences across South Dakota? Could this be a warning sign that stronger storms were possible?"
             ]
           },
           "2": {
@@ -408,6 +431,10 @@
             ]
           }
         }
+      },
+      "ui": {
+        "stepKicker": "DEW POINTS",
+        "stepTheme": "metar"
       }
     },
     {
@@ -415,8 +442,9 @@
       "utc": "2022-05-12T19:00:00Z",
       "title": "SPC Upgrade",
       "narrative": [
-        "The Storm Prediction Center upgraded parts of the region to a Moderate Risk at 13Z.",
-        "The main concern is that storms later today may organize into a damaging wind event, with large hail and a few tornadoes also possible."
+        "The Storm Prediction Center upgraded parts of the region to a Moderate Risk before storms developed.",
+        "This means forecasters were concerned about a more significant severe weather event, especially damaging winds.",
+        "Questions: Where is the highest risk area? Why would forecasters issue a serious outlook before storms even arrive?"
       ],
       "scene": {
         "product": "spc",
@@ -435,9 +463,9 @@
           "1": {
             "title": "SPC Upgrade",
             "narrative": [
-              "This is the SPC Day 1 Outlook.",
-              "It shows where severe thunderstorms are most likely later today.",
-              "Find the area with the highest risk shading on the map."
+              "The Storm Prediction Center upgraded parts of the region to a Moderate Risk before storms developed.",
+              "This means forecasters were concerned about a more significant severe weather event, especially damaging winds.",
+              "Questions: Where is the highest risk area? Why would forecasters issue a serious outlook before storms even arrive?"
             ]
           },
           "2": {
@@ -475,11 +503,11 @@
         },
         "B": {
           "1": {
-            "title": "What Is a Moderate Risk?",
+            "title": "SPC Upgrade",
             "narrative": [
-              "SPC outlooks are forecast maps, not radar maps.",
-              "A Moderate Risk means forecasters have increased confidence that a more significant severe weather event could develop in this area.",
-              "In simple words: this is a serious signal that people should pay attention today."
+              "The Storm Prediction Center upgraded parts of the region to a Moderate Risk before storms developed.",
+              "This means forecasters were concerned about a more significant severe weather event, especially damaging winds.",
+              "Questions: Where is the highest risk area? Why would forecasters issue a serious outlook before storms even arrive?"
             ]
           },
           "2": {
@@ -517,11 +545,11 @@
         },
         "C": {
           "1": {
-            "title": "Analyze the Signal",
+            "title": "SPC Upgrade",
             "narrative": [
-              "This outlook suggests that forecasters expect severe storms to develop later today, not necessarily right away.",
-              "The atmosphere is being judged as increasingly favorable for organized severe weather.",
-              "What does this map tell you about the rest of the afternoon?"
+              "The Storm Prediction Center upgraded parts of the region to a Moderate Risk before storms developed.",
+              "This means forecasters were concerned about a more significant severe weather event, especially damaging winds.",
+              "Questions: Where is the highest risk area? Why would forecasters issue a serious outlook before storms even arrive?"
             ]
           },
           "2": {
@@ -559,11 +587,11 @@
         },
         "D": {
           "1": {
-            "title": "Message to the Public",
+            "title": "SPC Upgrade",
             "narrative": [
-              "If you were explaining this map to a class, your main message would be simple: severe storms are expected later today, and some could be dangerous.",
-              "This is the kind of day to stay weather aware and check updates often.",
-              "How would you say that in one sentence?"
+              "The Storm Prediction Center upgraded parts of the region to a Moderate Risk before storms developed.",
+              "This means forecasters were concerned about a more significant severe weather event, especially damaging winds.",
+              "Questions: Where is the highest risk area? Why would forecasters issue a serious outlook before storms even arrive?"
             ]
           },
           "2": {
@@ -599,6 +627,10 @@
             ]
           }
         }
+      },
+      "ui": {
+        "stepKicker": "MODERATE RISK",
+        "stepTheme": "spc"
       }
     },
     {
@@ -606,8 +638,10 @@
       "utc": "2022-05-12T20:00:00Z",
       "title": "Forecast Temperatures",
       "narrative": [
-        "Future temperatures should scrub by HRRR frames, matching the way future winds behaves.",
-        "State boundaries and county lines remain on for context."
+        "This is a futurecast product from a computer weather model.",
+        "Use the probe tool to sample forecast temperatures during the afternoon.",
+        "Questions: What do you think about 90-degree weather in early May? Does that seem hot? What contrast do you notice near the Black Hills and western South Dakota?",
+        "How could a sharp temperature contrast help fuel stronger storms?"
       ],
       "scene": {
         "product": "hrrr_temp",
@@ -626,8 +660,10 @@
           "1": {
             "title": "Forecast Temperatures",
             "narrative": [
-              "Future temperatures should scrub by HRRR frames, matching the way future winds behaves.",
-              "State boundaries and county lines remain on for context."
+              "This is a futurecast product from a computer weather model.",
+              "Use the probe tool to sample forecast temperatures during the afternoon.",
+              "Questions: What do you think about 90-degree weather in early May? Does that seem hot? What contrast do you notice near the Black Hills and western South Dakota?",
+              "How could a sharp temperature contrast help fuel stronger storms?"
             ]
           },
           "2": {
@@ -663,7 +699,10 @@
           "1": {
             "title": "Forecast Temperatures",
             "narrative": [
-              "Explain what is happening in simple terms."
+              "This is a futurecast product from a computer weather model.",
+              "Use the probe tool to sample forecast temperatures during the afternoon.",
+              "Questions: What do you think about 90-degree weather in early May? Does that seem hot? What contrast do you notice near the Black Hills and western South Dakota?",
+              "How could a sharp temperature contrast help fuel stronger storms?"
             ]
           },
           "2": {
@@ -699,8 +738,10 @@
           "1": {
             "title": "Forecast Temperatures",
             "narrative": [
-              "Analyze the science at a basic level.",
-              "What does this product suggest about the atmosphere?"
+              "This is a futurecast product from a computer weather model.",
+              "Use the probe tool to sample forecast temperatures during the afternoon.",
+              "Questions: What do you think about 90-degree weather in early May? Does that seem hot? What contrast do you notice near the Black Hills and western South Dakota?",
+              "How could a sharp temperature contrast help fuel stronger storms?"
             ]
           },
           "2": {
@@ -736,8 +777,10 @@
           "1": {
             "title": "Forecast Temperatures",
             "narrative": [
-              "Apply this information to a simple forecast idea.",
-              "What would you tell students or viewers?"
+              "This is a futurecast product from a computer weather model.",
+              "Use the probe tool to sample forecast temperatures during the afternoon.",
+              "Questions: What do you think about 90-degree weather in early May? Does that seem hot? What contrast do you notice near the Black Hills and western South Dakota?",
+              "How could a sharp temperature contrast help fuel stronger storms?"
             ]
           },
           "2": {
@@ -769,6 +812,10 @@
             ]
           }
         }
+      },
+      "ui": {
+        "stepKicker": "FUTURE TEMPERATURES",
+        "stepTheme": "model"
       }
     },
     {
@@ -776,8 +823,10 @@
       "utc": "2022-05-12T20:15:00Z",
       "title": "Instability Builds",
       "narrative": [
-        "If a CAPE manifest is present, this step will show it.",
-        "If not, this step can be skipped without breaking the demo."
+        "CAPE is one way meteorologists measure fuel for thunderstorms. CAPE stands for Convective Available Potential Energy.",
+        "High temperatures and humidity can help build instability in the atmosphere.",
+        "Use the probe tool to click around the map.",
+        "Questions: Where is CAPE highest? Where is it lower? Why would storms care about this kind of fuel?"
       ],
       "scene": {
         "product": "cape",
@@ -796,8 +845,10 @@
           "1": {
             "title": "Instability Builds",
             "narrative": [
-              "If a CAPE manifest is present, this step will show it.",
-              "If not, this step can be skipped without breaking the demo."
+              "CAPE is one way meteorologists measure fuel for thunderstorms. CAPE stands for Convective Available Potential Energy.",
+              "High temperatures and humidity can help build instability in the atmosphere.",
+              "Use the probe tool to click around the map.",
+              "Questions: Where is CAPE highest? Where is it lower? Why would storms care about this kind of fuel?"
             ]
           },
           "2": {
@@ -833,7 +884,10 @@
           "1": {
             "title": "Instability Builds",
             "narrative": [
-              "Explain what is happening in simple terms."
+              "CAPE is one way meteorologists measure fuel for thunderstorms. CAPE stands for Convective Available Potential Energy.",
+              "High temperatures and humidity can help build instability in the atmosphere.",
+              "Use the probe tool to click around the map.",
+              "Questions: Where is CAPE highest? Where is it lower? Why would storms care about this kind of fuel?"
             ]
           },
           "2": {
@@ -869,8 +923,10 @@
           "1": {
             "title": "Instability Builds",
             "narrative": [
-              "Analyze the science at a basic level.",
-              "What does this product suggest about the atmosphere?"
+              "CAPE is one way meteorologists measure fuel for thunderstorms. CAPE stands for Convective Available Potential Energy.",
+              "High temperatures and humidity can help build instability in the atmosphere.",
+              "Use the probe tool to click around the map.",
+              "Questions: Where is CAPE highest? Where is it lower? Why would storms care about this kind of fuel?"
             ]
           },
           "2": {
@@ -906,8 +962,10 @@
           "1": {
             "title": "Instability Builds",
             "narrative": [
-              "Apply this information to a simple forecast idea.",
-              "What would you tell students or viewers?"
+              "CAPE is one way meteorologists measure fuel for thunderstorms. CAPE stands for Convective Available Potential Energy.",
+              "High temperatures and humidity can help build instability in the atmosphere.",
+              "Use the probe tool to click around the map.",
+              "Questions: Where is CAPE highest? Where is it lower? Why would storms care about this kind of fuel?"
             ]
           },
           "2": {
@@ -939,6 +997,10 @@
             ]
           }
         }
+      },
+      "ui": {
+        "stepKicker": "CAPE / STORM FUEL",
+        "stepTheme": "model"
       }
     },
     {
@@ -946,8 +1008,10 @@
       "utc": "2022-05-12T20:30:00Z",
       "title": "Wind Energy Builds",
       "narrative": [
-        "Forecast wind fields show strong flow feeding the developing system.",
-        "This step remains on the HRRR frame scrubber path."
+        "This computer model shows how winds were forecast to strengthen along the line of developing storms.",
+        "Forecasters use high-resolution models to simulate weather and find areas that may be more vulnerable, but models are not perfect and must be interpreted carefully.",
+        "Use the probe tool to sample the wind forecast.",
+        "Questions: Based on what you observe, what might happen with this line of storms? Could this setup produce damaging winds?"
       ],
       "scene": {
         "product": "hrrr_winds",
@@ -966,8 +1030,10 @@
           "1": {
             "title": "Wind Energy Builds",
             "narrative": [
-              "Forecast wind fields show strong flow feeding the developing system.",
-              "This step remains on the HRRR frame scrubber path."
+              "This computer model shows how winds were forecast to strengthen along the line of developing storms.",
+              "Forecasters use high-resolution models to simulate weather and find areas that may be more vulnerable, but models are not perfect and must be interpreted carefully.",
+              "Use the probe tool to sample the wind forecast.",
+              "Questions: Based on what you observe, what might happen with this line of storms? Could this setup produce damaging winds?"
             ]
           },
           "2": {
@@ -1003,7 +1069,10 @@
           "1": {
             "title": "Wind Energy Builds",
             "narrative": [
-              "Explain what is happening in simple terms."
+              "This computer model shows how winds were forecast to strengthen along the line of developing storms.",
+              "Forecasters use high-resolution models to simulate weather and find areas that may be more vulnerable, but models are not perfect and must be interpreted carefully.",
+              "Use the probe tool to sample the wind forecast.",
+              "Questions: Based on what you observe, what might happen with this line of storms? Could this setup produce damaging winds?"
             ]
           },
           "2": {
@@ -1039,8 +1108,10 @@
           "1": {
             "title": "Wind Energy Builds",
             "narrative": [
-              "Analyze the science at a basic level.",
-              "What does this product suggest about the atmosphere?"
+              "This computer model shows how winds were forecast to strengthen along the line of developing storms.",
+              "Forecasters use high-resolution models to simulate weather and find areas that may be more vulnerable, but models are not perfect and must be interpreted carefully.",
+              "Use the probe tool to sample the wind forecast.",
+              "Questions: Based on what you observe, what might happen with this line of storms? Could this setup produce damaging winds?"
             ]
           },
           "2": {
@@ -1076,8 +1147,10 @@
           "1": {
             "title": "Wind Energy Builds",
             "narrative": [
-              "Apply this information to a simple forecast idea.",
-              "What would you tell students or viewers?"
+              "This computer model shows how winds were forecast to strengthen along the line of developing storms.",
+              "Forecasters use high-resolution models to simulate weather and find areas that may be more vulnerable, but models are not perfect and must be interpreted carefully.",
+              "Use the probe tool to sample the wind forecast.",
+              "Questions: Based on what you observe, what might happen with this line of storms? Could this setup produce damaging winds?"
             ]
           },
           "2": {
@@ -1109,6 +1182,10 @@
             ]
           }
         }
+      },
+      "ui": {
+        "stepKicker": "FUTURE WINDS",
+        "stepTheme": "model"
       }
     },
     {
@@ -1116,8 +1193,10 @@
       "utc": "2022-05-12T21:00:00Z",
       "title": "Storms Begin to Develop",
       "narrative": [
-        "Initial storms begin to organize into a more connected line.",
-        "Radar is now the best tool for tracking rapid evolution."
+        "Now we switch to radar and watch storms begin to organize.",
+        "Radar colors help us estimate where precipitation is light, moderate, or intense.",
+        "Questions: What do the blues and greens mean? What do the yellows and reds mean? What do you think the blue area around Sioux Falls ahead of the storms could be?",
+        "What was the weather like at your location around this time?"
       ],
       "scene": {
         "product": "radar",
@@ -1136,8 +1215,10 @@
           "1": {
             "title": "Storms Begin to Develop",
             "narrative": [
-              "Initial storms begin to organize into a more connected line.",
-              "Radar is now the best tool for tracking rapid evolution."
+              "Now we switch to radar and watch storms begin to organize.",
+              "Radar colors help us estimate where precipitation is light, moderate, or intense.",
+              "Questions: What do the blues and greens mean? What do the yellows and reds mean? What do you think the blue area around Sioux Falls ahead of the storms could be?",
+              "What was the weather like at your location around this time?"
             ]
           },
           "2": {
@@ -1173,7 +1254,10 @@
           "1": {
             "title": "Storms Begin to Develop",
             "narrative": [
-              "Explain what is happening in simple terms."
+              "Now we switch to radar and watch storms begin to organize.",
+              "Radar colors help us estimate where precipitation is light, moderate, or intense.",
+              "Questions: What do the blues and greens mean? What do the yellows and reds mean? What do you think the blue area around Sioux Falls ahead of the storms could be?",
+              "What was the weather like at your location around this time?"
             ]
           },
           "2": {
@@ -1209,8 +1293,10 @@
           "1": {
             "title": "Storms Begin to Develop",
             "narrative": [
-              "Analyze the science at a basic level.",
-              "What does this product suggest about the atmosphere?"
+              "Now we switch to radar and watch storms begin to organize.",
+              "Radar colors help us estimate where precipitation is light, moderate, or intense.",
+              "Questions: What do the blues and greens mean? What do the yellows and reds mean? What do you think the blue area around Sioux Falls ahead of the storms could be?",
+              "What was the weather like at your location around this time?"
             ]
           },
           "2": {
@@ -1246,8 +1332,10 @@
           "1": {
             "title": "Storms Begin to Develop",
             "narrative": [
-              "Apply this information to a simple forecast idea.",
-              "What would you tell students or viewers?"
+              "Now we switch to radar and watch storms begin to organize.",
+              "Radar colors help us estimate where precipitation is light, moderate, or intense.",
+              "Questions: What do the blues and greens mean? What do the yellows and reds mean? What do you think the blue area around Sioux Falls ahead of the storms could be?",
+              "What was the weather like at your location around this time?"
             ]
           },
           "2": {
@@ -1279,6 +1367,10 @@
             ]
           }
         }
+      },
+      "ui": {
+        "stepKicker": "RADAR ANALYSIS",
+        "stepTheme": "radar"
       }
     },
     {
@@ -1286,7 +1378,10 @@
       "utc": "2022-05-12T21:30:00Z",
       "title": "Warnings Issued",
       "narrative": [
-        "Severe thunderstorm warnings are issued as storms intensify."
+        "Severe thunderstorm warnings are issued as the storms intensify.",
+        "The National Weather Service is responsible for issuing official weather warnings.",
+        "Click the flashing warning polygons to learn more about warnings that were in effect.",
+        "Questions: How do the warning polygons line up with the radar? Why might some warnings extend ahead of the storms or remain behind parts of the line?"
       ],
       "scene": {
         "product": "radar",
@@ -1306,7 +1401,10 @@
           "1": {
             "title": "Warnings Issued",
             "narrative": [
-              "Severe thunderstorm warnings are issued as storms intensify."
+              "Severe thunderstorm warnings are issued as the storms intensify.",
+              "The National Weather Service is responsible for issuing official weather warnings.",
+              "Click the flashing warning polygons to learn more about warnings that were in effect.",
+              "Questions: How do the warning polygons line up with the radar? Why might some warnings extend ahead of the storms or remain behind parts of the line?"
             ]
           },
           "2": {
@@ -1342,7 +1440,10 @@
           "1": {
             "title": "Warnings Issued",
             "narrative": [
-              "Explain what is happening in simple terms."
+              "Severe thunderstorm warnings are issued as the storms intensify.",
+              "The National Weather Service is responsible for issuing official weather warnings.",
+              "Click the flashing warning polygons to learn more about warnings that were in effect.",
+              "Questions: How do the warning polygons line up with the radar? Why might some warnings extend ahead of the storms or remain behind parts of the line?"
             ]
           },
           "2": {
@@ -1378,8 +1479,10 @@
           "1": {
             "title": "Warnings Issued",
             "narrative": [
-              "Analyze the science at a basic level.",
-              "What does this product suggest about the atmosphere?"
+              "Severe thunderstorm warnings are issued as the storms intensify.",
+              "The National Weather Service is responsible for issuing official weather warnings.",
+              "Click the flashing warning polygons to learn more about warnings that were in effect.",
+              "Questions: How do the warning polygons line up with the radar? Why might some warnings extend ahead of the storms or remain behind parts of the line?"
             ]
           },
           "2": {
@@ -1415,8 +1518,10 @@
           "1": {
             "title": "Warnings Issued",
             "narrative": [
-              "Apply this information to a simple forecast idea.",
-              "What would you tell students or viewers?"
+              "Severe thunderstorm warnings are issued as the storms intensify.",
+              "The National Weather Service is responsible for issuing official weather warnings.",
+              "Click the flashing warning polygons to learn more about warnings that were in effect.",
+              "Questions: How do the warning polygons line up with the radar? Why might some warnings extend ahead of the storms or remain behind parts of the line?"
             ]
           },
           "2": {
@@ -1448,6 +1553,10 @@
             ]
           }
         }
+      },
+      "ui": {
+        "stepKicker": "SEVERE WARNINGS",
+        "stepTheme": "warning"
       }
     },
     {
@@ -1455,7 +1564,9 @@
       "utc": "2022-05-12T22:00:00Z",
       "title": "Live Doppler View",
       "narrative": [
-        "A live Doppler-style sweep helps students see how the radar scans the storm."
+        "Live Doppler radar is a powerful tool meteorologists use to track storms in real time.",
+        "The sweep shows the radar scanning the atmosphere in a circle.",
+        "Questions: What do you notice as the sweep moves across the storms? How are the colors painted onto the screen? What information can meteorologists gain from Doppler radar?"
       ],
       "scene": {
         "product": "radar",
@@ -1475,7 +1586,9 @@
           "1": {
             "title": "Live Doppler View",
             "narrative": [
-              "A live Doppler-style sweep helps students see how the radar scans the storm."
+              "Live Doppler radar is a powerful tool meteorologists use to track storms in real time.",
+              "The sweep shows the radar scanning the atmosphere in a circle.",
+              "Questions: What do you notice as the sweep moves across the storms? How are the colors painted onto the screen? What information can meteorologists gain from Doppler radar?"
             ]
           },
           "2": {
@@ -1511,7 +1624,9 @@
           "1": {
             "title": "Live Doppler View",
             "narrative": [
-              "Explain what is happening in simple terms."
+              "Live Doppler radar is a powerful tool meteorologists use to track storms in real time.",
+              "The sweep shows the radar scanning the atmosphere in a circle.",
+              "Questions: What do you notice as the sweep moves across the storms? How are the colors painted onto the screen? What information can meteorologists gain from Doppler radar?"
             ]
           },
           "2": {
@@ -1547,8 +1662,9 @@
           "1": {
             "title": "Live Doppler View",
             "narrative": [
-              "Analyze the science at a basic level.",
-              "What does this product suggest about the atmosphere?"
+              "Live Doppler radar is a powerful tool meteorologists use to track storms in real time.",
+              "The sweep shows the radar scanning the atmosphere in a circle.",
+              "Questions: What do you notice as the sweep moves across the storms? How are the colors painted onto the screen? What information can meteorologists gain from Doppler radar?"
             ]
           },
           "2": {
@@ -1584,8 +1700,9 @@
           "1": {
             "title": "Live Doppler View",
             "narrative": [
-              "Apply this information to a simple forecast idea.",
-              "What would you tell students or viewers?"
+              "Live Doppler radar is a powerful tool meteorologists use to track storms in real time.",
+              "The sweep shows the radar scanning the atmosphere in a circle.",
+              "Questions: What do you notice as the sweep moves across the storms? How are the colors painted onto the screen? What information can meteorologists gain from Doppler radar?"
             ]
           },
           "2": {
@@ -1617,16 +1734,20 @@
             ]
           }
         }
+      },
+      "ui": {
+        "stepKicker": "LIVE DOPPLER",
+        "stepTheme": "radar"
       }
     },
     {
       "id": 11,
       "utc": "2022-05-12T22:05:00Z",
-      "title": "Radar Velocity Test",
+      "title": "Radar Velocity",
       "narrative": [
-        "This card is wired directly to the KFSD velocity sequence.",
-        "Use the scrubber or play control to step through the velocity frames as the derecho evolves.",
-        "Green values are treated as toward the radar and red values as away from the radar."
+        "This view is a test version of radar velocity, which measures winds in the atmosphere.",
+        "Doppler radar scans storms to look for dangerous winds. The raw data can look messy, but meteorologists use it in real life at TV stations and National Weather Service offices.",
+        "Question: Does anyone want to guess how Doppler radar measures wind?"
       ],
       "scene": {
         "product": "radar_velocity",
@@ -1639,6 +1760,10 @@
         "showScrubber": true,
         "showDoppler": false,
         "allowPlay": true
+      },
+      "ui": {
+        "stepKicker": "DOPPLER WIND TEST",
+        "stepTheme": "radar"
       }
     },
     {
@@ -1646,7 +1771,9 @@
       "utc": "2022-05-12T22:30:00Z",
       "title": "Damage Reports Increase",
       "narrative": [
-        "Storm reports begin to confirm the extent of damaging winds."
+        "Damage reports came in across the region as the derecho unfolded.",
+        "Click the report dots to read what people observed on the ground.",
+        "Questions: What kinds of reports do you see? Are they more damaging or less damaging than you expected based on the warnings and radar?"
       ],
       "scene": {
         "product": "reports",
@@ -1665,7 +1792,9 @@
           "1": {
             "title": "Damage Reports Increase",
             "narrative": [
-              "Storm reports begin to confirm the extent of damaging winds."
+              "Damage reports came in across the region as the derecho unfolded.",
+              "Click the report dots to read what people observed on the ground.",
+              "Questions: What kinds of reports do you see? Are they more damaging or less damaging than you expected based on the warnings and radar?"
             ]
           },
           "2": {
@@ -1701,7 +1830,9 @@
           "1": {
             "title": "Damage Reports Increase",
             "narrative": [
-              "Explain what is happening in simple terms."
+              "Damage reports came in across the region as the derecho unfolded.",
+              "Click the report dots to read what people observed on the ground.",
+              "Questions: What kinds of reports do you see? Are they more damaging or less damaging than you expected based on the warnings and radar?"
             ]
           },
           "2": {
@@ -1737,8 +1868,9 @@
           "1": {
             "title": "Damage Reports Increase",
             "narrative": [
-              "Analyze the science at a basic level.",
-              "What does this product suggest about the atmosphere?"
+              "Damage reports came in across the region as the derecho unfolded.",
+              "Click the report dots to read what people observed on the ground.",
+              "Questions: What kinds of reports do you see? Are they more damaging or less damaging than you expected based on the warnings and radar?"
             ]
           },
           "2": {
@@ -1774,8 +1906,9 @@
           "1": {
             "title": "Damage Reports Increase",
             "narrative": [
-              "Apply this information to a simple forecast idea.",
-              "What would you tell students or viewers?"
+              "Damage reports came in across the region as the derecho unfolded.",
+              "Click the report dots to read what people observed on the ground.",
+              "Questions: What kinds of reports do you see? Are they more damaging or less damaging than you expected based on the warnings and radar?"
             ]
           },
           "2": {
@@ -1807,6 +1940,10 @@
             ]
           }
         }
+      },
+      "ui": {
+        "stepKicker": "STORM REPORTS",
+        "stepTheme": "reports"
       }
     },
     {
@@ -1814,8 +1951,9 @@
       "utc": "2022-05-12T22:35:00Z",
       "title": "Eyewitness Ground Truth",
       "narrative": [
-        "These eyewitness photos help connect radar and storm reports to what people actually saw on the ground.",
-        "Click the media markers to open the photos, then click the image to enlarge it."
+        "These eyewitness photos connect the radar and reports to what people actually saw on the ground.",
+        "Click the media markers to open the photos, then click an image to enlarge it.",
+        "Question: How does seeing real photos change the way you understand the storm?"
       ],
       "scene": {
         "product": "media",
@@ -1832,6 +1970,10 @@
         "showScrubber": false,
         "showDoppler": false,
         "allowPlay": false
+      },
+      "ui": {
+        "stepKicker": "PHOTOS / GROUND TRUTH",
+        "stepTheme": "reports"
       }
     },
     {
@@ -1839,7 +1981,9 @@
       "utc": "2022-05-12T22:45:00Z",
       "title": "Lightning Peaks",
       "narrative": [
-        "If lightning data is present in the lesson folder, this step will display it."
+        "This simulator plots lightning data from NOAA's database when lightning data is available.",
+        "Lightning often increases as thunderstorms become stronger, but any thunderstorm with lightning is dangerous.",
+        "Questions: What do you notice about where lightning is clustering? What should people do when they hear thunder or see lightning nearby?"
       ],
       "scene": {
         "product": "lightning",
@@ -1858,7 +2002,9 @@
           "1": {
             "title": "Lightning Peaks",
             "narrative": [
-              "If lightning data is present in the lesson folder, this step will display it."
+              "This simulator plots lightning data from NOAA's database when lightning data is available.",
+              "Lightning often increases as thunderstorms become stronger, but any thunderstorm with lightning is dangerous.",
+              "Questions: What do you notice about where lightning is clustering? What should people do when they hear thunder or see lightning nearby?"
             ]
           },
           "2": {
@@ -1894,7 +2040,9 @@
           "1": {
             "title": "Lightning Peaks",
             "narrative": [
-              "Explain what is happening in simple terms."
+              "This simulator plots lightning data from NOAA's database when lightning data is available.",
+              "Lightning often increases as thunderstorms become stronger, but any thunderstorm with lightning is dangerous.",
+              "Questions: What do you notice about where lightning is clustering? What should people do when they hear thunder or see lightning nearby?"
             ]
           },
           "2": {
@@ -1930,8 +2078,9 @@
           "1": {
             "title": "Lightning Peaks",
             "narrative": [
-              "Analyze the science at a basic level.",
-              "What does this product suggest about the atmosphere?"
+              "This simulator plots lightning data from NOAA's database when lightning data is available.",
+              "Lightning often increases as thunderstorms become stronger, but any thunderstorm with lightning is dangerous.",
+              "Questions: What do you notice about where lightning is clustering? What should people do when they hear thunder or see lightning nearby?"
             ]
           },
           "2": {
@@ -1967,8 +2116,9 @@
           "1": {
             "title": "Lightning Peaks",
             "narrative": [
-              "Apply this information to a simple forecast idea.",
-              "What would you tell students or viewers?"
+              "This simulator plots lightning data from NOAA's database when lightning data is available.",
+              "Lightning often increases as thunderstorms become stronger, but any thunderstorm with lightning is dangerous.",
+              "Questions: What do you notice about where lightning is clustering? What should people do when they hear thunder or see lightning nearby?"
             ]
           },
           "2": {
@@ -2000,6 +2150,10 @@
             ]
           }
         }
+      },
+      "ui": {
+        "stepKicker": "LIGHTNING SAFETY",
+        "stepTheme": "lightning"
       }
     },
     {
@@ -2007,7 +2161,9 @@
       "utc": "2022-05-12T23:00:00Z",
       "title": "Aftermath",
       "narrative": [
-        "The storm system continues eastward, leaving damage behind."
+        "The storm system continued eastward and left damage behind across the region.",
+        "Storm reports help meteorologists compare what was forecast with what actually happened.",
+        "Final questions: What clues helped us understand this derecho before and during the event? Which product was most helpful to you today?"
       ],
       "scene": {
         "product": "reports",
@@ -2026,7 +2182,9 @@
           "1": {
             "title": "Aftermath",
             "narrative": [
-              "The storm system continues eastward, leaving damage behind."
+              "The storm system continued eastward and left damage behind across the region.",
+              "Storm reports help meteorologists compare what was forecast with what actually happened.",
+              "Final questions: What clues helped us understand this derecho before and during the event? Which product was most helpful to you today?"
             ]
           },
           "2": {
@@ -2062,7 +2220,9 @@
           "1": {
             "title": "Aftermath",
             "narrative": [
-              "Explain what is happening in simple terms."
+              "The storm system continued eastward and left damage behind across the region.",
+              "Storm reports help meteorologists compare what was forecast with what actually happened.",
+              "Final questions: What clues helped us understand this derecho before and during the event? Which product was most helpful to you today?"
             ]
           },
           "2": {
@@ -2098,8 +2258,9 @@
           "1": {
             "title": "Aftermath",
             "narrative": [
-              "Analyze the science at a basic level.",
-              "What does this product suggest about the atmosphere?"
+              "The storm system continued eastward and left damage behind across the region.",
+              "Storm reports help meteorologists compare what was forecast with what actually happened.",
+              "Final questions: What clues helped us understand this derecho before and during the event? Which product was most helpful to you today?"
             ]
           },
           "2": {
@@ -2135,8 +2296,9 @@
           "1": {
             "title": "Aftermath",
             "narrative": [
-              "Apply this information to a simple forecast idea.",
-              "What would you tell students or viewers?"
+              "The storm system continued eastward and left damage behind across the region.",
+              "Storm reports help meteorologists compare what was forecast with what actually happened.",
+              "Final questions: What clues helped us understand this derecho before and during the event? Which product was most helpful to you today?"
             ]
           },
           "2": {
@@ -2168,6 +2330,10 @@
             ]
           }
         }
+      },
+      "ui": {
+        "stepKicker": "DERECHO IMPACTS",
+        "stepTheme": "reports"
       }
     }
   ]
